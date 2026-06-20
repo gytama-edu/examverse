@@ -2140,6 +2140,24 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .completion-flow-step.correct .completion-flow-label span { border-color: rgba(97,231,174,.46); color: #06170f; background: var(--completion-green); }
 .completion-flow-step.wrong .completion-flow-label span { border-color: rgba(255,107,145,.48); color: #1d0710; background: #ff6b91; }
 .completion-flow-step.correct .completion-flow-text, .completion-flow-step.wrong .completion-flow-text { color: #e1e9f2; }
+.table-page .completion-question-area { overflow-x: auto; }
+.table-completion-scroll { overflow-x: auto; margin-top: 16px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.015); }
+.table-completion-table { width: 100%; min-width: 760px; border-collapse: collapse; color: #d9e2ee; }
+.table-completion-table caption { padding: 14px 16px; color: #8192a8; font: 700 9px/1 ui-monospace,monospace; letter-spacing: .11em; text-transform: uppercase; text-align: left; background: rgba(255,255,255,.015); }
+.table-completion-table th, .table-completion-table td { padding: 14px 15px; border-top: 1px solid var(--line); border-right: 1px solid rgba(255,255,255,.04); vertical-align: top; }
+.table-completion-table th:last-child, .table-completion-table td:last-child { border-right: 0; }
+.table-completion-table th { color: #aeb8c8; font: 650 9px/1.35 ui-monospace,monospace; text-transform: uppercase; letter-spacing: .08em; background: rgba(116,167,255,.04); }
+.table-completion-table tbody tr:nth-child(even) td { background: rgba(255,255,255,.014); }
+.completion-table-static-cell { color: #c7d2df; font-size: 13px; line-height: 1.55; }
+.completion-table-blank-cell { min-width: 220px; }
+.completion-table-input { width: 100%; margin: 0; }
+.completion-table-note { display: grid; gap: 6px; margin-top: 10px; }
+.completion-table-note strong { color: #8cd9b6; font-size: 11px; }
+.completion-table-blank-cell.wrong .completion-table-note strong { color: #ff91ad; }
+.completion-table-note p, .completion-table-note em { margin: 0; color: #97a7b9; font-size: 11px; line-height: 1.5; font-style: normal; }
+.completion-table-blank-cell.correct, .completion-table-blank-cell.wrong { background: rgba(255,255,255,.02); }
+.completion-table-blank-cell.correct .completion-table-input { border-color: rgba(97,231,174,.46); background: rgba(97,231,174,.035); }
+.completion-table-blank-cell.wrong .completion-table-input { border-color: rgba(255,107,145,.48); background: rgba(255,107,145,.035); }
 .completion-answer-note, .completion-evidence, .completion-explanation { grid-column: 1/-1; }
 .completion-answer-note { padding-top: 10px; border-top: 1px solid var(--line); }
 .completion-answer-note strong { color: #61e7ae; font-size: 11px; }
