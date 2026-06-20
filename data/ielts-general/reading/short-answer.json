@@ -1,0 +1,140 @@
+[
+  {
+    "id": "ielts-gt-sa-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Short Answer Questions",
+    "interfaceType": "short-answer",
+    "difficulty": "Easy",
+    "passageTitle": "Community Centre Notice",
+    "passage": "The community centre will open a repair café every Wednesday evening in the main hall. Visitors can bring a broken lamp, a loose chair leg, or a small kitchen item for advice, but the café counter will not accept payment for repairs. The sports room stays open after school, and the meeting room upstairs can be used only if it is booked two days ahead. Parents should collect activity forms from reception, where the staff desk is also located. Because hot drinks often spill near books, the centre will sell them in the foyer rather than beside the reading corner. The notice ends with a reminder that the centre will close an hour earlier on Friday so cleaners can prepare the rooms for the weekend.",
+    "instructions": "Answer the questions below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "questions": [
+      {
+        "id": "1",
+        "question": "When is the repair café open?",
+        "answers": ["every Wednesday evening", "Wednesday evening"],
+        "evidence": "The community centre will open a repair café every Wednesday evening.",
+        "explanation": "The opening time is given directly in the notice."
+      },
+      {
+        "id": "2",
+        "question": "What must be booked two days ahead?",
+        "answers": ["meeting room", "upstairs meeting room"],
+        "evidence": "The meeting room upstairs can be used only if it is booked two days ahead.",
+        "explanation": "The room and booking rule are clearly stated."
+      },
+      {
+        "id": "3",
+        "question": "Where should parents collect activity forms?",
+        "answers": ["reception", "from reception"],
+        "evidence": "Parents should collect activity forms from reception.",
+        "explanation": "The answer is the place named in the notice."
+      },
+      {
+        "id": "4",
+        "question": "Where will hot drinks be sold?",
+        "answers": ["the foyer", "foyer"],
+        "evidence": "The centre will sell them in the foyer rather than beside the reading corner.",
+        "explanation": "The foyer is the sales location named in the notice."
+      }
+    ],
+    "tags": ["ielts", "reading", "short answer", "community"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-sa-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Short Answer Questions",
+    "interfaceType": "short-answer",
+    "difficulty": "Medium",
+    "passageTitle": "Workplace Induction",
+      "passage": "New warehouse staff begin with a twenty-minute safety talk at the training desk. After that, they collect a badge and pass from the desk beside the loading bay, then watch a short video about lifting safely. The supervisor meets each group in the break room before the tour begins, so questions can be answered before work starts. Jackets must stay on the hooks near the entrance to keep the aisles clear. Night staff receive the same induction as day staff, but they are also shown the emergency lighting route before the session ends. The manager says the aim is not to impress new workers with rules, but to make sure everyone can move through the building without delay or confusion.",
+    "instructions": "Answer the questions below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "questions": [
+      {
+        "id": "1",
+        "question": "What do staff collect from the desk beside the loading bay?",
+        "answers": ["badge and pass"],
+        "evidence": "They collect a badge and pass from the desk beside the loading bay.",
+        "explanation": "The passage identifies the items collected after the safety talk."
+      },
+      {
+        "id": "2",
+        "question": "Where does the supervisor meet each group?",
+        "answers": ["the break room", "break room"],
+        "evidence": "The supervisor meets each group in the break room.",
+        "explanation": "The meeting place is stated directly."
+      },
+      {
+        "id": "3",
+        "question": "What must stay on the hooks near the entrance?",
+        "answers": ["jackets"],
+        "evidence": "Jackets must stay on the hooks near the entrance.",
+        "explanation": "The passage gives the item and its location."
+      },
+      {
+        "id": "4",
+        "question": "What route are night staff shown?",
+        "answers": ["emergency lighting route"],
+        "evidence": "They are also shown the emergency lighting route before the session ends.",
+        "explanation": "The extra instruction for night staff is named exactly."
+      }
+    ],
+    "tags": ["ielts", "reading", "short answer", "workplace"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-sa-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Short Answer Questions",
+    "interfaceType": "short-answer",
+    "difficulty": "Medium",
+    "passageTitle": "Using the New Travel Card",
+      "passage": "The town's new travel card works on buses, the ferry, and the hill shuttle. Customers can add money at station machines, but the free top-up service at libraries ended last month. The monthly fare cap begins on the first ride, so regular travellers do not need to plan each trip separately. Off-peak fares apply only after 9.30 a.m., which makes the card useful for people who travel later in the day. The council recommends registering the card so a lost one can be frozen quickly. Paper tickets are still sold on the ferry, but they do not count toward the fare cap, and that detail has been printed in bold on the notice to avoid confusion at the ticket office.",
+    "instructions": "Answer the questions below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Where can customers add money?",
+        "answers": ["station machines"],
+        "evidence": "Customers can add money at station machines.",
+        "explanation": "The passage names the top-up location clearly."
+      },
+      {
+        "id": "2",
+        "question": "When do off-peak fares apply?",
+        "answers": ["after 9.30 a.m."],
+        "evidence": "Off-peak fares apply only after 9.30 a.m.",
+        "explanation": "The time is given exactly in the notice."
+      },
+      {
+        "id": "3",
+        "question": "What can be frozen quickly?",
+        "answers": ["lost card"],
+        "evidence": "The council recommends registering the card so a lost one can be frozen quickly.",
+        "explanation": "The frozen item is the lost travel card."
+      },
+      {
+        "id": "4",
+        "question": "Which transport also uses the card?",
+        "answers": ["the hill shuttle", "hill shuttle"],
+        "evidence": "The town's new travel card works on buses, the ferry, and the hill shuttle.",
+        "explanation": "The third transport type named in the passage is the hill shuttle."
+      }
+    ],
+    "tags": ["ielts", "reading", "short answer", "transport"],
+    "estimatedTime": 220,
+    "status": "active"
+  }
+]
