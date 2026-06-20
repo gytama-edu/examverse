@@ -1,0 +1,326 @@
+[
+  {
+    "id": "ielts-ac-comp-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Easy",
+    "completionType": "Sentence Completion",
+    "passageTitle": "Storing Renewable Energy",
+    "passage": "Solar and wind facilities do not produce electricity at a constant rate. Solar output is usually highest around midday, while household demand often peaks after sunset. Large battery banks can store surplus electricity and release it during evening demand. This reduces pressure on the grid and makes renewable power more reliable. However, batteries are not the only storage option. Some projects pump water uphill into reservoirs when electricity is plentiful. The water later flows downward through turbines to generate power. Other systems store energy as compressed air or heat. Each method has different costs and geographical requirements. Engineers therefore use management software to predict demand, weather conditions, and the best time to charge or release stored energy. A balanced network may combine several methods rather than depend on one technology.",
+    "instructions": "Complete the sentences below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Solar electricity production is generally greatest around ____.",
+        "answers": ["midday"],
+        "evidence": "Solar output is usually highest around midday.",
+        "explanation": "The passage directly identifies midday as the period of highest solar output."
+      },
+      {
+        "id": "2",
+        "prompt": "Surplus electricity can be stored in large ____.",
+        "answers": ["battery banks"],
+        "evidence": "Large battery banks can store surplus electricity.",
+        "explanation": "The noun phrase following 'Large' names the storage equipment."
+      },
+      {
+        "id": "3",
+        "prompt": "Stored power can be released during ____.",
+        "answers": ["evening demand"],
+        "evidence": "Large battery banks can store surplus electricity and release it during evening demand.",
+        "explanation": "The required two-word phrase appears after 'during' in the passage."
+      },
+      {
+        "id": "4",
+        "prompt": "Pumped-storage projects move water uphill into ____.",
+        "answers": ["reservoirs"],
+        "evidence": "Some projects pump water uphill into reservoirs when electricity is plentiful.",
+        "explanation": "Reservoirs are the places into which the water is pumped."
+      },
+      {
+        "id": "5",
+        "prompt": "Engineers use ____ to forecast conditions and control stored energy.",
+        "answers": ["management software"],
+        "evidence": "Engineers therefore use management software to predict demand, weather conditions, and the best time to charge or release stored energy.",
+        "explanation": "Management software is used for prediction and control decisions."
+      }
+    ],
+    "tags": ["ielts", "academic reading", "completion", "renewable energy"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-comp-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Easy",
+    "completionType": "Summary Completion",
+    "passageTitle": "Food Production Above the City",
+    "passage": "Urban farming has expanded beyond small community gardens. In several cities, unused rooftops now support commercial greenhouses that supply nearby shops and restaurants. Growing food close to consumers can shorten transport distances and reduce the time between harvesting and sale. Rooftop farms may also cool buildings because plants absorb sunlight that would otherwise heat the roof surface. Yet operating above street level creates difficulties. Soil is heavy, so engineers must first confirm that a building can carry the additional load. Many growers use lightweight growing media or hydroponic systems instead. Water must also be managed carefully to prevent leaks and waste. Although rooftop farms cannot replace rural agriculture, researchers argue that they can improve local food resilience. They also create training opportunities and turn neglected spaces into productive areas for the community.",
+    "instructions": "Complete the summary. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Commercial greenhouses are increasingly built on unused ____.",
+        "answers": ["rooftops"],
+        "evidence": "In several cities, unused rooftops now support commercial greenhouses.",
+        "explanation": "Rooftops are the unused city spaces described as supporting greenhouses."
+      },
+      {
+        "id": "2",
+        "prompt": "Local production can reduce ____ between farms and customers.",
+        "answers": ["transport distances"],
+        "evidence": "Growing food close to consumers can shorten transport distances.",
+        "explanation": "The passage states that producing food nearby shortens transport distances."
+      },
+      {
+        "id": "3",
+        "prompt": "Plants may help to ____ the buildings beneath them.",
+        "answers": ["cool"],
+        "evidence": "Rooftop farms may also cool buildings because plants absorb sunlight.",
+        "explanation": "The verb 'cool' describes the effect that rooftop plants can have."
+      },
+      {
+        "id": "4",
+        "prompt": "Because ordinary soil is heavy, some farmers choose ____ systems.",
+        "answers": ["hydroponic"],
+        "evidence": "Many growers use lightweight growing media or hydroponic systems instead.",
+        "explanation": "Hydroponic is the word that completes the noun phrase 'hydroponic systems'."
+      },
+      {
+        "id": "5",
+        "prompt": "Researchers say these farms can strengthen local ____.",
+        "answers": ["food resilience"],
+        "evidence": "Researchers argue that they can improve local food resilience.",
+        "explanation": "Food resilience is the specific local benefit identified by researchers."
+      }
+    ],
+    "tags": ["ielts", "academic reading", "completion", "urban farming"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-comp-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Medium",
+    "completionType": "Note Completion",
+    "passageTitle": "Sleep as Part of Learning",
+    "passage": "Memory formation continues after a person stops studying. During sleep, the brain appears to strengthen some of the connections created while new information was being learned. Researchers call this process consolidation. Deep sleep is often associated with the retention of facts, while rapid eye movement sleep may support emotional memories and complex skills. In one experiment, participants learned a sequence of finger movements. Those who slept before being tested usually performed the sequence more accurately than those who remained awake for a similar period. Sleep does not preserve every detail equally, however. The brain may select information that seems important and weaken material that is less useful. Scientists also warn that a single long night of sleep cannot fully repair a pattern of regular sleep loss. Consistent sleep is therefore considered part of effective study, not simply rest after studying.",
+    "instructions": "Complete the notes below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Process that strengthens newly formed memories: ____",
+        "answers": ["consolidation"],
+        "evidence": "Researchers call this process consolidation.",
+        "explanation": "Consolidation is the term used for strengthening connections after learning."
+      },
+      {
+        "id": "2",
+        "prompt": "Sleep stage linked with retaining facts: ____",
+        "answers": ["deep sleep"],
+        "evidence": "Deep sleep is often associated with the retention of facts.",
+        "explanation": "The passage directly links deep sleep with fact retention."
+      },
+      {
+        "id": "3",
+        "prompt": "Experimental task: learning a sequence of ____",
+        "answers": ["finger movements"],
+        "evidence": "Participants learned a sequence of finger movements.",
+        "explanation": "Finger movements identifies the sequence practised by participants."
+      },
+      {
+        "id": "4",
+        "prompt": "Sleeping participants later performed the sequence more ____.",
+        "answers": ["accurately"],
+        "evidence": "Those who slept before being tested usually performed the sequence more accurately.",
+        "explanation": "Accurately is the word used in the passage to describe the improved performance."
+      },
+      {
+        "id": "5",
+        "prompt": "Effective study depends on maintaining ____ sleep.",
+        "answers": ["consistent"],
+        "evidence": "Consistent sleep is therefore considered part of effective study.",
+        "explanation": "Consistent is the adjective used to describe the sleep pattern recommended."
+      }
+    ],
+    "tags": ["ielts", "academic reading", "completion", "sleep", "memory"],
+    "estimatedTime": 320,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-comp-004",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Medium",
+    "completionType": "Sentence Completion",
+    "passageTitle": "Protecting Objects in Museums",
+    "passage": "Museum conservation aims to slow damage rather than make every object look new. Light is one major concern because it can fade pigments, weaken paper, and alter textiles. Curators therefore limit the length of time that sensitive objects remain on display. Temperature and humidity are also monitored. Rapid changes can cause wood to expand and contract, while high humidity encourages mould. Conservators may place fragile items inside sealed display cases with materials that stabilize the surrounding air. Before any repair begins, specialists document an object's condition through written notes and high-resolution photographs. They then choose treatments that can be reversed where possible. This principle allows future conservators to remove an earlier repair without harming the original material. Preventive measures, including careful handling and suitable storage, are generally preferred because intervention itself always carries some risk.",
+    "instructions": "Complete the sentences below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Strong light may cause pigments to ____.",
+        "answers": ["fade"],
+        "evidence": "Light is one major concern because it can fade pigments.",
+        "explanation": "Fade is the effect of light on museum pigments."
+      },
+      {
+        "id": "2",
+        "prompt": "Changes in temperature and humidity can make wood ____.",
+        "answers": ["expand and contract"],
+        "evidence": "Rapid changes can cause wood to expand and contract.",
+        "explanation": "The complete three-word phrase states how wood responds to rapid changes."
+      },
+      {
+        "id": "3",
+        "prompt": "Fragile objects may be protected inside ____.",
+        "answers": ["sealed display cases", "display cases"],
+        "evidence": "Conservators may place fragile items inside sealed display cases.",
+        "explanation": "Both accepted answers identify the protective cases described in the passage."
+      },
+      {
+        "id": "4",
+        "prompt": "Specialists record an object's condition using notes and ____.",
+        "answers": ["high-resolution photographs", "photographs"],
+        "evidence": "Specialists document an object's condition through written notes and high-resolution photographs.",
+        "explanation": "Photographs are used alongside notes to document condition before repair."
+      },
+      {
+        "id": "5",
+        "prompt": "Conservators prefer repairs that can later be ____.",
+        "answers": ["reversed"],
+        "evidence": "They then choose treatments that can be reversed where possible.",
+        "explanation": "Reversed completes the sentence and reflects the conservation principle described."
+      }
+    ],
+    "tags": ["ielts", "academic reading", "completion", "museum conservation"],
+    "estimatedTime": 330,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-comp-005",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Medium",
+    "completionType": "Summary Completion",
+    "passageTitle": "The Hidden Value of Seagrass",
+    "passage": "Seagrass meadows grow in shallow coastal water and provide shelter for many marine species. Young fish often use the dense leaves as nursery grounds, where they can avoid larger predators. The plants also improve water clarity by slowing currents and trapping suspended particles. Their roots hold sediment in place, which helps protect shorelines from erosion. Seagrass has recently attracted attention for another reason: its ability to store carbon. Although these meadows occupy a relatively small area, carbon can accumulate in the soil beneath them for centuries. Damage from anchors, polluted runoff, and coastal construction can release some of this stored carbon and destroy important habitat. Restoration teams may replant shoots, but success depends on water quality and suitable local conditions. Scientists therefore argue that protecting existing meadows is usually more reliable than rebuilding them after severe damage.",
+    "instructions": "Complete the summary. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Young fish use seagrass meadows as ____.",
+        "answers": ["nursery grounds"],
+        "evidence": "Young fish often use the dense leaves as nursery grounds.",
+        "explanation": "Nursery grounds is the exact phrase describing the meadows' role for young fish."
+      },
+      {
+        "id": "2",
+        "prompt": "The leaves improve water clarity by trapping ____.",
+        "answers": ["suspended particles"],
+        "evidence": "The plants also improve water clarity by slowing currents and trapping suspended particles.",
+        "explanation": "Suspended particles are what the plants trap in the water."
+      },
+      {
+        "id": "3",
+        "prompt": "Seagrass roots reduce shoreline ____.",
+        "answers": ["erosion"],
+        "evidence": "Their roots hold sediment in place, which helps protect shorelines from erosion.",
+        "explanation": "Erosion is the shoreline process reduced by roots holding sediment."
+      },
+      {
+        "id": "4",
+        "prompt": "Carbon may remain in the soil for ____.",
+        "answers": ["centuries"],
+        "evidence": "Carbon can accumulate in the soil beneath them for centuries.",
+        "explanation": "Centuries gives the duration for which carbon can accumulate."
+      },
+      {
+        "id": "5",
+        "prompt": "Restoration is partly dependent on good ____.",
+        "answers": ["water quality"],
+        "evidence": "Restoration teams may replant shoots, but success depends on water quality and suitable local conditions.",
+        "explanation": "Water quality is one condition specifically required for restoration success."
+      }
+    ],
+    "tags": ["ielts", "academic reading", "completion", "marine ecosystems"],
+    "estimatedTime": 320,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-comp-006",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Medium",
+    "completionType": "Note Completion",
+    "passageTitle": "Why Retrieval Strengthens Vocabulary",
+    "passage": "Language learners often believe that rereading a word list is the fastest route to remembering new vocabulary. Research suggests, however, that actively retrieving a word can create stronger memories than simply seeing it again. In a retrieval exercise, learners may look at a definition and attempt to produce the target word before checking the answer. The effort involved is useful, even when the first attempt is unsuccessful. Timing also matters. Reviews that are spaced across several days generally produce better long-term retention than the same number of reviews completed in one session. Researchers call this distributed practice. Useful learning activities also place words in varied contexts, because a learner must recognize meaning across different sentences rather than depend on one familiar example. Immediate correction remains important: an incorrect guess should not be repeated so often that it becomes established. Effective vocabulary study therefore combines retrieval, spacing, context, and clear feedback.",
+    "instructions": "Complete the research notes. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "More effective than repeated viewing: actively ____ a word",
+        "answers": ["retrieving"],
+        "evidence": "Actively retrieving a word can create stronger memories than simply seeing it again.",
+        "explanation": "Retrieving is the active process contrasted with simply seeing a word."
+      },
+      {
+        "id": "2",
+        "prompt": "A learner may begin with a ____ and produce the target word.",
+        "answers": ["definition"],
+        "evidence": "Learners may look at a definition and attempt to produce the target word.",
+        "explanation": "The definition is the cue used before the target word is produced."
+      },
+      {
+        "id": "3",
+        "prompt": "Reviews spread over several days improve long-term ____.",
+        "answers": ["retention"],
+        "evidence": "Reviews that are spaced across several days generally produce better long-term retention.",
+        "explanation": "Retention is the long-term outcome improved by spaced reviews."
+      },
+      {
+        "id": "4",
+        "prompt": "Research term for spaced reviews: ____",
+        "answers": ["distributed practice"],
+        "evidence": "Researchers call this distributed practice.",
+        "explanation": "Distributed practice is the formal term used for reviews spread over time."
+      },
+      {
+        "id": "5",
+        "prompt": "Wrong guesses should receive ____.",
+        "answers": ["immediate correction"],
+        "evidence": "Immediate correction remains important: an incorrect guess should not be repeated.",
+        "explanation": "Immediate correction prevents an incorrect response from becoming established."
+      }
+    ],
+    "tags": ["ielts", "academic reading", "completion", "language learning"],
+    "estimatedTime": 330,
+    "status": "active"
+  }
+]
