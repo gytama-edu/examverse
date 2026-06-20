@@ -2158,6 +2158,76 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .completion-table-blank-cell.correct, .completion-table-blank-cell.wrong { background: rgba(255,255,255,.02); }
 .completion-table-blank-cell.correct .completion-table-input { border-color: rgba(97,231,174,.46); background: rgba(97,231,174,.035); }
 .completion-table-blank-cell.wrong .completion-table-input { border-color: rgba(255,107,145,.48); background: rgba(255,107,145,.035); }
+.diagram-page .completion-task-card { position: relative; }
+.diagram-card { margin-top: 16px; padding: 18px; border: 1px solid rgba(116,167,255,.16); border-radius: 14px; background: linear-gradient(145deg, rgba(116,167,255,.03), rgba(8,14,26,.38)); }
+.diagram-title { margin: 10px 0 14px; font-size: 20px; }
+.diagram-stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1fr;
+  grid-template-rows: auto 130px auto;
+  gap: 12px;
+  padding: 18px;
+  border: 1px solid rgba(69,230,248,.14);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(69,230,248,.03), transparent),
+    radial-gradient(circle at center, rgba(170,141,255,.08), transparent 60%);
+}
+.diagram-stage::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border: 1px dashed rgba(116,167,255,.18);
+  border-radius: 12px;
+  pointer-events: none;
+}
+.diagram-stage::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 56%;
+  height: 1px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, transparent, rgba(69,230,248,.45), transparent);
+  pointer-events: none;
+}
+.diagram-node {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 58px;
+  padding: 10px 12px;
+  border: 1px solid rgba(170,141,255,.18);
+  border-radius: 12px;
+  color: #cfe0ef;
+  background: rgba(255,255,255,.02);
+  font: 650 10px/1.45 ui-monospace, monospace;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.diagram-node--center {
+  grid-column: 2;
+  grid-row: 2;
+  min-height: 130px;
+  border-color: rgba(69,230,248,.22);
+  color: #9edff0;
+  background: radial-gradient(circle, rgba(69,230,248,.08), rgba(8,14,26,.22) 70%);
+}
+.diagram-node--top { grid-column: 2; grid-row: 1; }
+.diagram-node--left { grid-column: 1; grid-row: 2; align-self: center; }
+.diagram-node--bottom { grid-column: 2; grid-row: 3; }
+.diagram-label-list { display: grid; gap: 12px; margin-top: 16px; }
+.diagram-label { display: grid; gap: 10px; }
+.diagram-label-text strong { display: block; color: #dce6f2; font-size: 14px; line-height: 1.4; }
+.diagram-label-text p { margin: 4px 0 0; color: #7f91a9; font-size: 11px; line-height: 1.45; text-transform: none; letter-spacing: 0; }
+.diagram-label-input-wrap { max-width: 260px; }
+.diagram-label-input { width: 100%; }
+.diagram-label.correct .diagram-label-text strong { color: #8ff0bf; }
+.diagram-label.wrong .diagram-label-text strong { color: #ff9ab3; }
+.diagram-mistake-label { margin: 0 0 8px; color: #cfd9e6; font-size: 12px; line-height: 1.5; }
+.diagram-page button:focus-visible, .diagram-page a:focus-visible, .diagram-page input:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 .completion-answer-note, .completion-evidence, .completion-explanation { grid-column: 1/-1; }
 .completion-answer-note { padding-top: 10px; border-top: 1px solid var(--line); }
 .completion-answer-note strong { color: #61e7ae; font-size: 11px; }
