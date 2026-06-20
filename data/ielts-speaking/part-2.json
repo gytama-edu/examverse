@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ielts-sp-p2-001",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 2,
+    "topic": "Places",
+    "cueCardTitle": "Describe a place where you like to relax.",
+    "cueCardPrompt": "You should say:",
+    "bulletPoints": [
+      "where it is",
+      "how often you go there",
+      "what you usually do there",
+      "and explain why this place helps you relax"
+    ],
+    "prepTime": 60,
+    "speakingTime": 120,
+    "answerStructure": [
+      "Start with: I'd like to talk about...",
+      "Give background information",
+      "Cover each bullet point clearly",
+      "Add personal feelings",
+      "End with a short reflection"
+    ],
+    "tips": [
+      "Use the preparation time to write keywords, not full sentences.",
+      "Try to keep speaking until the timer ends.",
+      "Add small personal details to sound natural."
+    ],
+    "usefulVocabulary": [
+      "peaceful atmosphere",
+      "clear my mind",
+      "take a short break",
+      "feel refreshed"
+    ],
+    "signpostingLanguage": [
+      "I'd like to talk about ...",
+      "I usually go there when ...",
+      "What makes it special is ...",
+      "Looking back, I think ..."
+    ],
+    "sampleAnswer": "I'd like to talk about a small coffee shop near my neighbourhood where I often go to relax. I usually visit it on weekends when I want to take a short break from work. The place has a peaceful atmosphere, and I normally order coffee, read something, or simply clear my mind. What makes it special is that it feels calm without being completely silent. Looking back, I think I like it because it gives me a simple way to feel refreshed.",
+    "selfCheck": [
+      "Did I cover all bullet points?",
+      "Did I speak for close to two minutes?",
+      "Did I use linking phrases naturally?",
+      "Did I add personal details?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p2-002",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 2,
+    "topic": "Skills",
+    "cueCardTitle": "Describe a useful skill you learned.",
+    "cueCardPrompt": "You should say:",
+    "bulletPoints": [
+      "what the skill is",
+      "how you learned it",
+      "how it has helped you",
+      "and explain why it is useful"
+    ],
+    "prepTime": 60,
+    "speakingTime": 120,
+    "answerStructure": [
+      "Open with the skill topic",
+      "Give the learning context",
+      "Explain the practical benefit",
+      "Add one personal example",
+      "Finish with a reflection"
+    ],
+    "tips": [
+      "Choose a skill you can explain simply.",
+      "Give one clear example of using it.",
+      "Do not rush the ending."
+    ],
+    "usefulVocabulary": [
+      "learn by trial and error",
+      "handle pressure",
+      "save time",
+      "daily life"
+    ],
+    "signpostingLanguage": [
+      "The skill I'd like to talk about is ...",
+      "I picked it up when ...",
+      "It has helped me by ...",
+      "Overall, I think ..."
+    ],
+    "sampleAnswer": "The skill I'd like to talk about is cooking simple meals. I picked it up when I started living more independently, and at first I learned by trial and error. It has helped me save time and money, because I do not rely on takeout as much as before. For example, now I can prepare lunch quickly on a busy day. Overall, I think it is useful because it makes daily life easier and gives me more confidence at home.",
+    "selfCheck": [
+      "Did I explain how I learned the skill?",
+      "Did I give a clear example of using it?",
+      "Did I finish with a short reflection?",
+      "Did I keep speaking until the timer ended?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p2-003",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 2,
+    "topic": "People",
+    "cueCardTitle": "Describe a person who helped you.",
+    "cueCardPrompt": "You should say:",
+    "bulletPoints": [
+      "who the person was",
+      "what help they gave you",
+      "when this happened",
+      "and explain how you felt about it"
+    ],
+    "prepTime": 60,
+    "speakingTime": 120,
+    "answerStructure": [
+      "Begin by introducing the person",
+      "Give the situation or background",
+      "Describe the help clearly",
+      "Mention your feelings",
+      "Close with a short summary"
+    ],
+    "tips": [
+      "Choose someone you can describe with real details.",
+      "Make the help concrete, not vague.",
+      "Include emotion to make the answer feel human."
+    ],
+    "usefulVocabulary": [
+      "supportive",
+      "lend a hand",
+      "encouragement",
+      "grateful"
+    ],
+    "signpostingLanguage": [
+      "The person I'd like to talk about is ...",
+      "At that time, ...",
+      "What they did was ...",
+      "I felt ..."
+    ],
+    "sampleAnswer": "The person I'd like to talk about is my older cousin. At a time when I was preparing for an important exam, she helped me organise my study plan and stayed in touch to see how I was doing. What she did was simple, but it made me feel less alone and more focused. I felt grateful because she gave me both practical support and encouragement. Looking back, I still think her help made a real difference.",
+    "selfCheck": [
+      "Did I say who the person was?",
+      "Did I explain the help clearly?",
+      "Did I describe how I felt?",
+      "Did I sound personal and natural?"
+    ],
+    "status": "active"
+  }
+]
