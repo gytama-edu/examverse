@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ielts-gt-mse-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Easy",
+    "topic": "makerspace safety instructions",
+    "passageTitle": "Safety at Forge Lane Makerspace",
+    "passage": "All first-time users must complete the induction before entering the machine area. Safety glasses and closed shoes are required whenever power tools operate. Tie back long hair and remove loose jewelry. Before switching on a machine, inspect its cable, guard, and emergency stop. Place a red tag on damaged equipment and tell the floor supervisor; do not attempt a repair yourself. Food and drinks belong in the lounge, not beside workbenches. If the evacuation alarm sounds, turn off equipment only when this can be done immediately and safely. Leave through the nearest marked exit and meet at the mural across the street. Users may return only after the duty manager gives permission.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"must be reported and marked so others do not use it."},{"id":"B","text":"is permitted after any experienced member approves."},{"id":"C","text":"should be checked before the machine receives power."},{"id":"D","text":"must remain in the designated lounge."},{"id":"E","text":"may be attempted only when it creates no delay or danger."},{"id":"F","text":"can begin before the compulsory induction."}],
+    "items": [
+      {"id":"1","prompt":"The condition of a machine's cable, guard, and stop control","answer":"C","evidence":"Inspect its cable, guard, and emergency stop before switching on.","explanation":"All three parts require inspection before power is applied."},
+      {"id":"2","prompt":"Equipment found to be damaged","answer":"A","evidence":"Place a red tag on damaged equipment and tell the floor supervisor.","explanation":"Tagging and reporting prevent accidental use."},
+      {"id":"3","prompt":"Food and drink","answer":"D","evidence":"Food and drinks belong in the lounge, not beside workbenches.","explanation":"The lounge is the only permitted area."},
+      {"id":"4","prompt":"Turning off a machine during evacuation","answer":"E","evidence":"Turn off equipment only when this can be done immediately and safely.","explanation":"Evacuation must not be delayed or made less safe."}
+    ],
+    "tags": ["safety policy","sentence logic"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mse-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Easy",
+    "topic": "pet boarding advertisement",
+    "passageTitle": "Pine Hollow Pet Lodge",
+    "passage": "Pine Hollow provides overnight boarding for dogs and indoor cats. Every animal must have current vaccination records submitted at least forty-eight hours before arrival. Owners supply normal food in labeled portions; changing diet during a stay can upset an animal. Bedding is provided, although one washable comfort item may be brought from home. Medication can be given when it arrives in original packaging with written instructions. The lodge cannot accept animals requiring injections or continuous medical observation. Check-in runs from 3:00 to 6:00 p.m. A late arrival must be agreed in advance and carries a fee. Cancellations made seven days before the booking receive a full refund; later cancellations receive credit only when the space is resold.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"must reach the lodge two days before check-in."},{"id":"B","text":"can be accepted in any unmarked container."},{"id":"C","text":"requires prior agreement and an additional charge."},{"id":"D","text":"may be brought if it can be cleaned easily."},{"id":"E","text":"always produces an immediate cash refund."},{"id":"F","text":"is unsuitable when injections are necessary."}],
+    "items": [
+      {"id":"1","prompt":"An animal's vaccination documentation","answer":"A","evidence":"Records must be submitted at least forty-eight hours before arrival.","explanation":"Forty-eight hours is two days before check-in."},
+      {"id":"2","prompt":"A familiar item from the owner's home","answer":"D","evidence":"One washable comfort item may be brought from home.","explanation":"The lodge accepts a comfort object only when washable."},
+      {"id":"3","prompt":"Arriving after the normal check-in period","answer":"C","evidence":"A late arrival must be agreed in advance and carries a fee.","explanation":"Both advance approval and payment are required."},
+      {"id":"4","prompt":"The boarding service","answer":"F","evidence":"The lodge cannot accept animals requiring injections.","explanation":"Injection needs fall outside the care offered."}
+    ],
+    "tags": ["advertisement","pet care"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mse-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Medium",
+    "topic": "seasonal orchard employment",
+    "passageTitle": "Harvest Assistants at Redmere Orchard",
+    "passage": "Redmere Orchard needs harvest assistants from late September for approximately six weeks. Work begins at 7:00 a.m. and may finish early when heavy rain makes picking unsafe. Applicants must be at least eighteen and able to lift crates weighing up to fifteen kilograms. Previous farm experience is not required because supervisors demonstrate picking and grading methods on the first morning. Workers need waterproof outer clothing and strong boots; gloves and high-visibility vests are supplied. Pay is hourly, with an attendance bonus for employees who complete the agreed period without an unexplained absence. Shared transport leaves Carlton Square at 6:20 a.m. and costs £2 each day. Apply through the orchard website and provide the contact details of one referee.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"may become shorter because of unsafe weather."},{"id":"B","text":"is essential before an application is considered."},{"id":"C","text":"are given to workers by the orchard."},{"id":"D","text":"depends on completing the agreed period reliably."},{"id":"E","text":"is free for everyone traveling from Carlton Square."},{"id":"F","text":"must include one person who can provide a reference."}],
+    "items": [
+      {"id":"1","prompt":"A normal working day","answer":"A","evidence":"Work may finish early when heavy rain makes picking unsafe.","explanation":"Weather can shorten the scheduled day."},
+      {"id":"2","prompt":"Gloves and high-visibility clothing","answer":"C","evidence":"Gloves and high-visibility vests are supplied.","explanation":"These two safety items come from the employer."},
+      {"id":"3","prompt":"Eligibility for the attendance bonus","answer":"D","evidence":"The bonus is for employees who complete the agreed period without unexplained absence.","explanation":"Reliable completion determines the extra payment."},
+      {"id":"4","prompt":"The online application","answer":"F","evidence":"Applicants must provide the contact details of one referee.","explanation":"The application needs one reference contact."}
+    ],
+    "tags": ["job advertisement","orchard work"],
+    "estimatedTime": 310,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mse-004",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Medium",
+    "topic": "island ferry pass policy",
+    "passageTitle": "TernLink Island Pass Conditions",
+    "passage": "The TernLink pass gives residents discounted travel on scheduled ferries between Bayport and the three outer islands. Applicants must upload proof of their island address dated within the last three months. A digital pass appears in the app after approval; a physical card is available for a £4 production fee. Passes are personal and cannot be shared. Each journey must be reserved, even when no additional fare is due. Changes are free until one hour before departure. Later changes use one of the holder's two annual late-change allowances; after these are used, the booking is lost. When sailings are canceled by the operator, reservations move automatically to the next available service unless the passenger requests a different time. The pass expires after twelve months and address evidence is checked again at renewal.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"is checked again when the pass is renewed."},{"id":"B","text":"can be used by another member of the household."},{"id":"C","text":"still requires the passenger to reserve a place."},{"id":"D","text":"normally moves to the next service automatically."},{"id":"E","text":"always remains free immediately before departure."},{"id":"F","text":"costs extra when a printed version is requested."}],
+    "items": [
+      {"id":"1","prompt":"Obtaining a physical pass card","answer":"F","evidence":"A physical card is available for a £4 production fee.","explanation":"The printed card has a separate production charge."},
+      {"id":"2","prompt":"Travel with no additional fare","answer":"C","evidence":"Each journey must be reserved, even when no additional fare is due.","explanation":"Discounted or included travel does not remove the booking requirement."},
+      {"id":"3","prompt":"A booking affected by an operator cancellation","answer":"D","evidence":"Reservations move automatically to the next available service.","explanation":"The system transfers the booking unless another time is requested."},
+      {"id":"4","prompt":"Evidence of the holder's island address","answer":"A","evidence":"Address evidence is checked again at renewal.","explanation":"Residency must be reconfirmed after twelve months."}
+    ],
+    "tags": ["travel policy","ferry pass"],
+    "estimatedTime": 310,
+    "status": "active"
+  }
+]
