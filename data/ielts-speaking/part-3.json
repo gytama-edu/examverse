@@ -1,0 +1,248 @@
+[
+  {
+    "id": "ielts-sp-p3-001",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 3,
+    "topic": "Education",
+    "question": "What makes a school lesson memorable?",
+    "suggestedTime": 60,
+    "answerStructure": [
+      "Give a general opinion",
+      "Explain one main reason",
+      "Give an example",
+      "Mention a wider effect",
+      "End with a balanced comment"
+    ],
+    "tips": [
+      "Answer in a broader way than Part 1.",
+      "Use one example to support your idea.",
+      "Mention both teaching and student involvement if possible."
+    ],
+    "usefulVocabulary": [
+      "engaging",
+      "long-term memory",
+      "active participation",
+      "practical example"
+    ],
+    "signpostingLanguage": [
+      "From my perspective, ...",
+      "One major reason is that ...",
+      "For example, ...",
+      "Overall, I would say that ..."
+    ],
+    "sampleAnswer": "From my perspective, a school lesson becomes memorable when it is engaging and makes students think actively. One major reason is that people remember ideas better when they are involved instead of just listening quietly. For example, a science lesson with a simple experiment is often more memorable than a long explanation on the board. This can improve long-term memory and make learning more enjoyable. Overall, I would say that memorable lessons usually mix clear teaching with a practical example.",
+    "selfCheck": [
+      "Did I give a clear opinion?",
+      "Did I explain my reason?",
+      "Did I include an example?",
+      "Did I avoid a very short answer?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p3-002",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 3,
+    "topic": "Technology",
+    "question": "Do you think people rely too much on technology for communication?",
+    "suggestedTime": 60,
+    "answerStructure": [
+      "State your opinion",
+      "Explain the main reason",
+      "Give a real-world example",
+      "Mention the wider impact",
+      "Finish with a balanced view"
+    ],
+    "tips": [
+      "Do not give only one-sided praise or criticism.",
+      "Use an example from daily life or work.",
+      "Balance convenience with possible problems."
+    ],
+    "usefulVocabulary": [
+      "instant messages",
+      "face-to-face contact",
+      "quick convenience",
+      "misunderstanding"
+    ],
+    "signpostingLanguage": [
+      "I think to some extent, ...",
+      "A good example is ...",
+      "On the other hand, ...",
+      "All things considered, ..."
+    ],
+    "sampleAnswer": "I think people do rely quite a lot on technology for communication, but that is not always a bad thing. A good example is how many people now solve work questions through messaging apps instead of waiting for a phone call. This makes life quicker and more convenient, although it can also create misunderstandings when messages are too short. On the other hand, face-to-face contact is still important for serious conversations. All things considered, technology is useful, but it should not replace human interaction completely.",
+    "selfCheck": [
+      "Did I give a balanced opinion?",
+      "Did I explain one clear reason?",
+      "Did I mention a wider effect?",
+      "Did I finish naturally?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p3-003",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 3,
+    "topic": "Cities",
+    "question": "What changes make a city a better place to live?",
+    "suggestedTime": 60,
+    "answerStructure": [
+      "Give a broad opinion",
+      "Explain one change clearly",
+      "Give an example",
+      "Mention the wider impact",
+      "End with a balanced point"
+    ],
+    "tips": [
+      "Think about transport, safety, and public spaces.",
+      "Use simple comparisons if useful.",
+      "Try to sound realistic rather than idealistic."
+    ],
+    "usefulVocabulary": [
+      "public transport",
+      "green spaces",
+      "walkable",
+      "quality of life"
+    ],
+    "signpostingLanguage": [
+      "In my view, ...",
+      "One important change is ...",
+      "For instance, ...",
+      "In the long run, ..."
+    ],
+    "sampleAnswer": "In my view, a city becomes better to live in when it is easier to move around and spend time outside. One important change is improving public transport, because it reduces stress and saves time. For instance, if buses are reliable, people do not need to depend on cars as much. Green spaces also matter because they make the city feel healthier and more walkable. In the long run, these changes improve quality of life, although a city still needs jobs and services as well.",
+    "selfCheck": [
+      "Did I answer in a broad way?",
+      "Did I give one or two examples?",
+      "Did I mention a wider impact?",
+      "Did I avoid a too-simple answer?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p3-004",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 3,
+    "topic": "Work",
+    "question": "Why is teamwork important in many jobs?",
+    "suggestedTime": 60,
+    "answerStructure": [
+      "Give a general opinion",
+      "Explain one reason",
+      "Give an example",
+      "Mention the wider workplace effect",
+      "End with a balanced comment"
+    ],
+    "tips": [
+      "Explain how teams save time or improve quality.",
+      "Use one example from a workplace or project.",
+      "Mention that teamwork is not useful in every task."
+    ],
+    "usefulVocabulary": [
+      "share responsibility",
+      "combine strengths",
+      "solve problems",
+      "workload"
+    ],
+    "signpostingLanguage": [
+      "Generally, ...",
+      "One reason is that ...",
+      "For example, ...",
+      "At the same time, ..."
+    ],
+    "sampleAnswer": "Generally, teamwork is important because many jobs are too complex for one person alone. One reason is that people can share responsibility and combine their strengths. For example, in a project at work, one person might handle planning while another focuses on details or communication. This usually improves efficiency and helps solve problems faster. At the same time, I would say some tasks still need individual focus, so teamwork is most valuable when the job really benefits from shared effort.",
+    "selfCheck": [
+      "Did I explain why teamwork matters?",
+      "Did I give a work example?",
+      "Did I mention a wider effect?",
+      "Did I keep the answer balanced?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p3-005",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 3,
+    "topic": "Environment",
+    "question": "How can ordinary people reduce waste in daily life?",
+    "suggestedTime": 60,
+    "answerStructure": [
+      "Give a broad opinion",
+      "Explain one practical habit",
+      "Give an example",
+      "Mention the wider environmental effect",
+      "Close with a balanced comment"
+    ],
+    "tips": [
+      "Focus on habits people can actually follow.",
+      "Mention shopping, food, or packaging.",
+      "Show that small actions can still matter."
+    ],
+    "usefulVocabulary": [
+      "single-use items",
+      "reusable",
+      "sort rubbish",
+      "reduce consumption"
+    ],
+    "signpostingLanguage": [
+      "I think one of the easiest ways is ...",
+      "A simple example is ...",
+      "This matters because ...",
+      "Overall, ..."
+    ],
+    "sampleAnswer": "I think one of the easiest ways ordinary people can reduce waste is by changing small daily habits. A simple example is using reusable bags and bottles instead of single-use items. People can also plan their shopping better so they do not throw away food. This matters because less waste means less pressure on landfill and fewer resources used overall. Overall, these habits may seem small, but if many people do them consistently, the environmental impact can be significant.",
+    "selfCheck": [
+      "Did I suggest practical habits?",
+      "Did I give an example?",
+      "Did I explain the wider effect?",
+      "Did I avoid speaking too briefly?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p3-006",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 3,
+    "topic": "Communication",
+    "question": "How has social media changed the way people stay in touch?",
+    "suggestedTime": 60,
+    "answerStructure": [
+      "State the main change",
+      "Explain one advantage",
+      "Give an example",
+      "Mention a wider social effect",
+      "Finish with a balanced view"
+    ],
+    "tips": [
+      "Talk about speed, distance, and daily habits.",
+      "Use one example of keeping in contact.",
+      "Balance convenience with possible downsides."
+    ],
+    "usefulVocabulary": [
+      "stay connected",
+      "instant updates",
+      "broader audience",
+      "superficial contact"
+    ],
+    "signpostingLanguage": [
+      "The biggest change is that ...",
+      "For example, ...",
+      "At the same time, ...",
+      "So overall, ..."
+    ],
+    "sampleAnswer": "The biggest change is that social media has made it much easier for people to stay connected over long distances. For example, families can share photos and instant updates without waiting for a phone call. It also allows people to keep in touch with a broader audience, such as classmates or old colleagues. At the same time, the contact can become a bit superficial if people only send quick messages. So overall, social media has improved convenience, but it still does not replace deeper communication.",
+    "selfCheck": [
+      "Did I explain the main change?",
+      "Did I include a clear example?",
+      "Did I mention a wider social effect?",
+      "Did I end with a balanced view?"
+    ],
+    "status": "active"
+  }
+]
