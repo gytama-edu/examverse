@@ -10,14 +10,14 @@
     "sentence": "The students has finished their assignment before noon.",
     "segments": [
       { "key": "A", "text": "The students", "isError": false },
-      { "key": "B", "text": "has finished", "isError": true },
-      { "key": "C", "text": "their assignment", "isError": false },
-      { "key": "D", "text": "before noon", "isError": false }
+      { "key": "B", "text": "has", "isError": true },
+      { "key": "C", "text": "finished", "isError": false },
+      { "key": "D", "text": "their assignment before noon", "isError": false }
     ],
     "answer": "B",
     "correctedSentence": "The students have finished their assignment before noon.",
     "errorType": "Subject-Verb Agreement",
-    "explanation": "The subject 'students' is plural, so the verb should be 'have finished', not 'has finished'.",
+    "explanation": "The subject 'students' is plural, so the verb should be 'have', not 'has'.",
     "tags": ["grammar", "error recognition", "subject verb agreement"],
     "estimatedTime": 45,
     "status": "active"
@@ -40,7 +40,7 @@
     "answer": "C",
     "correctedSentence": "Last week, the research team completed the final survey.",
     "errorType": "Verb Tense",
-    "explanation": "The time phrase 'last week' requires the simple past form 'completed'.",
+    "explanation": "The time phrase 'last week' requires the simple past form 'completed', not the present form 'completes'.",
     "tags": ["grammar", "error recognition", "verb tense"],
     "estimatedTime": 45,
     "status": "active"
@@ -80,13 +80,13 @@
     "segments": [
       { "key": "A", "text": "requires students", "isError": false },
       { "key": "B", "text": "to write reports", "isError": false },
-      { "key": "C", "text": "attending meetings", "isError": true },
-      { "key": "D", "text": "and give presentations", "isError": false }
+      { "key": "C", "text": "attending", "isError": true },
+      { "key": "D", "text": "meetings, and give presentations", "isError": false }
     ],
     "answer": "C",
     "correctedSentence": "The internship requires students to write reports, attend meetings, and give presentations.",
     "errorType": "Parallel Structure",
-    "explanation": "Items in the series must match: 'write', 'attend', and 'give' all use the base verb form.",
+    "explanation": "The items in the series must use parallel forms: 'write', 'attend', and 'give'. Therefore, 'attending' should be 'attend'.",
     "tags": ["grammar", "error recognition", "parallel structure"],
     "estimatedTime": 50,
     "status": "active"
@@ -103,8 +103,8 @@
     "segments": [
       { "key": "A", "text": "The manager", "isError": false },
       { "key": "B", "text": "is responsible", "isError": false },
-      { "key": "C", "text": "of training", "isError": true },
-      { "key": "D", "text": "all new employees", "isError": false }
+      { "key": "C", "text": "of", "isError": true },
+      { "key": "D", "text": "training all new employees", "isError": false }
     ],
     "answer": "C",
     "correctedSentence": "The manager is responsible for training all new employees.",
@@ -126,13 +126,13 @@
     "segments": [
       { "key": "A", "text": "All applicants", "isError": false },
       { "key": "B", "text": "must submit", "isError": false },
-      { "key": "C", "text": "his or her forms", "isError": true },
-      { "key": "D", "text": "before Friday", "isError": false }
+      { "key": "C", "text": "his or her", "isError": true },
+      { "key": "D", "text": "forms before Friday", "isError": false }
     ],
     "answer": "C",
     "correctedSentence": "All applicants must submit their forms before Friday.",
     "errorType": "Pronoun Agreement",
-    "explanation": "The plural noun 'applicants' requires the plural possessive pronoun 'their'.",
+    "explanation": "The plural noun 'applicants' requires the plural possessive pronoun 'their', not 'his or her'.",
     "tags": ["grammar", "error recognition", "pronoun agreement"],
     "estimatedTime": 45,
     "status": "active"
@@ -155,7 +155,7 @@
     "answer": "C",
     "correctedSentence": "The advisor gave the students some useful information about the program.",
     "errorType": "Countable and Uncountable Nouns",
-    "explanation": "'Information' is uncountable, so it does not take a plural -s and cannot follow 'several'.",
+    "explanation": "'Information' is uncountable, so it does not take a plural -s and cannot follow 'several'. The phrase should be 'some useful information'.",
     "tags": ["grammar", "error recognition", "uncountable noun"],
     "estimatedTime": 50,
     "status": "active"
@@ -172,8 +172,8 @@
     "segments": [
       { "key": "A", "text": "She hopes", "isError": false },
       { "key": "B", "text": "to become", "isError": false },
-      { "key": "C", "text": "a engineer", "isError": true },
-      { "key": "D", "text": "after completing her degree", "isError": false }
+      { "key": "C", "text": "a", "isError": true },
+      { "key": "D", "text": "engineer after completing her degree", "isError": false }
     ],
     "answer": "C",
     "correctedSentence": "She hopes to become an engineer after completing her degree.",
@@ -194,14 +194,14 @@
     "sentence": "This course is more easier than the one offered last semester.",
     "segments": [
       { "key": "A", "text": "This course", "isError": false },
-      { "key": "B", "text": "is more easier", "isError": true },
-      { "key": "C", "text": "than the one", "isError": false },
-      { "key": "D", "text": "offered last semester", "isError": false }
+      { "key": "B", "text": "more", "isError": true },
+      { "key": "C", "text": "easier", "isError": false },
+      { "key": "D", "text": "than the one offered last semester", "isError": false }
     ],
     "answer": "B",
     "correctedSentence": "This course is easier than the one offered last semester.",
     "errorType": "Comparative Form",
-    "explanation": "Do not use both 'more' and the -er ending. The correct comparative is 'easier'.",
+    "explanation": "Do not use both 'more' and the -er comparative form. The correct form is 'easier'.",
     "tags": ["grammar", "error recognition", "comparative"],
     "estimatedTime": 45,
     "status": "active"
