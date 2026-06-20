@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ielts-ac-mi-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Medium",
+    "topic": "coastal flood planning",
+    "passageTitle": "Designing Cities for Tidal Floods",
+    "passage": "A. Early coastal defenses were usually designed around a single predicted water level. Engineers built fixed walls high enough to resist the largest flood recorded locally, then assumed the structure would remain adequate for decades. This method was straightforward to finance and explain, but it treated past observations as a reliable guide to future conditions. Rising seas and changing storm patterns have made that assumption increasingly uncertain. In many ports, funding rules reinforced this preference for one permanent design.\n\nB. Some planners now favor adaptable defenses. A low barrier may be constructed with foundations strong enough to support extra height later, while nearby land is reserved for future drainage channels. This staged approach avoids paying immediately for the largest possible structure. It also allows decisions to respond to new measurements rather than to one forecast made at the beginning of a project. Periodic review points are written into the plan before construction begins.\n\nC. Physical barriers cannot protect every location. In districts where walls would cut residents off from the waterfront, designers may create parks that temporarily store floodwater. Paths, sports areas, and planted basins remain useful in dry weather but can safely fill during unusually high tides. The approach requires clear warning systems and materials that recover quickly after being submerged. Maintenance crews must also remove salt and debris after each flooding event.\n\nD. Adaptation plans can still fail when responsibility is divided. Transport agencies may raise a road while water utilities leave nearby pumping equipment exposed. Researchers therefore recommend joint maps showing how electricity, drainage, housing, and evacuation routes depend on one another. Such coordination is less visible than a new wall, but it can prevent one unprotected service from disabling an otherwise well-defended neighborhood. Shared emergency exercises can expose these gaps before an actual flood occurs.",
+    "instructions": "Which paragraph contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Paragraph A"},{"id":"B","text":"Paragraph B"},{"id":"C","text":"Paragraph C"},{"id":"D","text":"Paragraph D"}],
+    "items": [
+      {"id":"1","prompt":"A defense that can be expanded when later evidence justifies it","answer":"B","evidence":"A low barrier may be constructed with foundations strong enough to support extra height later.","explanation":"Paragraph B describes infrastructure deliberately prepared for later enlargement."},
+      {"id":"2","prompt":"The risk created when connected public systems are planned separately","answer":"D","evidence":"One unprotected service can disable an otherwise well-defended neighborhood.","explanation":"Paragraph D explains how divided responsibility leaves dependencies exposed."},
+      {"id":"3","prompt":"A traditional method based mainly on historical extremes","answer":"A","evidence":"Engineers built fixed walls to resist the largest flood recorded locally.","explanation":"Paragraph A describes the older record-based design method."},
+      {"id":"4","prompt":"Public recreation space that performs a second function during floods","answer":"C","evidence":"Paths, sports areas, and planted basins remain useful in dry weather but can safely fill during high tides.","explanation":"Paragraph C locates temporary water storage inside everyday park space."}
+    ],
+    "tags": ["coastal planning","paragraph location"],
+    "estimatedTime": 420,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mi-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Medium",
+    "topic": "pollinator corridors",
+    "passageTitle": "Connecting Habitats for Urban Pollinators",
+    "passage": "A. City pollinators often survive in small gardens, railway edges, and unused plots, but these sites may be separated by wide areas with little food. A bee capable of flying several kilometers may cross such gaps, whereas smaller insects remain isolated. Ecologists therefore assess not only the total area of habitat but also the distance between feeding and nesting locations. The pattern can leave apparently green districts disconnected for species with limited movement.\n\nB. A corridor does not need to be a continuous strip of vegetation. Researchers have found that a sequence of planted balconies, roadside beds, and flowering courtyards can act as stepping stones. The spacing must suit the movement range of the target species. A design that connects habitat for a large butterfly may still leave a short-ranging solitary bee unable to travel safely. Researchers model these distances before deciding where new planting will have most value.\n\nC. Plant choice is another concern. Highly decorative varieties sometimes produce little nectar, while a garden that flowers brilliantly for two weeks may offer nothing for the rest of the season. Projects increasingly use mixtures that bloom at different times. Native species can be valuable, although ecologists caution that origin alone does not guarantee an adequate supply of pollen. Flower shape also determines which insects can reach the food available.\n\nD. Measuring success is difficult because a rise in insect sightings may reflect better observation rather than population growth. Several projects train residents to follow the same route at fixed intervals and record weather conditions with each count. Standardized community monitoring produces more comparable evidence and also keeps local participants involved after the initial planting budget has ended. Repeated surveys across several years are needed to separate seasonal variation from durable change.",
+    "instructions": "Which paragraph contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Paragraph A"},{"id":"B","text":"Paragraph B"},{"id":"C","text":"Paragraph C"},{"id":"D","text":"Paragraph D"}],
+    "items": [
+      {"id":"1","prompt":"Why seeing more insects does not automatically prove that their numbers increased","answer":"D","evidence":"A rise in insect sightings may reflect better observation rather than population growth.","explanation":"Paragraph D distinguishes observation frequency from genuine population change."},
+      {"id":"2","prompt":"The importance of providing flowers across different parts of the year","answer":"C","evidence":"Projects increasingly use mixtures that bloom at different times.","explanation":"Paragraph C discusses seasonal continuity in food supply."},
+      {"id":"3","prompt":"How separate small sites can function as a connected route","answer":"B","evidence":"Planted balconies, roadside beds, and flowering courtyards can act as stepping stones.","explanation":"Paragraph B explains that a corridor may consist of spaced habitat patches."},
+      {"id":"4","prompt":"A difference in travel ability between types of pollinating insect","answer":"A","evidence":"A bee capable of flying several kilometers may cross such gaps, whereas smaller insects remain isolated.","explanation":"Paragraph A contrasts long-range and short-range movement."}
+    ],
+    "tags": ["pollinator ecology","paragraph location"],
+    "estimatedTime": 420,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mi-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Hard",
+    "topic": "deep-sea mapping",
+    "passageTitle": "Reading the Landscape Beneath the Ocean",
+    "passage": "A. The ocean floor was once mapped mainly by lowering weighted lines from ships. Each measurement provided a depth at one point, so vast spaces between readings remained unknown. Even after echo sounders appeared, early surveys followed widely separated routes. Maps created from these tracks could show broad ridges and trenches, but small features were easily missed. Depth estimates were sometimes smoothed into convincing shapes that the observations did not truly support.\n\nB. Modern multibeam sonar sends out a fan of sound pulses and calculates depth across a broad strip beneath a vessel. Because water temperature and salinity affect sound speed, crews collect profiles of the water column and correct the measurements. Without this adjustment, an apparently curved seabed may be an error produced by changing ocean conditions rather than a real landform. Crews repeat the profiles whenever currents bring a noticeably different water mass.\n\nC. Satellites contribute indirectly. They cannot see through deep water, but they can measure tiny variations in sea-surface height caused by the gravity of large underwater mountains. These observations provide useful estimates in regions not yet surveyed by ships. Their resolution is lower than sonar, so researchers use them to identify targets for detailed investigation rather than as a final map. This broad coverage is especially important in remote parts of the Southern Ocean.\n\nD. Detailed maps support more than navigation. Biologists use slope and depth to predict habitats, while geologists examine seafloor shape for evidence of landslides. However, publishing precise locations can expose fragile ecosystems or archaeological sites to disturbance. Mapping programs must therefore decide when open data encourages research and when limited access offers necessary protection. The decision involves scientific access, conservation duties, national heritage law, and consultation with nearby coastal communities.",
+    "instructions": "Which paragraph contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Paragraph A"},{"id":"B","text":"Paragraph B"},{"id":"C","text":"Paragraph C"},{"id":"D","text":"Paragraph D"}],
+    "items": [
+      {"id":"1","prompt":"A reason that some accurate location data may not be released publicly","answer":"D","evidence":"Publishing precise locations can expose fragile ecosystems or archaeological sites to disturbance.","explanation":"Paragraph D discusses protection as a reason to restrict map access."},
+      {"id":"2","prompt":"Environmental measurements needed to correct a sonar result","answer":"B","evidence":"Water temperature and salinity affect sound speed, so crews collect water-column profiles.","explanation":"Paragraph B names the conditions used to correct depth calculations."},
+      {"id":"3","prompt":"A remote method used to choose places for closer study","answer":"C","evidence":"Researchers use satellite estimates to identify targets for detailed investigation.","explanation":"Paragraph C describes low-resolution satellite data as a targeting tool."},
+      {"id":"4","prompt":"Why early charts omitted smaller underwater structures","answer":"A","evidence":"Vast spaces between readings remained unknown and small features were easily missed.","explanation":"Paragraph A links sparse survey tracks with missing fine detail."}
+    ],
+    "tags": ["ocean mapping","paragraph location"],
+    "estimatedTime": 440,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mi-004",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Hard",
+    "topic": "ancient textile dyes",
+    "passageTitle": "What Ancient Cloth Reveals Through Color",
+    "passage": "A. Textiles rarely survive in damp archaeological sites because plant and animal fibers decay quickly. The fragments that remain are often brown, even when they were once brightly colored. Visible appearance is therefore a poor guide to original design. Microscopic traces of pigment may persist inside fibers after surface color has disappeared. Specialized conservation lighting and digital image enhancement can sometimes reveal patterning that remains invisible under normal display conditions today.\n\nB. Analysts first remove a sample far smaller than a grain of rice. Solvents separate coloring compounds, which are then passed through instruments that identify their chemical signatures. Since several plants can produce related compounds, the result may indicate a family of possible sources rather than one species. Researchers compare the chemistry with historical growing ranges and trade records before proposing an origin. Reference collections help analysts test whether modern materials share those signatures.\n\nC. Dye evidence has changed interpretations of social status. A color once assumed to be reserved for elites has been found in ordinary settlements, although usually on narrow decorative bands rather than entire garments. This suggests that access was wider than written accounts implied, but the quantity and placement of costly color still communicated difference. Household accounts may have overlooked these small but socially important uses in ordinary people's everyday dress.\n\nD. Experimental dyers help archaeologists understand the labor behind a fabric. They reproduce fermentation, repeated dipping, and exposure to air using historically plausible tools. The goal is not to manufacture an identical object, since ancient water and plant varieties cannot be recreated exactly. Instead, experiments reveal which stages demand skill, time, or careful temperature control. Repeated trials also show how minor changes can produce unexpected shades from the same ingredients.",
+    "instructions": "Which paragraph contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Paragraph A"},{"id":"B","text":"Paragraph B"},{"id":"C","text":"Paragraph C"},{"id":"D","text":"Paragraph D"}],
+    "items": [
+      {"id":"1","prompt":"Evidence that expensive color was used beyond the wealthiest social group","answer":"C","evidence":"A color assumed to be reserved for elites has been found in ordinary settlements.","explanation":"Paragraph C revises an earlier belief about who could access costly dyes."},
+      {"id":"2","prompt":"The limited aim of recreating historical production methods","answer":"D","evidence":"The goal is not to manufacture an identical object but to reveal demanding stages.","explanation":"Paragraph D explains what experimental dyeing can and cannot establish."},
+      {"id":"3","prompt":"Why the present color of excavated material may be misleading","answer":"A","evidence":"Fragments are often brown even when they were once brightly colored.","explanation":"Paragraph A warns that decay alters visible color."},
+      {"id":"4","prompt":"The need to combine chemical findings with other historical evidence","answer":"B","evidence":"Researchers compare chemistry with growing ranges and trade records before proposing an origin.","explanation":"Paragraph B shows that chemical similarity alone may not identify one source."}
+    ],
+    "tags": ["textile archaeology","paragraph location"],
+    "estimatedTime": 440,
+    "status": "active"
+  }
+]
