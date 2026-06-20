@@ -893,14 +893,26 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 }
 
 /* Fixed stacked brand lockup */
-.logo-copy { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; }
-.logo-title { font-size: 18px; font-weight: 650; line-height: 1; letter-spacing: -.02em; }
-.logo-title strong { color: var(--cyan); font-weight: 750; }
+.logo-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+}
+.logo-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #f5f7ff;
+}
+.logo-title strong { color: #4deaff; }
 .logo-subtitle {
-  color: #687b93;
-  font: 600 8px/1 ui-monospace, SFMono-Regular, Consolas, monospace;
-  letter-spacing: .055em;
-  white-space: nowrap;
+  margin-top: 5px;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .55);
 }
 
 /* IELTS Academic practice hub */
@@ -1040,8 +1052,6 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 }
 
 @media (max-width: 620px) {
-  .logo-title { font-size: 16px; }
-  .logo-subtitle { font-size: 7px; }
   .ielts-overview-mark { font-size: 58px; }
   .ielts-listening-card,
   .ielts-speaking-card { min-height: auto; }
@@ -1052,4 +1062,137 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .ielts-task1-focus { display: block; }
   .ielts-task1-focus .ibt-focus-list { margin-top: 12px; }
   .ielts-trap-card { min-height: auto; }
+}
+
+/* IELTS General Training practice hub */
+.ielts-gen-page {
+  --ielts-pink: #ef8fd6;
+  --ielts-pink-soft: rgba(239, 143, 214, .1);
+}
+.ielts-gen-hero::after { content: "GENERAL"; }
+.ielts-gen-page .ibt-badges span:nth-child(2),
+.ielts-gen-page .ibt-badges span:nth-child(3) {
+  border-color: rgba(239, 143, 214, .27);
+  color: #f1b3df;
+  background: rgba(239, 143, 214, .05);
+}
+.ielts-gen-band-display strong {
+  color: var(--ielts-pink);
+  font-size: 55px;
+  text-shadow: 0 0 24px rgba(239, 143, 214, .24);
+}
+.ibt-skill-matrix .ielts-gen-writing-matrix {
+  border-color: rgba(239, 143, 214, .31);
+  background: rgba(239, 143, 214, .055);
+}
+.ibt-skill-matrix .ielts-gen-writing-matrix b { color: var(--ielts-pink); }
+.ielts-gen-reading-snapshot {
+  border-color: rgba(69, 230, 248, .26);
+  background: linear-gradient(145deg, rgba(16, 35, 51, .84), rgba(9, 15, 29, .8));
+}
+.ielts-gen-writing-snapshot {
+  border-color: rgba(239, 143, 214, .3);
+  background: linear-gradient(145deg, rgba(47, 25, 48, .82), rgba(10, 15, 29, .8));
+  box-shadow: inset 0 1px rgba(255, 255, 255, .05), 0 0 45px rgba(239, 143, 214, .04);
+}
+.ielts-gen-writing-snapshot .ibt-skill-icon {
+  border-color: rgba(239, 143, 214, .42);
+  color: #f1b3df;
+  background: rgba(239, 143, 214, .07);
+}
+.ielts-gen-overview-mark {
+  font-size: 52px;
+  letter-spacing: -.08em;
+}
+
+.ielts-gen-reading-section {
+  border-block: 1px solid rgba(69, 230, 248, .13);
+  background:
+    radial-gradient(circle at 12% 18%, rgba(69, 230, 248, .075), transparent 29%),
+    linear-gradient(180deg, rgba(11, 27, 39, .48), rgba(7, 11, 22, .46));
+}
+.ielts-gen-section-label,
+.ielts-letter-label { display: flex; align-items: center; gap: 12px; margin-bottom: 17px; }
+.ielts-gen-section-label span,
+.ielts-letter-label span {
+  font: 700 9px/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: .14em;
+}
+.ielts-gen-section-label span { color: var(--cyan); }
+.ielts-gen-section-label i { width: 90px; height: 1px; background: linear-gradient(90deg, rgba(69, 230, 248, .72), transparent); }
+.ielts-gen-reading-section .ibt-heading-icon {
+  border-color: rgba(69, 230, 248, .4);
+  box-shadow: 0 0 28px rgba(69, 230, 248, .09);
+}
+.ielts-gen-reading-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+.ielts-gen-reading-card {
+  border-color: rgba(69, 230, 248, .2);
+  background: linear-gradient(145deg, rgba(17, 32, 48, .84), rgba(9, 14, 27, .8));
+}
+.ielts-gen-reading-card::after { background: var(--cyan); opacity: .06; }
+
+.ielts-letter-section {
+  border-block: 1px solid rgba(239, 143, 214, .18);
+  background:
+    radial-gradient(circle at 83% 16%, rgba(239, 143, 214, .11), transparent 31%),
+    radial-gradient(circle at 9% 90%, rgba(155, 124, 255, .06), transparent 28%),
+    linear-gradient(180deg, rgba(39, 18, 40, .48), rgba(8, 11, 23, .52));
+}
+.ielts-letter-label span { color: var(--ielts-pink); }
+.ielts-letter-label i { width: 90px; height: 1px; background: linear-gradient(90deg, rgba(239, 143, 214, .76), transparent); }
+.ielts-letter-section .ibt-heading-icon {
+  border-color: rgba(239, 143, 214, .45);
+  color: #f1b3df;
+  background: rgba(239, 143, 214, .085);
+  box-shadow: 0 0 30px rgba(239, 143, 214, .1);
+  font-size: 13px;
+}
+.ielts-letter-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+.ielts-letter-card {
+  border-color: rgba(239, 143, 214, .26);
+  background: linear-gradient(145deg, rgba(44, 26, 47, .84), rgba(10, 14, 28, .8));
+}
+.ielts-letter-card::after { background: var(--ielts-pink); opacity: .07; }
+.ielts-letter-card .ibt-task-number { color: #ae78a1; }
+.ielts-letter-purpose {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-top: 15px;
+  padding: 18px 20px;
+  border: 1px solid rgba(239, 143, 214, .22);
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgba(239, 143, 214, .06), rgba(155, 124, 255, .03));
+}
+.ielts-letter-purpose > span {
+  color: #c28cac;
+  font: 650 9px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.ielts-letter-section .button {
+  border-color: rgba(239, 143, 214, .62);
+  color: #130811;
+  background: linear-gradient(135deg, #f4b7e4, #db76c0);
+  box-shadow: 0 0 30px rgba(239, 143, 214, .15), inset 0 1px rgba(255, 255, 255, .56);
+}
+.ielts-letter-section .button:hover { box-shadow: 0 0 36px rgba(239, 143, 214, .25), inset 0 1px rgba(255, 255, 255, .6); }
+.ielts-gen-band-scale strong { color: var(--ielts-pink); }
+
+@media (max-width: 1000px) {
+  .ielts-gen-reading-grid,
+  .ielts-letter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ielts-gen-reading-grid > article:last-child,
+  .ielts-letter-grid > article:last-child { grid-column: 1 / -1; }
+}
+
+@media (max-width: 620px) {
+  .ielts-gen-overview-mark { font-size: 44px; }
+  .ielts-gen-reading-grid,
+  .ielts-letter-grid { grid-template-columns: 1fr; }
+  .ielts-gen-reading-grid > article:last-child,
+  .ielts-letter-grid > article:last-child { grid-column: auto; }
+  .ielts-letter-purpose { display: block; }
+  .ielts-letter-purpose .ibt-focus-list { margin-top: 12px; }
 }
