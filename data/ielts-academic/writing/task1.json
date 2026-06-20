@@ -1,0 +1,206 @@
+[
+  {
+    "id": "ielts-awt1-001",
+    "examKey": "ielts-academic-writing",
+    "interfaceType": "writing-task1",
+    "taskType": "Bar Chart",
+    "title": "Monthly Library Visits by Age Group",
+    "prompt": "The bar chart below shows the number of visits to a city library made by three age groups in four different months. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "visualType": "bar-chart",
+    "visualData": {
+      "caption": "Library visits across four months",
+      "labels": ["January", "April", "July", "October"],
+      "series": [
+        { "name": "Teenagers", "values": [120, 150, 180, 160], "color": "#74a7ff" },
+        { "name": "Adults", "values": [200, 220, 210, 230], "color": "#61e7ae" },
+        { "name": "Seniors", "values": [90, 100, 110, 120], "color": "#ed83cf" }
+      ]
+    },
+    "overviewTips": [
+      "Identify the highest and lowest figures.",
+      "Look for overall trends and major comparisons.",
+      "Do not describe every number mechanically."
+    ],
+    "structureGuide": [
+      "Introduction: paraphrase the task.",
+      "Overview: summarise the main trends.",
+      "Body Paragraph 1: compare the higher figures.",
+      "Body Paragraph 2: compare the remaining categories and details."
+    ],
+    "usefulLanguage": [
+      "the chart illustrates",
+      "it is clear that",
+      "accounted for",
+      "increased gradually",
+      "remained relatively stable",
+      "by contrast",
+      "whereas",
+      "respectively"
+    ],
+    "sampleAnswer": "The bar chart illustrates how often three age groups visited a city library in four different months. Overall, adults recorded the highest number of visits throughout the period, while seniors remained the least frequent visitors. Teenagers also showed a clear upward trend before ending slightly lower in October. In January, adults made 200 visits, compared with 120 by teenagers and 90 by seniors. Adult visits then rose to 220 in April, dipped slightly to 210 in July, and reached a peak of 230 in October. Teenagers followed a different pattern, climbing from 120 in January to 180 in July before falling a little to 160 in October. Meanwhile, the number of senior visits increased steadily from 90 to 120 over the four months.",
+    "selfCheck": [
+      "Did I write at least 150 words?",
+      "Did I include an overview?",
+      "Did I compare key features rather than list everything?",
+      "Did I use formal academic language?",
+      "Did I avoid personal opinions?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-awt1-002",
+    "examKey": "ielts-academic-writing",
+    "interfaceType": "writing-task1",
+    "taskType": "Line Graph",
+    "title": "Student Requests to the Careers Office",
+    "prompt": "The line graph below shows the number of students who contacted a college careers office through appointments and walk-in visits over a six-month period. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "visualType": "line-graph",
+    "visualData": {
+      "caption": "Contact with the careers office over six months",
+      "labels": ["February", "March", "April", "May", "June", "July"],
+      "series": [
+        { "name": "Appointments", "values": [42, 48, 55, 62, 65, 70], "color": "#74a7ff" },
+        { "name": "Walk-ins", "values": [30, 34, 38, 36, 40, 44], "color": "#ffbf69" }
+      ]
+    },
+    "overviewTips": [
+      "Focus on direction of change, not just the values.",
+      "Compare the two lines at their highest and lowest points.",
+      "Make the overview clear before adding detail."
+    ],
+    "structureGuide": [
+      "Introduction: state what the graph shows.",
+      "Overview: summarise the overall trend.",
+      "Body Paragraph 1: describe the stronger line.",
+      "Body Paragraph 2: describe the second line and comparisons."
+    ],
+    "usefulLanguage": [
+      "rose steadily",
+      "showed a slight dip",
+      "overtook",
+      "remained lower than",
+      "ended at",
+      "gradual increase",
+      "fluctuated slightly",
+      "the gap narrowed"
+    ],
+    "sampleAnswer": "The line graph compares the number of students contacting a college careers office by appointment and by walk-in visits over six months. Overall, appointment bookings rose steadily throughout the period, while walk-in visits also increased, although more gradually and with one small fluctuation. In February, there were 42 appointments and 30 walk-in visitors. Both figures then rose in March and April, reaching 55 and 38 respectively. Appointment requests continued to climb in May and June, ending at 70 in July. Walk-in visits followed a similar but weaker pattern. After moving up to 38 in April, the figure dipped slightly to 36 in May before recovering to 44 by July. In every month, appointments remained higher than walk-ins, and the difference between the two categories became wider towards the end of the period.",
+    "selfCheck": [
+      "Did I write at least 150 words?",
+      "Did I describe the main trend clearly?",
+      "Did I compare the lines?",
+      "Did I include an overview?",
+      "Did I avoid personal comments?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-awt1-003",
+    "examKey": "ielts-academic-writing",
+    "interfaceType": "writing-task1",
+    "taskType": "Process Diagram",
+    "title": "Recycling Glass Bottles",
+    "prompt": "The diagram below shows the process of recycling used glass bottles into new containers. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "visualType": "process",
+    "visualData": {
+      "caption": "How used bottles become new glass containers",
+      "steps": [
+        { "title": "Collection", "detail": "Used bottles are gathered from homes and local shops." },
+        { "title": "Sorting", "detail": "Workers remove damaged items and separate the glass by colour." },
+        { "title": "Washing", "detail": "The bottles are cleaned to remove labels, dirt, and residue." },
+        { "title": "Crushing", "detail": "Clean glass is broken into small pieces called cullet." },
+        { "title": "Melting", "detail": "The cullet is heated in a furnace until it becomes liquid glass." },
+        { "title": "Moulding", "detail": "The molten glass is shaped into new bottles and jars." },
+        { "title": "Cooling", "detail": "The finished containers are cooled, checked, and packed for delivery." }
+      ]
+    },
+    "overviewTips": [
+      "Describe the stages in order.",
+      "Use passive forms where appropriate.",
+      "Include the beginning and the end of the process."
+    ],
+    "structureGuide": [
+      "Introduction: paraphrase the process.",
+      "Overview: state how many stages there are.",
+      "Body Paragraph 1: describe the first half of the process.",
+      "Body Paragraph 2: describe the remaining stages and the result."
+    ],
+    "usefulLanguage": [
+      "is collected",
+      "is sorted",
+      "is washed",
+      "is crushed into",
+      "is then melted",
+      "is moulded into",
+      "before being",
+      "finally"
+    ],
+    "sampleAnswer": "The diagram shows how used glass bottles are recycled and turned into new containers. Overall, the process consists of several clear stages, beginning with collection and ending with the production of new bottles and jars that are ready for use. First, used bottles are collected from homes and local shops. They are then sorted so that broken items can be removed and the remaining glass can be separated by colour. After that, the bottles are washed to remove labels, dirt, and any residue. Next, the clean glass is crushed into small pieces known as cullet. This material is then heated in a furnace until it becomes molten glass. In the following stage, the liquid glass is moulded into new containers. Finally, the finished products are cooled, checked, and packed for delivery.",
+    "selfCheck": [
+      "Did I describe the stages in order?",
+      "Did I use passive language where suitable?",
+      "Did I mention the start and finish of the process?",
+      "Did I write 150 words or more?",
+      "Did I keep the tone objective?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-awt1-004",
+    "examKey": "ielts-academic-writing",
+    "interfaceType": "writing-task1",
+    "taskType": "Map",
+    "title": "Town Square Redevelopment",
+    "prompt": "The maps below show a town square before and after redevelopment. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "visualType": "map",
+    "visualData": {
+      "caption": "Town square before and after redevelopment",
+      "beforeTitle": "Before redevelopment",
+      "afterTitle": "After redevelopment",
+      "before": [
+        { "label": "Car park", "note": "Large paved area in the middle" },
+        { "label": "Road", "note": "Busy lane crossing the east side" },
+        { "label": "Newsstand", "note": "Small kiosk near the entrance" },
+        { "label": "Bus stop", "note": "Located beside the main road" },
+        { "label": "Trees", "note": "Scattered around the edge" }
+      ],
+      "after": [
+        { "label": "Pedestrian plaza", "note": "Open central space with seating" },
+        { "label": "Cafe terrace", "note": "Added on the north side" },
+        { "label": "Cycle lane", "note": "Runs along the eastern edge" },
+        { "label": "Fountain", "note": "Placed in the centre of the square" },
+        { "label": "Bus bay", "note": "Moved slightly west" }
+      ]
+    },
+    "overviewTips": [
+      "Focus on what changed, not every small detail.",
+      "Use location language clearly.",
+      "Mention the overall shift in function."
+    ],
+    "structureGuide": [
+      "Introduction: paraphrase the maps.",
+      "Overview: describe the biggest changes.",
+      "Body Paragraph 1: describe the original layout.",
+      "Body Paragraph 2: explain the new layout and additions."
+    ],
+    "usefulLanguage": [
+      "was replaced by",
+      "was moved to",
+      "was expanded",
+      "on the eastern side",
+      "in the centre",
+      "formerly",
+      "has been transformed into",
+      "adjacent to"
+    ],
+    "sampleAnswer": "The maps compare the layout of a town square before and after redevelopment. Overall, the area has been transformed from a mainly car-oriented space into a more pedestrian-friendly square with seating, greenery, and leisure facilities. Before the work began, the centre of the square was occupied by a large car park, and a road ran across the eastern side. There was also a small newsstand near the entrance, a bus stop beside the main road, and a few scattered trees around the edge. After redevelopment, the car park was removed and replaced by a pedestrian plaza with a fountain in the middle. A cafe terrace was added on the north side, while a cycle lane now runs along the eastern edge. The bus stop was also moved slightly west. As a result, the square now appears cleaner, more open, and better suited to public use.",
+    "selfCheck": [
+      "Did I compare the before and after layouts?",
+      "Did I use clear location language?",
+      "Did I highlight the biggest changes?",
+      "Did I write at least 150 words?",
+      "Did I stay objective?"
+    ],
+    "status": "active"
+  }
+]
