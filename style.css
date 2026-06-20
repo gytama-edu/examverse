@@ -2164,6 +2164,30 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .mini-mock-question .completion-task-header h3 { margin-right: 18px; }
 .mini-mock-question.correct { border-color: rgba(97,231,174,.46); background: rgba(97,231,174,.035); }
 .mini-mock-question.wrong { border-color: rgba(255,107,145,.48); background: rgba(255,107,145,.035); }
+.speaking-page .completion-hero::after { content: "SPEAK"; }
+.speaking-part-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.speaking-layout { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,.9fr); gap: 16px; margin-top: 16px; }
+.speaking-panel { display: grid; gap: 16px; }
+.speaking-prompt-title { margin: 9px 0 12px; font-size: 22px; }
+.speaking-prompt-copy { margin: 0; color: #b1bdcc; font-size: 14px; line-height: 1.8; }
+.speaking-prompt-list, .speaking-self-check { display: grid; gap: 8px; margin: 14px 0 0; padding-left: 18px; color: #c4cfdb; }
+.speaking-prompt-list li, .speaking-self-check li { line-height: 1.6; }
+.speaking-timer-box { display: grid; gap: 10px; margin-top: 16px; padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.018); }
+.speaking-timer-box strong { color: var(--cyan); font: 700 28px/1 ui-monospace,monospace; letter-spacing: -.04em; }
+.speaking-timer-box span { color: #7b8b9f; font: 650 8px/1 ui-monospace,monospace; text-transform: uppercase; letter-spacing: .1em; }
+.speaking-timer-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.speaking-note-box { display: grid; gap: 8px; margin-top: 16px; padding: 16px; border: 1px solid rgba(69,230,248,.14); border-radius: 12px; background: rgba(69,230,248,.03); }
+.speaking-note-box label, .speaking-group h4 { color: #8a79bc; font: 650 8px/1 ui-monospace,monospace; text-transform: uppercase; letter-spacing: .1em; }
+.speaking-note-box textarea { min-height: 110px; resize: vertical; }
+.speaking-group { display: grid; gap: 10px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.018); }
+.speaking-group + .speaking-group { margin-top: 12px; }
+.speaking-group ul { display: grid; gap: 8px; margin: 0; padding-left: 18px; color: #a7b5c7; }
+.speaking-vocab { display: flex; flex-wrap: wrap; gap: 8px; }
+.speaking-vocab span { padding: 6px 9px; border: 1px solid rgba(69,230,248,.16); border-radius: 999px; color: #a9dff0; background: rgba(69,230,248,.04); font: 650 9px/1 ui-monospace,monospace; }
+.speaking-sample-card { margin-top: 16px; padding: 20px; }
+.speaking-sample-card p { margin: 0; color: #b1bdcc; font-size: 14px; line-height: 1.8; }
+.speaking-page textarea.completion-input { min-height: 110px; resize: vertical; }
+.speaking-page button:focus-visible, .speaking-page a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 .diagram-page .completion-task-card { position: relative; }
 .diagram-card { margin-top: 16px; padding: 18px; border: 1px solid rgba(116,167,255,.16); border-radius: 14px; background: linear-gradient(145deg, rgba(116,167,255,.03), rgba(8,14,26,.38)); }
 .diagram-title { margin: 10px 0 14px; font-size: 20px; }
@@ -2292,6 +2316,8 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .completion-exam-section, .completion-workspace { padding: 70px 0; }
   .completion-shell { padding: 24px; }
   .completion-blank-row { grid-template-columns: 1fr; }
+  .speaking-layout { grid-template-columns: 1fr; }
+  .speaking-part-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
   .completion-hero { padding: 45px 0 56px; }
@@ -2320,6 +2346,7 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .completion-review-grid { grid-template-columns: repeat(2,1fr); }
   .completion-mistake-meta, .completion-mistake-answers { display: grid; grid-template-columns: 1fr; }
   .completion-mistake-meta span:last-child { text-align: left; }
+  .speaking-timer-actions { display: grid; }
 }
 
 /* IELTS Reading Multiple Choice practice system */
