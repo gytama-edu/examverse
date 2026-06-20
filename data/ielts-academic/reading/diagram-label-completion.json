@@ -1,158 +1,158 @@
 [
   {
-    "id": "ielts-gt-dlc-001",
-    "examKey": "general",
-    "exam": "IELTS General Training",
+    "id": "ielts-ac-dlc-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
     "section": "Reading",
     "questionType": "Diagram Label Completion",
     "interfaceType": "diagram-label-completion",
     "difficulty": "Easy",
-    "passageTitle": "The Office Recycling Station",
-    "passage": "The office recycling station sits beside the staff kitchen so people can sort items while making tea or lunch. One bin is marked for paper, another for plastic bottles, and a smaller tray is used for metal cans. A notice above the station asks staff to remove food containers before throwing anything away because leftover liquid can ruin a full bag. At the end of the day, the facilities team empties the bins into the loading area for collection. The writer says the station works well because the labels are clear and the bins are placed where employees naturally walk past them.",
+    "passageTitle": "A Simple Water Filtration System",
+    "passage": "The filtration system begins with a wide collection tank where untreated water is stored. From there, water passes through a gravel layer that removes larger particles. It then moves through a sand layer, which traps finer material. Before the water is released, it enters a small chamber containing charcoal, which helps reduce unpleasant smells. The writer explains that the order matters because each stage prepares the water for the next one, so no single part has to do all the work at once.",
     "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
     "wordLimit": "NO MORE THAN TWO WORDS",
-    "diagramTitle": "Office recycling station",
-    "diagramType": "sorting-station-schematic",
+    "diagramTitle": "Water filtration system",
+    "diagramType": "process-schematic",
     "labels": [
       {
         "id": "1",
         "position": "top-left",
-        "labelText": "Paper bin:",
-        "answers": ["paper"],
-        "evidence": "One bin is marked for paper",
-        "explanation": "The paper bin is clearly named."
+        "labelText": "Storage area:",
+        "answers": ["collection tank"],
+        "evidence": "a wide collection tank where untreated water is stored",
+        "explanation": "The storage area is the collection tank."
       },
       {
         "id": "2",
         "position": "top-right",
-        "labelText": "Bottle bin:",
-        "answers": ["plastic bottles"],
-        "evidence": "another for plastic bottles",
-        "explanation": "The bottle bin is for plastic bottles."
+        "labelText": "First filter:",
+        "answers": ["gravel layer"],
+        "evidence": "water passes through a gravel layer that removes larger particles",
+        "explanation": "The first filter is the gravel layer."
       },
       {
         "id": "3",
         "position": "bottom-left",
-        "labelText": "Can tray:",
-        "answers": ["metal cans"],
-        "evidence": "a smaller tray is used for metal cans",
-        "explanation": "The tray is for metal cans."
+        "labelText": "Second filter:",
+        "answers": ["sand layer"],
+        "evidence": "It then moves through a sand layer, which traps finer material",
+        "explanation": "The second filter is the sand layer."
       },
       {
         "id": "4",
         "position": "bottom-right",
-        "labelText": "Collection area:",
-        "answers": ["loading area"],
-        "evidence": "empties the bins into the loading area for collection",
-        "explanation": "The collection area is the loading area."
+        "labelText": "Smell reducer:",
+        "answers": ["charcoal"],
+        "evidence": "it enters a small chamber containing charcoal, which helps reduce unpleasant smells",
+        "explanation": "Charcoal reduces the smell in the final chamber."
       }
     ],
     "tags": ["ielts", "reading", "diagram label completion"],
-    "estimatedTime": 220,
+    "estimatedTime": 240,
     "status": "active"
   },
   {
-    "id": "ielts-gt-dlc-002",
-    "examKey": "general",
-    "exam": "IELTS General Training",
+    "id": "ielts-ac-dlc-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
     "section": "Reading",
     "questionType": "Diagram Label Completion",
     "interfaceType": "diagram-label-completion",
     "difficulty": "Medium",
-    "passageTitle": "Campsite Map Facilities",
-    "passage": "The campsite map shows a reception hut at the entrance and a path leading to the river picnic area. Showers are located beside the main wash block, while the quiet tent field is set farther away from the car park so noise is reduced at night. A small supply shed stores firewood and spare gas canisters, and the map also marks an aid room next to the ranger office. The notice reminds visitors that the river crossing should be used only during daylight.",
+    "passageTitle": "The Structure of an Insect Wing",
+    "passage": "An insect wing is not a simple sheet of skin. A thin outer membrane covers the surface and is supported by a network of veins that carry strength across the wing. Near the leading edge, a stiffened rib helps the wing stay stable during rapid movement. Small flexible joints at the base allow the wing to fold neatly against the body when the insect is resting. The writer notes that the pattern of veins is important because it lets the wing remain light while still resisting tearing in flight.",
     "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
     "wordLimit": "NO MORE THAN TWO WORDS",
-    "diagramTitle": "Campsite map facilities",
-    "diagramType": "site-map-schematic",
+    "diagramTitle": "Insect wing structure",
+    "diagramType": "body-part-schematic",
     "labels": [
       {
         "id": "1",
         "position": "top-left",
-        "labelText": "Entrance hut:",
-        "answers": ["reception hut"],
-        "evidence": "a reception hut at the entrance",
-        "explanation": "The entrance hut is the reception hut."
+        "labelText": "Outer cover:",
+        "answers": ["outer membrane"],
+        "evidence": "A thin outer membrane covers the surface",
+        "explanation": "The outer cover is the membrane."
       },
       {
         "id": "2",
         "position": "top-right",
-        "labelText": "Washed area:",
-        "answers": ["wash block"],
-        "evidence": "Showers are located beside the main wash block",
-        "explanation": "The shower area is the wash block."
+        "labelText": "Support network:",
+        "answers": ["veins"],
+        "evidence": "supported by a network of veins",
+        "explanation": "The support network is made of veins."
       },
       {
         "id": "3",
         "position": "bottom-left",
-        "labelText": "Storage shed:",
-        "answers": ["supply shed"],
-        "evidence": "A small supply shed stores firewood and spare gas canisters",
-        "explanation": "The storage building is the supply shed."
+        "labelText": "Stiffened edge:",
+        "answers": ["leading edge"],
+        "evidence": "Near the leading edge, a stiffened rib helps",
+        "explanation": "The stiffened edge is the leading edge."
       },
       {
         "id": "4",
         "position": "bottom-right",
-        "labelText": "Medical room:",
-        "answers": ["aid room"],
-        "evidence": "the map also marks an aid room next to the ranger office",
-        "explanation": "The passage identifies the medical space as the aid room."
+        "labelText": "Folding point:",
+        "answers": ["the base"],
+        "evidence": "Small flexible joints at the base allow the wing to fold",
+        "explanation": "The folding point is at the base."
       }
     ],
     "tags": ["ielts", "reading", "diagram label completion"],
-    "estimatedTime": 220,
+    "estimatedTime": 240,
     "status": "active"
   },
   {
-    "id": "ielts-gt-dlc-003",
-    "examKey": "general",
-    "exam": "IELTS General Training",
+    "id": "ielts-ac-dlc-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
     "section": "Reading",
     "questionType": "Diagram Label Completion",
     "interfaceType": "diagram-label-completion",
     "difficulty": "Medium",
-    "passageTitle": "A Bicycle Repair Kit",
-    "passage": "The bicycle repair kit is packed in a zip case that fits under the saddle. Inside, riders will find a multi-tool, tyre levers, a small pump, and a patch pack for punctures. The writer recommends placing the pump near the opening so it can be reached quickly on the roadside, while the patch pack should stay in the inner pocket where it will not be crushed. A cloth is included to wipe grease from hands before the bike is lifted back onto the stand. The note says the kit is most useful when all the parts are returned to their own places after each ride.",
+    "passageTitle": "Controlling Greenhouse Temperature",
+    "passage": "The greenhouse uses a simple system to prevent the air from becoming too hot in the afternoon. Sunlight enters through the glass roof, then a sensor near the ceiling detects a rise in temperature. If the reading becomes too high, an automatic vent opens and releases warm air at the top. Cooler air enters through low side openings, which helps the plants stay within a stable range. The writer says the design works best when the vent and the side openings are used together rather than separately.",
     "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
     "wordLimit": "NO MORE THAN TWO WORDS",
-    "diagramTitle": "Bicycle repair kit",
-    "diagramType": "tool-kit-schematic",
+    "diagramTitle": "Greenhouse control system",
+    "diagramType": "environment-control-schematic",
     "labels": [
       {
         "id": "1",
         "position": "top-left",
-        "labelText": "Container:",
-        "answers": ["zip case"],
-        "evidence": "packed in a zip case that fits under the saddle",
-        "explanation": "The kit container is the zip case."
+        "labelText": "Heat detector:",
+        "answers": ["sensor"],
+        "evidence": "a sensor near the ceiling detects a rise in temperature",
+        "explanation": "The detector is the sensor."
       },
       {
         "id": "2",
         "position": "top-right",
-        "labelText": "Roadside tool:",
-        "answers": ["small pump"],
-        "evidence": "Inside, riders will find ... a small pump",
-        "explanation": "The pump is the roadside tool."
+        "labelText": "Hot-air outlet:",
+        "answers": ["automatic vent"],
+        "evidence": "an automatic vent opens and releases warm air at the top",
+        "explanation": "The vent lets hot air out."
       },
       {
         "id": "3",
         "position": "bottom-left",
-        "labelText": "Puncture repair:",
-        "answers": ["patch pack"],
-        "evidence": "a patch pack for punctures",
-        "explanation": "The repair item is the patch pack."
+        "labelText": "Fresh-air entry:",
+        "answers": ["side openings"],
+        "evidence": "Cooler air enters through low side openings",
+        "explanation": "The passage names the entry points as side openings."
       },
       {
         "id": "4",
         "position": "bottom-right",
-        "labelText": "Cleaning cloth:",
-        "answers": ["cloth"],
-        "evidence": "A cloth is included to wipe grease from hands",
-        "explanation": "The cloth is the cleaning item."
+        "labelText": "Roof section:",
+        "answers": ["glass roof"],
+        "evidence": "Sunlight enters through the glass roof",
+        "explanation": "The roof part mentioned is the glass roof."
       }
     ],
     "tags": ["ielts", "reading", "diagram label completion"],
-    "estimatedTime": 220,
+    "estimatedTime": 240,
     "status": "active"
   }
 ]
