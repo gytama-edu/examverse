@@ -2130,6 +2130,16 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .completion-input.correct, .completion-blank-row.correct { border-color: rgba(97,231,174,.46); background: rgba(97,231,174,.035); }
 .completion-input.wrong, .completion-blank-row.wrong { border-color: rgba(255,107,145,.48); background: rgba(255,107,145,.035); }
 .completion-input[readonly] { cursor: default; }
+.flowchart-steps { display: grid; gap: 12px; margin-top: 16px; }
+.completion-flow-step { display: grid; gap: 10px; }
+.completion-flow-label { display: flex; align-items: center; gap: 10px; color: #8a79bc; font: 650 8px/1 ui-monospace,monospace; text-transform: uppercase; letter-spacing: .08em; }
+.completion-flow-label span { display: inline-grid; place-items: center; width: 28px; height: 28px; border: 1px solid rgba(69,230,248,.23); border-radius: 8px; color: var(--cyan); background: rgba(69,230,248,.04); }
+.completion-flow-text { margin: 0; color: #c4cfdb; font-size: 13px; line-height: 1.7; }
+.completion-flow-text input { width: min(100%, 220px); margin: 0 6px; vertical-align: baseline; }
+.flowchart-arrow { display: grid; place-items: center; width: 38px; height: 38px; margin-left: 3px; border: 1px solid rgba(69,230,248,.14); border-radius: 999px; color: var(--cyan); background: rgba(69,230,248,.03); font: 700 15px/1 ui-monospace,monospace; }
+.completion-flow-step.correct .completion-flow-label span { border-color: rgba(97,231,174,.46); color: #06170f; background: var(--completion-green); }
+.completion-flow-step.wrong .completion-flow-label span { border-color: rgba(255,107,145,.48); color: #1d0710; background: #ff6b91; }
+.completion-flow-step.correct .completion-flow-text, .completion-flow-step.wrong .completion-flow-text { color: #e1e9f2; }
 .completion-answer-note, .completion-evidence, .completion-explanation { grid-column: 1/-1; }
 .completion-answer-note { padding-top: 10px; border-top: 1px solid var(--line); }
 .completion-answer-note strong { color: #61e7ae; font-size: 11px; }
