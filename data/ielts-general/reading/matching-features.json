@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ielts-gt-mf-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Easy",
+    "topic": "municipal enquiry departments",
+    "passageTitle": "Where to Send a Council Enquiry",
+    "passage": "The Environmental Noise Team investigates repeated late-night sound from commercial premises and machinery. It does not handle one-off neighborhood disagreements.\n\nThe Street Tree Office manages pruning, disease reports, and damage involving trees on public land. Trees inside private gardens remain the owner's responsibility unless they create an immediate road hazard.\n\nTrading Standards examines misleading sales claims, unsafe consumer goods, and businesses using inaccurate weights. Individual refund disputes normally begin with the seller.\n\nThe Events Licensing Desk processes applications for outdoor markets, amplified performances, and temporary food stalls. It can advise on forms but cannot reserve public spaces for an organizer.",
+    "instructions": "Match each enquiry with the correct council department.",
+    "options": [{"id":"A","text":"Environmental Noise Team"},{"id":"B","text":"Street Tree Office"},{"id":"C","text":"Trading Standards"},{"id":"D","text":"Events Licensing Desk"}],
+    "items": [
+      {"id":"1","prompt":"A shop advertises a safety certification that the product does not have","answer":"C","evidence":"Trading Standards examines misleading sales claims and unsafe consumer goods.","explanation":"The false certification concerns both a product claim and safety."},
+      {"id":"2","prompt":"Branches from a roadside tree are blocking a traffic sign","answer":"B","evidence":"The Street Tree Office handles public trees and immediate road hazards.","explanation":"The tree is on public land and affects road safety."},
+      {"id":"3","prompt":"A café runs loud extraction equipment every night","answer":"A","evidence":"The team investigates repeated late-night sound from commercial premises and machinery.","explanation":"The recurring commercial noise fits the Environmental Noise Team."},
+      {"id":"4","prompt":"A group plans a weekend market with temporary food stands","answer":"D","evidence":"The desk processes applications for outdoor markets and temporary food stalls.","explanation":"Both features of the event fall under licensing."}
+    ],
+    "tags": ["departments","council services"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mf-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Medium",
+    "topic": "adult course formats",
+    "passageTitle": "Learning Formats at Alder Arts Centre",
+    "passage": "Studio Track meets every Monday for eight weeks. Learners develop one project gradually and receive equipment storage between sessions.\n\nWeekend Intensive runs for two full Saturdays. It covers the same core techniques quickly and suits participants traveling from outside the area, although no storage is provided.\n\nMentored Online combines recorded demonstrations with three individual video appointments. Materials are posted to participants, who complete practical work at home on their own schedule.\n\nConversation Circle is a low-cost monthly meeting for former students. There is no formal teaching; members discuss current projects and exchange feedback in small groups.",
+    "instructions": "Match each learner with the most suitable course format.",
+    "options": [{"id":"A","text":"Studio Track"},{"id":"B","text":"Weekend Intensive"},{"id":"C","text":"Mentored Online"},{"id":"D","text":"Conversation Circle"}],
+    "items": [
+      {"id":"1","prompt":"Ravi lives far away and prefers to finish the taught content in two visits","answer":"B","evidence":"Weekend Intensive runs for two Saturdays and suits people from outside the area.","explanation":"The compressed schedule minimizes Ravi's travel."},
+      {"id":"2","prompt":"Elena wants flexible home study plus private expert feedback","answer":"C","evidence":"Mentored Online includes recorded lessons and individual video appointments.","explanation":"This format combines flexibility with one-to-one guidance."},
+      {"id":"3","prompt":"Jon has completed a course and wants informal peer discussion","answer":"D","evidence":"Conversation Circle is for former students and centers on group feedback.","explanation":"Jon needs the alumni discussion format rather than further teaching."},
+      {"id":"4","prompt":"Mei needs somewhere to leave an unfinished project each week","answer":"A","evidence":"Studio Track provides equipment storage between sessions.","explanation":"Only Studio Track explicitly offers ongoing storage."}
+    ],
+    "tags": ["course types","adult education"],
+    "estimatedTime": 310,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mf-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Medium",
+    "topic": "community health facilities",
+    "passageTitle": "Choosing a Local Health Service",
+    "passage": "North Clinic offers booked appointments for ongoing conditions and routine checks. It has an interpreter service when requested at least two days ahead.\n\nHarbor Wellbeing Centre runs walk-in advice sessions on stress, sleep, and family support. It does not prescribe medicine or treat physical injuries.\n\nThe Mobile Screening Unit visits different neighborhoods each week for blood-pressure and diabetes-risk checks. Locations are published monthly, and no appointment is needed.\n\nWillow Pharmacy provides urgent repeat medication when a prescription has already been issued but a supply has unexpectedly run out. The pharmacist must confirm the record before dispensing anything.",
+    "instructions": "Match each situation with the most suitable service.",
+    "options": [{"id":"A","text":"North Clinic"},{"id":"B","text":"Harbor Wellbeing Centre"},{"id":"C","text":"Mobile Screening Unit"},{"id":"D","text":"Willow Pharmacy"}],
+    "items": [
+      {"id":"1","prompt":"A resident wants an unplanned basic risk check near home","answer":"C","evidence":"The mobile unit offers neighborhood checks without appointments.","explanation":"The rotating walk-in screening service fits this request."},
+      {"id":"2","prompt":"A patient needs language support during a scheduled review","answer":"A","evidence":"North Clinic offers interpreters with two days' notice.","explanation":"The booked clinic can arrange the required support."},
+      {"id":"3","prompt":"Someone needs immediate help replacing medicine they were already authorized to receive","answer":"D","evidence":"Willow Pharmacy may provide urgent repeat medication after confirming the record.","explanation":"The pharmacy handles an unexpected gap in an existing prescription."},
+      {"id":"4","prompt":"A parent wants drop-in guidance about ongoing stress","answer":"B","evidence":"Harbor Wellbeing Centre offers walk-in advice on stress and family support.","explanation":"The issue is advisory rather than an injury or prescription need."}
+    ],
+    "tags": ["facilities","health services"],
+    "estimatedTime": 310,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mf-004",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Easy",
+    "topic": "harbor festival volunteer roles",
+    "passageTitle": "Volunteer Roles at Lantern Quay Festival",
+    "passage": "Welcome Crew members greet visitors, hand out maps, and answer basic timetable questions. They work near the main gates and remain standing for most of a shift.\n\nStage Runners carry messages and small equipment between performance areas. The role involves frequent walking and requires volunteers to be at least eighteen.\n\nGreen Team volunteers monitor recycling points, replace full bags, and explain the reusable-cup system. Gloves and all cleaning materials are supplied.\n\nAccess Guides accompany visitors between accessible entrances, viewing platforms, and quiet spaces. Volunteers receive additional disability-awareness instruction before the festival.",
+    "instructions": "Match each preference with the correct volunteer role.",
+    "options": [{"id":"A","text":"Welcome Crew"},{"id":"B","text":"Stage Runners"},{"id":"C","text":"Green Team"},{"id":"D","text":"Access Guides"}],
+    "items": [
+      {"id":"1","prompt":"Nadia wants specialist preparation for helping visitors navigate inclusive facilities","answer":"D","evidence":"Access Guides receive disability-awareness instruction and cover accessible spaces.","explanation":"This role combines extra training with accessible navigation."},
+      {"id":"2","prompt":"Tomas enjoys keeping public areas organized and explaining an environmental system","answer":"C","evidence":"Green Team manages recycling and explains reusable cups.","explanation":"The duties match both organization and environmental guidance."},
+      {"id":"3","prompt":"Aisha prefers giving general information at a fixed public entrance","answer":"A","evidence":"Welcome Crew works near gates, distributes maps, and answers timetable questions.","explanation":"The role is stationed at entrances and focuses on basic information."},
+      {"id":"4","prompt":"Ben is an adult who wants an active role moving between venues","answer":"B","evidence":"Stage Runners walk frequently between performance areas and must be eighteen.","explanation":"Ben meets the age condition and prefers the mobile role."}
+    ],
+    "tags": ["volunteer roles","festival"],
+    "estimatedTime": 300,
+    "status": "active"
+  }
+]
