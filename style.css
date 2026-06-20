@@ -2158,6 +2158,12 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .completion-table-blank-cell.correct, .completion-table-blank-cell.wrong { background: rgba(255,255,255,.02); }
 .completion-table-blank-cell.correct .completion-table-input { border-color: rgba(97,231,174,.46); background: rgba(97,231,174,.035); }
 .completion-table-blank-cell.wrong .completion-table-input { border-color: rgba(255,107,145,.48); background: rgba(255,107,145,.035); }
+.mini-mock-question-list { display: grid; gap: 12px; margin-top: 16px; }
+.mini-mock-question { margin-top: 0; }
+.mini-mock-question-body { margin-top: 14px; }
+.mini-mock-question .completion-task-header h3 { margin-right: 18px; }
+.mini-mock-question.correct { border-color: rgba(97,231,174,.46); background: rgba(97,231,174,.035); }
+.mini-mock-question.wrong { border-color: rgba(255,107,145,.48); background: rgba(255,107,145,.035); }
 .diagram-page .completion-task-card { position: relative; }
 .diagram-card { margin-top: 16px; padding: 18px; border: 1px solid rgba(116,167,255,.16); border-radius: 14px; background: linear-gradient(145deg, rgba(116,167,255,.03), rgba(8,14,26,.38)); }
 .diagram-title { margin: 10px 0 14px; font-size: 20px; }
