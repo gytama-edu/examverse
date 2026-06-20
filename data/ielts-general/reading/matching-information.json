@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ielts-gt-mi-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Easy",
+    "topic": "community repair cafe services",
+    "passageTitle": "Harbor Repair Café: Saturday Services",
+    "passage": "A. ELECTRICAL TABLE — Volunteers can inspect lamps, kettles, radios, and other small household devices. Items must be clean and small enough for one person to carry. Microwave ovens and equipment with damaged lithium batteries cannot be accepted.\n\nB. TEXTILE CORNER — Bring clothing with loose seams, missing buttons, or simple tears. The team can demonstrate repairs while the owner assists. Alterations, zip replacement, and work on leather are outside the session's scope.\n\nC. BICYCLE STAND — Mechanics offer basic brake and gear adjustment plus puncture repair. Replacement inner tubes and cables are charged at cost. Bicycles should arrive before 11:30 because the outdoor stand closes earlier than the main hall.\n\nD. HOW THE DAY WORKS — No appointment is required, but each visitor may bring one item. Registration closes at 1:00 p.m. Donations support tool replacement; payment is optional. A successful repair is not guaranteed, and owners remain responsible for taking every item home.",
+    "instructions": "Which section contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Section A"},{"id":"B","text":"Section B"},{"id":"C","text":"Section C"},{"id":"D","text":"Section D"}],
+    "items": [
+      {"id":"1","prompt":"A service where the visitor is expected to take part in the repair","answer":"B","evidence":"The team can demonstrate repairs while the owner assists.","explanation":"Section B describes collaborative clothing repair."},
+      {"id":"2","prompt":"A deadline that applies earlier than the general registration time","answer":"C","evidence":"Bicycles should arrive before 11:30 because the outdoor stand closes earlier.","explanation":"Section C gives the special earlier bicycle deadline."},
+      {"id":"3","prompt":"A type of unsafe item that the event refuses","answer":"A","evidence":"Equipment with damaged lithium batteries cannot be accepted.","explanation":"Section A names a battery-related exclusion."},
+      {"id":"4","prompt":"The maximum number of objects one person can present","answer":"D","evidence":"Each visitor may bring one item.","explanation":"Section D states the event-wide item limit."}
+    ],
+    "tags": ["repair service","practical sections"],
+    "estimatedTime": 320,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mi-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Easy",
+    "topic": "regional park visitor facilities",
+    "passageTitle": "Facilities at Morrow Ridge Park",
+    "passage": "A. CEDAR GATE — This entrance has the largest car park and the only electric-vehicle chargers. A paved path leads to the lake lookout and is suitable for wheelchairs. The visitor desk lends binoculars with a refundable deposit.\n\nB. QUARRY TRAILHEAD — Experienced walkers use this point for the steep ridge route. There is no drinking water, and phone coverage is unreliable. Hikers should download the map before arriving. The small parking area fills quickly on weekends.\n\nC. MEADOW FIELD — Picnic tables, public grills, and a children's nature play area are grouped here. Grills cannot be used during high fire-risk periods. Large gatherings of more than twenty people require an online permit.\n\nD. OLD MILL CENTRE — The restored mill contains a café, toilets, and a local history display. Guided tours run at 10:30 and 2:00. Dogs may enter the courtyard but not the exhibition rooms, except registered assistance animals.",
+    "instructions": "Which section contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Section A"},{"id":"B","text":"Section B"},{"id":"C","text":"Section C"},{"id":"D","text":"Section D"}],
+    "items": [
+      {"id":"1","prompt":"A place where visitors should save directions in advance","answer":"B","evidence":"Hikers should download the map before arriving because phone coverage is unreliable.","explanation":"Section B connects weak reception with advance map download."},
+      {"id":"2","prompt":"A facility where borrowed equipment requires money that is later returned","answer":"A","evidence":"The visitor desk lends binoculars with a refundable deposit.","explanation":"Section A describes the deposit-based loan."},
+      {"id":"3","prompt":"A building offering both refreshments and scheduled interpretation","answer":"D","evidence":"The mill contains a café and guided tours run twice daily.","explanation":"Section D combines a café with timed tours."},
+      {"id":"4","prompt":"A restriction that changes according to weather-related danger","answer":"C","evidence":"Grills cannot be used during high fire-risk periods.","explanation":"Section C makes grill use dependent on fire conditions."}
+    ],
+    "tags": ["park facilities","practical sections"],
+    "estimatedTime": 320,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mi-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Medium",
+    "topic": "parcel collection hub terms",
+    "passageTitle": "QuickBox Parcel Hub Guide",
+    "passage": "A. COLLECTION WINDOW — Parcels remain available for five calendar days after the arrival message. Bring the collection code and photo identification. Someone else may collect only if the recipient has added that person's name through the app.\n\nB. LOCKER PICKUP — Outdoor lockers operate all day. Enter the six-digit code once; three failed attempts lock the compartment for thirty minutes. Oversized parcels are never placed in lockers and must be collected from the staffed counter.\n\nC. RETURNS — Attach the retailer's label before arrival. Staff can print a label from a valid QR code, but they cannot package an item. Open or poorly sealed boxes may be refused. Keep the receipt until the retailer confirms the return.\n\nD. ACCESS AND PARKING — Two short-stay spaces beside the entrance are limited to ten minutes. Step-free access is available from the rear car park. Cyclists may use the covered racks but must not leave bicycles against the locker doors.",
+    "instructions": "Which section contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Section A"},{"id":"B","text":"Section B"},{"id":"C","text":"Section C"},{"id":"D","text":"Section D"}],
+    "items": [
+      {"id":"1","prompt":"How to authorize a different person to receive a package","answer":"A","evidence":"The recipient must add that person's name through the app.","explanation":"Section A explains third-party collection authorization."},
+      {"id":"2","prompt":"Where a visitor with limited mobility can enter without steps","answer":"D","evidence":"Step-free access is available from the rear car park.","explanation":"Section D identifies the accessible approach."},
+      {"id":"3","prompt":"What happens after repeatedly entering incorrect access details","answer":"B","evidence":"Three failed attempts lock the compartment for thirty minutes.","explanation":"Section B gives the temporary security lockout."},
+      {"id":"4","prompt":"A document customers should retain after handing over an item","answer":"C","evidence":"Keep the receipt until the retailer confirms the return.","explanation":"Section C tells return customers to keep proof of acceptance."}
+    ],
+    "tags": ["parcel service","practical sections"],
+    "estimatedTime": 330,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-mi-004",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Matching Information",
+    "interfaceType": "matching-information",
+    "matchingType": "information",
+    "difficulty": "Medium",
+    "topic": "household waste collection guide",
+    "passageTitle": "Eastbank Household Collection Guide",
+    "passage": "A. FOOD SCRAPS — Use the small green container with compostable liners only. Remove all packaging, including labels and elastic bands. Collections take place every Tuesday, including weeks when other services change for holidays.\n\nB. MIXED RECYCLING — Paper, metal cans, glass jars, and rigid plastic bottles share the blue bin. Rinse containers but do not flatten glass. Lids may remain attached. Bins containing plastic film or food waste will be tagged and left unemptied.\n\nC. GARDEN MATERIAL — Branches must be shorter than one meter and tied in bundles. Soil, stones, and plant pots are excluded. The seasonal service runs from March to November; residents must book each collection by noon on the previous working day.\n\nD. LARGE ITEMS — The council collects furniture and domestic appliances for a fee. Up to three objects can be included in one booking. Items must remain inside the property until 7:00 a.m. on collection day and should never block the pavement.",
+    "instructions": "Which section contains the following information? Choose A, B, C, or D.",
+    "options": [{"id":"A","text":"Section A"},{"id":"B","text":"Section B"},{"id":"C","text":"Section C"},{"id":"D","text":"Section D"}],
+    "items": [
+      {"id":"1","prompt":"A collection that requires advance reservation before a weekday deadline","answer":"C","evidence":"Residents must book each collection by noon on the previous working day.","explanation":"Section C gives the garden-service booking deadline."},
+      {"id":"2","prompt":"A service continuing on its normal day during holiday changes","answer":"A","evidence":"Collections take place every Tuesday, including weeks when other services change for holidays.","explanation":"Section A identifies the collection unaffected by holiday schedules."},
+      {"id":"3","prompt":"A reason a container may be marked but not emptied","answer":"B","evidence":"Bins containing plastic film or food waste will be tagged and left unemptied.","explanation":"Section B states the contamination rule."},
+      {"id":"4","prompt":"A rule about when objects may be moved outside the home","answer":"D","evidence":"Items must remain inside the property until 7:00 a.m. on collection day.","explanation":"Section D limits how early bulky items may be placed out."}
+    ],
+    "tags": ["waste services","practical sections"],
+    "estimatedTime": 330,
+    "status": "active"
+  }
+]
