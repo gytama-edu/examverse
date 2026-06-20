@@ -1,0 +1,326 @@
+[
+  {
+    "id": "ielts-gt-comp-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Easy",
+    "completionType": "Note Completion",
+    "passageTitle": "Customer Service Training Day",
+    "passage": "All new customer service staff must attend the training day on Thursday 18 July. The session begins at 9:00 a.m. in Meeting Room 4, on the second floor. Please arrive fifteen minutes early so the trainer can check attendance and distribute name badges. The morning workshop covers the complaints procedure and techniques for speaking with upset customers. After lunch, staff will practise using the updated booking system in pairs. Lunch and hot drinks are provided, but employees should bring a refillable water bottle. Anyone with dietary requirements must email Priya Shah by Monday afternoon. At the end of the day, participants will complete a short online assessment. A score of 80 per cent is required, although anyone below this level may repeat the assessment the following week. Line managers will receive confirmation after all training requirements are complete.",
+    "instructions": "Complete the training notes. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Location: ____ on the second floor",
+        "answers": ["Meeting Room 4"],
+        "evidence": "The session begins at 9:00 a.m. in Meeting Room 4, on the second floor.",
+        "explanation": "Meeting Room 4 is the exact training location."
+      },
+      {
+        "id": "2",
+        "prompt": "Morning topic: the ____ and communication techniques",
+        "answers": ["complaints procedure"],
+        "evidence": "The morning workshop covers the complaints procedure and techniques for speaking with upset customers.",
+        "explanation": "The complaints procedure is the first subject covered in the morning."
+      },
+      {
+        "id": "3",
+        "prompt": "Bring: a ____",
+        "answers": ["refillable water bottle", "water bottle"],
+        "evidence": "Employees should bring a refillable water bottle.",
+        "explanation": "A refillable water bottle is the item employees must bring themselves."
+      },
+      {
+        "id": "4",
+        "prompt": "Dietary requests: email ____ by Monday afternoon",
+        "answers": ["Priya Shah"],
+        "evidence": "Anyone with dietary requirements must email Priya Shah by Monday afternoon.",
+        "explanation": "Priya Shah is the named contact for dietary requirements."
+      },
+      {
+        "id": "5",
+        "prompt": "Minimum assessment score: ____",
+        "answers": ["80 per cent"],
+        "evidence": "A score of 80 per cent is required.",
+        "explanation": "Both spellings of per cent/percent are accepted for the stated minimum score."
+      }
+    ],
+    "tags": ["ielts", "general reading", "completion", "workplace training"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-comp-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Easy",
+    "completionType": "Sentence Completion",
+    "passageTitle": "Joining Westbrook Library",
+    "passage": "Westbrook Library membership is free for anyone who lives, works, or studies in the district. To join, visitors must show one form of photo identification and a document containing their current address. Applications can be completed at the main desk or through the library website. Online applicants receive a temporary number immediately, but they must collect their permanent card within thirty days. Members may borrow up to twelve items at one time. Most books are issued for three weeks and can be renewed twice unless another reader has reserved them. DVDs have a seven-day loan period. Late fees are not charged on children's books, but parents will receive reminder emails. Members can also reserve study rooms for a maximum of two hours per day. The library asks users to cancel unwanted bookings so that other people can use the space.",
+    "instructions": "Complete the sentences below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Applicants need photo identification and proof of their ____.",
+        "answers": ["current address"],
+        "evidence": "Visitors must show one form of photo identification and a document containing their current address.",
+        "explanation": "Current address is the second piece of information applicants must prove."
+      },
+      {
+        "id": "2",
+        "prompt": "Online applicants first receive a ____.",
+        "answers": ["temporary number"],
+        "evidence": "Online applicants receive a temporary number immediately.",
+        "explanation": "A temporary number is issued before the permanent card is collected."
+      },
+      {
+        "id": "3",
+        "prompt": "A member can borrow no more than ____ at once.",
+        "answers": ["twelve items"],
+        "evidence": "Members may borrow up to twelve items at one time.",
+        "explanation": "Twelve items is the maximum number that can be borrowed simultaneously."
+      },
+      {
+        "id": "4",
+        "prompt": "The standard borrowing period for most books is ____.",
+        "answers": ["three weeks"],
+        "evidence": "Most books are issued for three weeks.",
+        "explanation": "Three weeks is the normal loan period for most books."
+      },
+      {
+        "id": "5",
+        "prompt": "Study rooms may be booked for up to ____ each day.",
+        "answers": ["two hours"],
+        "evidence": "Members can also reserve study rooms for a maximum of two hours per day.",
+        "explanation": "Two hours is the daily maximum booking time."
+      }
+    ],
+    "tags": ["ielts", "general reading", "completion", "library"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-comp-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Easy",
+    "completionType": "Summary Completion",
+    "passageTitle": "Apartment Maintenance Responsibilities",
+    "passage": "Residents should report urgent maintenance problems, such as a burst pipe or complete loss of electricity, by calling the building's emergency number. This line operates twenty-four hours a day. Less urgent issues, including a dripping tap or damaged cupboard door, should be submitted through the resident portal. Requests are normally reviewed within two working days. Tenants must provide access to the apartment at the agreed time or arrange for the concierge to hold a spare key. The maintenance team will repair normal wear and faults in supplied equipment without charge. However, residents may have to pay for damage caused by misuse or an unapproved alteration. Before decorating, installing shelves, or replacing a light fitting, tenants should request written permission from the property manager. Shared hallways must remain clear, and personal belongings left there may be removed for safety reasons.",
+    "instructions": "Complete the summary. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Urgent problems should be reported using the building's ____.",
+        "answers": ["emergency number"],
+        "evidence": "Residents should report urgent maintenance problems ... by calling the building's emergency number.",
+        "explanation": "The emergency number is the required channel for urgent faults."
+      },
+      {
+        "id": "2",
+        "prompt": "Routine repair requests should be sent through the ____.",
+        "answers": ["resident portal"],
+        "evidence": "Less urgent issues ... should be submitted through the resident portal.",
+        "explanation": "The resident portal is used for issues that are not urgent."
+      },
+      {
+        "id": "3",
+        "prompt": "The concierge can keep a ____ when a tenant cannot attend.",
+        "answers": ["spare key"],
+        "evidence": "Tenants must provide access ... or arrange for the concierge to hold a spare key.",
+        "explanation": "A spare key allows the maintenance team to enter at the agreed time."
+      },
+      {
+        "id": "4",
+        "prompt": "Residents could be charged for damage resulting from ____.",
+        "answers": ["misuse"],
+        "evidence": "Residents may have to pay for damage caused by misuse or an unapproved alteration.",
+        "explanation": "Misuse is one stated reason a resident may need to pay."
+      },
+      {
+        "id": "5",
+        "prompt": "Tenants need ____ before making changes such as installing shelves.",
+        "answers": ["written permission"],
+        "evidence": "Tenants should request written permission from the property manager.",
+        "explanation": "Written permission is required before the listed alterations."
+      }
+    ],
+    "tags": ["ielts", "general reading", "completion", "apartment maintenance"],
+    "estimatedTime": 310,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-comp-004",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Medium",
+    "completionType": "Note Completion",
+    "passageTitle": "Riverside Bus Route Changes",
+    "passage": "From Monday 6 May, roadworks on Carlton Bridge will affect buses serving the Riverside area. Route 18 will no longer stop outside the sports centre. Passengers for this destination should leave the bus at Market Square and use the temporary shuttle, which runs every fifteen minutes. Route 22 will follow its usual path during the day but will finish at Central Station after 8:00 p.m. Evening passengers travelling farther north can transfer to Route 27 at no extra cost. The Oak Street stop will be closed for approximately six weeks, and a replacement stop will operate beside the post office. Journey planners and printed timetables will be updated before the changes begin. Passengers who use a mobility scooter and need help planning an alternative journey can call the accessibility team between 8:30 a.m. and 5:00 p.m. on weekdays.",
+    "instructions": "Complete the travel notes. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Reason for changes: roadworks on ____",
+        "answers": ["Carlton Bridge"],
+        "evidence": "Roadworks on Carlton Bridge will affect buses serving the Riverside area.",
+        "explanation": "Carlton Bridge is the named location of the roadworks."
+      },
+      {
+        "id": "2",
+        "prompt": "Sports centre passengers: change at ____",
+        "answers": ["Market Square"],
+        "evidence": "Passengers for this destination should leave the bus at Market Square and use the temporary shuttle.",
+        "explanation": "Market Square is where passengers transfer to the shuttle."
+      },
+      {
+        "id": "3",
+        "prompt": "Temporary shuttle frequency: every ____",
+        "answers": ["fifteen minutes"],
+        "evidence": "The temporary shuttle ... runs every fifteen minutes.",
+        "explanation": "Fifteen minutes is the stated interval between shuttle services."
+      },
+      {
+        "id": "4",
+        "prompt": "Replacement for Oak Street stop: beside the ____",
+        "answers": ["post office"],
+        "evidence": "A replacement stop will operate beside the post office.",
+        "explanation": "The post office is the landmark beside the temporary stop."
+      },
+      {
+        "id": "5",
+        "prompt": "Mobility scooter assistance: contact the ____",
+        "answers": ["accessibility team"],
+        "evidence": "Passengers who use a mobility scooter ... can call the accessibility team.",
+        "explanation": "The accessibility team provides help with alternative journeys."
+      }
+    ],
+    "tags": ["ielts", "general reading", "completion", "public transport"],
+    "estimatedTime": 310,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-comp-005",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Easy",
+    "completionType": "Sentence Completion",
+    "passageTitle": "Weekend Bicycle Maintenance Course",
+    "passage": "The Greenway Community Centre is offering a two-part bicycle maintenance course for adults and teenagers aged sixteen or above. Sessions take place on Saturday 14 and Saturday 21 September from 10:00 a.m. until 1:00 p.m. Participants will learn how to repair a puncture, adjust brakes, clean a chain, and complete a basic safety check. No previous experience is necessary. The course fee is £28 and includes a small repair kit that participants may keep. Bicycles are available at the centre, although learners are encouraged to bring their own if possible so they can practise on familiar equipment. The workshop is limited to twelve people, and places are confirmed only after payment. Wear clothes that can get dirty and closed shoes for safety. Registration closes on 9 September, but the centre may close bookings earlier if all places are filled.",
+    "instructions": "Complete the sentences below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "Participants must be at least ____ old.",
+        "answers": ["sixteen"],
+        "evidence": "The course is for adults and teenagers aged sixteen or above.",
+        "explanation": "Sixteen is the minimum age stated in the announcement."
+      },
+      {
+        "id": "2",
+        "prompt": "One skill taught is how to repair a ____.",
+        "answers": ["puncture"],
+        "evidence": "Participants will learn how to repair a puncture.",
+        "explanation": "Puncture is the bicycle problem participants learn to repair."
+      },
+      {
+        "id": "3",
+        "prompt": "The course price includes a ____ that learners can keep.",
+        "answers": ["small repair kit", "repair kit"],
+        "evidence": "The course fee is £28 and includes a small repair kit that participants may keep.",
+        "explanation": "A repair kit is included in the fee and becomes the participant's property."
+      },
+      {
+        "id": "4",
+        "prompt": "A maximum of ____ can attend the workshop.",
+        "answers": ["twelve people"],
+        "evidence": "The workshop is limited to twelve people.",
+        "explanation": "Twelve people is the maximum workshop capacity."
+      },
+      {
+        "id": "5",
+        "prompt": "For safety, learners must wear ____.",
+        "answers": ["closed shoes"],
+        "evidence": "Wear clothes that can get dirty and closed shoes for safety.",
+        "explanation": "Closed shoes are the footwear specifically required for safety."
+      }
+    ],
+    "tags": ["ielts", "general reading", "completion", "community course"],
+    "estimatedTime": 300,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-comp-006",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Completion",
+    "interfaceType": "completion",
+    "difficulty": "Medium",
+    "completionType": "Short Answer",
+    "passageTitle": "Visitor Services Assistant",
+    "passage": "Harrowfield Museum is seeking a part-time Visitor Services Assistant to work three days per week, including alternate Saturdays. The successful applicant will welcome visitors, sell admission tickets, answer telephone enquiries, and help maintain the information displays in the entrance hall. Previous museum experience is not essential, but applicants should have at least one year of customer service experience. Clear spoken communication and confidence using basic office software are required. Training on the ticketing system will be provided during the first week. The normal working day is 8:45 a.m. to 5:15 p.m., and the lunch break lasts one hour. The starting salary is £13.40 per hour, plus a staff discount in the museum shop. Applicants should send a CV and a short covering letter explaining their suitability. Applications must arrive by noon on Friday 11 October; interviews will take place the following Wednesday.",
+    "instructions": "Answer the questions below. Use NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+    "blanks": [
+      {
+        "id": "1",
+        "prompt": "How often must the assistant work on Saturdays?",
+        "answers": ["alternate Saturdays"],
+        "evidence": "The assistant will work three days per week, including alternate Saturdays.",
+        "explanation": "Alternate Saturdays states the required Saturday work pattern."
+      },
+      {
+        "id": "2",
+        "prompt": "What type of experience must applicants have?",
+        "answers": ["customer service experience", "customer service"],
+        "evidence": "Applicants should have at least one year of customer service experience.",
+        "explanation": "Customer service experience is required even though museum experience is not."
+      },
+      {
+        "id": "3",
+        "prompt": "Which system will new staff learn to use?",
+        "answers": ["ticketing system"],
+        "evidence": "Training on the ticketing system will be provided during the first week.",
+        "explanation": "The ticketing system is the system named in the training information."
+      },
+      {
+        "id": "4",
+        "prompt": "How long is the daily lunch break?",
+        "answers": ["one hour"],
+        "evidence": "The normal working day is 8:45 a.m. to 5:15 p.m., and the lunch break lasts one hour.",
+        "explanation": "One hour is the stated length of the lunch break."
+      },
+      {
+        "id": "5",
+        "prompt": "What document should explain an applicant's suitability?",
+        "answers": ["covering letter", "short covering letter"],
+        "evidence": "Applicants should send a CV and a short covering letter explaining their suitability.",
+        "explanation": "The covering letter, rather than the CV, must explain suitability."
+      }
+    ],
+    "tags": ["ielts", "general reading", "completion", "job advertisement"],
+    "estimatedTime": 320,
+    "status": "active"
+  }
+]
