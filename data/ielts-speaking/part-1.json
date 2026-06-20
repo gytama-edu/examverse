@@ -1,0 +1,224 @@
+[
+  {
+    "id": "ielts-sp-p1-001",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 1,
+    "topic": "Work or Study",
+    "question": "Do you work or are you a student?",
+    "suggestedTime": 40,
+    "answerStructure": [
+      "Give a direct answer",
+      "Add one detail about your work or study",
+      "Explain why it matters to you"
+    ],
+    "tips": [
+      "Keep the answer natural and personal.",
+      "Add one short reason or example.",
+      "Avoid sounding memorised."
+    ],
+    "usefulVocabulary": [
+      "currently",
+      "responsible for",
+      "day-to-day tasks",
+      "improve my skills"
+    ],
+    "signpostingLanguage": [
+      "At the moment, ...",
+      "The main thing I do is ...",
+      "What I like about it is ..."
+    ],
+    "sampleAnswer": "At the moment, I work as a language tutor. The main thing I do is help students build confidence in speaking and writing, especially for exam preparation. What I like about it is that I can see people improve quite quickly when they practise regularly.",
+    "selfCheck": [
+      "Did I answer the question directly?",
+      "Did I add one clear detail?",
+      "Did I sound natural rather than memorised?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p1-002",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 1,
+    "topic": "Hometown",
+    "question": "What do you like most about your hometown?",
+    "suggestedTime": 40,
+    "answerStructure": [
+      "Give a direct answer",
+      "Mention one feature of the place",
+      "Explain why it feels important to you"
+    ],
+    "tips": [
+      "Describe something specific, not just 'it is nice'.",
+      "Use a simple example from daily life.",
+      "Keep your answer to 2-4 sentences."
+    ],
+    "usefulVocabulary": [
+      "neighbourhood",
+      "easy to get around",
+      "familiar",
+      "community"
+    ],
+    "signpostingLanguage": [
+      "What I like most is ...",
+      "One reason is that ...",
+      "For example, ..."
+    ],
+    "sampleAnswer": "What I like most about my hometown is that it feels easy to live in. Everything is quite familiar, so I do not need to waste time thinking about where things are. For example, I know the quiet streets, the local cafes, and the places where people usually meet after work.",
+    "selfCheck": [
+      "Did I describe one clear feature?",
+      "Did I explain why it matters to me?",
+      "Did I avoid giving a very short answer?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p1-003",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 1,
+    "topic": "Daily Routine",
+    "question": "Do you usually have a busy day?",
+    "suggestedTime": 40,
+    "answerStructure": [
+      "Say yes or no clearly",
+      "Describe one part of your day",
+      "Explain what makes it busy or calm"
+    ],
+    "tips": [
+      "Use everyday time expressions.",
+      "Mention morning, afternoon, or evening routines.",
+      "Add one detail about energy or stress."
+    ],
+    "usefulVocabulary": [
+      "packed schedule",
+      "run errands",
+      "manageable",
+      "work through"
+    ],
+    "signpostingLanguage": [
+      "Most days, ...",
+      "Usually, I ...",
+      "That is why ..."
+    ],
+    "sampleAnswer": "Most days are fairly busy for me, but they are still manageable. I usually start with work or study, then I run a few errands after that. That is why I like having a clear routine, because it helps me stay organised and not feel rushed all the time.",
+    "selfCheck": [
+      "Did I answer yes or no clearly?",
+      "Did I mention a daily routine?",
+      "Did I explain why the day feels busy or calm?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p1-004",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 1,
+    "topic": "Food",
+    "question": "What kind of food do you enjoy eating on weekdays?",
+    "suggestedTime": 40,
+    "answerStructure": [
+      "Answer the question directly",
+      "Name the kind of food you prefer",
+      "Explain why it fits your week"
+    ],
+    "tips": [
+      "Talk about convenience, health, or taste.",
+      "Add one example meal.",
+      "Keep the language simple and clear."
+    ],
+    "usefulVocabulary": [
+      "light meal",
+      "home-cooked",
+      "quick to prepare",
+      "balanced"
+    ],
+    "signpostingLanguage": [
+      "On weekdays, I usually like ...",
+      "The reason is that ...",
+      "For instance, ..."
+    ],
+    "sampleAnswer": "On weekdays, I usually prefer simple home-cooked food. It is quick to prepare, and it does not make me feel too heavy during the day. For instance, I often eat rice with vegetables and a bit of chicken, which is both balanced and easy to make.",
+    "selfCheck": [
+      "Did I name the type of food?",
+      "Did I give one reason for my choice?",
+      "Did I include a small example?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p1-005",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 1,
+    "topic": "Technology",
+    "question": "How often do you use your phone for learning or work?",
+    "suggestedTime": 40,
+    "answerStructure": [
+      "Give a clear frequency",
+      "Say what you use the phone for",
+      "Explain one benefit or limitation"
+    ],
+    "tips": [
+      "Include a realistic routine.",
+      "Mention apps, messages, or reminders.",
+      "Balance convenience with distraction."
+    ],
+    "usefulVocabulary": [
+      "helpful tool",
+      "stay organised",
+      "distraction",
+      "quick access"
+    ],
+    "signpostingLanguage": [
+      "I use it quite often for ...",
+      "It is useful because ...",
+      "The only problem is ..."
+    ],
+    "sampleAnswer": "I use my phone quite often for learning and work, mostly to check messages, look up information, and save reminders. It is a helpful tool because I can get quick access to what I need. The only problem is that it can become a distraction if I am not careful.",
+    "selfCheck": [
+      "Did I explain how often I use it?",
+      "Did I mention a specific use?",
+      "Did I include one positive point and one limitation?"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ielts-sp-p1-006",
+    "examKey": "ielts-speaking",
+    "interfaceType": "ielts-speaking",
+    "part": 1,
+    "topic": "Weekends",
+    "question": "What do you usually do on weekends?",
+    "suggestedTime": 40,
+    "answerStructure": [
+      "Answer in a simple way",
+      "Describe one or two weekend activities",
+      "Explain why you enjoy them"
+    ],
+    "tips": [
+      "Weekend answers are strongest when they sound personal.",
+      "Mention rest, hobbies, or time with others.",
+      "Use a relaxed speaking tone."
+    ],
+    "usefulVocabulary": [
+      "take it easy",
+      "catch up with",
+      "go out for",
+      "recharge"
+    ],
+    "signpostingLanguage": [
+      "Usually on weekends, I ...",
+      "Sometimes I also ...",
+      "That helps me ..."
+    ],
+    "sampleAnswer": "Usually on weekends I take it easy and catch up with a few things I do not have time for during the week. I might meet friends, go out for coffee, or stay at home and recharge. That helps me start the next week with a clear head.",
+    "selfCheck": [
+      "Did I describe a real weekend routine?",
+      "Did I give at least one detail?",
+      "Did I sound relaxed and natural?"
+    ],
+    "status": "active"
+  }
+]
