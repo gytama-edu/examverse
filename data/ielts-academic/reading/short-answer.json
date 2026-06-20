@@ -1,0 +1,140 @@
+[
+  {
+    "id": "ielts-ac-sa-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Short Answer Questions",
+    "interfaceType": "short-answer",
+    "difficulty": "Medium",
+    "passageTitle": "Reworking Campus Study Spaces",
+    "passage": "The library redesign began after students complained that the campus had plenty of desks but too few places for sustained concentration. The lower floor was turned into a quiet study room that stays open until midnight, while the first floor became a collaboration zone with glass booths for pairs and small groups. Every desk in both areas now has power sockets and a narrow shelf for tablets or books. Staff noticed that exam-week demand was highest for uninterrupted corners rather than for more seating, so the university kept food out of the study rooms and moved a coffee station to the foyer. A small relaxation nook near the lift is meant for short breaks only, not for long study sessions. The aim is to give students a choice of spaces without letting noise spread from one zone to another.",
+    "instructions": "Answer the questions below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Which room stays open until midnight?",
+        "answers": ["quiet study room"],
+        "evidence": "The lower floor was turned into a quiet study room that stays open until midnight.",
+        "explanation": "The passage names the room directly and states its closing time."
+      },
+      {
+        "id": "2",
+        "question": "What do every desk in both areas have?",
+        "answers": ["power sockets", "a power socket"],
+        "evidence": "Every desk in both areas now has power sockets and a narrow shelf for tablets or books.",
+        "explanation": "The answer is the feature attached to every desk."
+      },
+      {
+        "id": "3",
+        "question": "Where was the coffee station moved?",
+        "answers": ["the foyer", "foyer"],
+        "evidence": "The university kept food out of the study rooms and moved a coffee station to the foyer.",
+        "explanation": "The passage says the coffee station was relocated to the foyer."
+      },
+      {
+        "id": "4",
+        "question": "What is the relaxation nook meant for?",
+        "answers": ["short breaks"],
+        "evidence": "A small relaxation nook near the lift is meant for short breaks only.",
+        "explanation": "The writer states that the nook is for short breaks, not long study sessions."
+      }
+    ],
+    "tags": ["ielts", "reading", "short answer", "campus"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-sa-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Short Answer Questions",
+    "interfaceType": "short-answer",
+    "difficulty": "Medium",
+    "passageTitle": "How a River Recovered",
+    "passage": "For years, a shallow river beside the old mill carried too much silt and too little shade. The restoration team began by removing two broken concrete walls that had trapped debris and slowed the flow. After that, they reshaped the bank and planted native reeds along the north side, where the water was calm enough for roots to settle. Floating sensors now record temperature and oxygen every hour, while volunteers count returning minnows at the same crossing each month. The writer argues that the project succeeded because it changed the river's structure instead of relying on a short burst of tree planting alone. He also notes that the most visible improvement is not the fish themselves but the clearer water around them. The monitoring programme will continue for two years so that seasonal changes can be compared properly.",
+    "instructions": "Answer the questions below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "questions": [
+      {
+        "id": "1",
+        "question": "What was removed from the river?",
+        "answers": ["two old walls", "old walls"],
+        "evidence": "The restoration team began by removing two old walls that had trapped debris.",
+        "explanation": "The passage identifies the removed structure clearly."
+      },
+      {
+        "id": "2",
+        "question": "Where were native reeds planted?",
+        "answers": ["the north side", "north side"],
+        "evidence": "They reshaped the bank and planted native reeds along the north side.",
+        "explanation": "The bank location is stated directly in the passage."
+      },
+      {
+        "id": "3",
+        "question": "Who counts returning minnows?",
+        "answers": ["volunteers"],
+        "evidence": "Volunteers count returning minnows at the same crossing each month.",
+        "explanation": "The answer is the group responsible for the monthly counts."
+      },
+      {
+        "id": "4",
+        "question": "How long will monitoring continue?",
+        "answers": ["two years"],
+        "evidence": "The monitoring programme will continue for two years.",
+        "explanation": "The time period is stated exactly in the final sentence."
+      }
+    ],
+    "tags": ["ielts", "reading", "short answer", "environment"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-sa-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Short Answer Questions",
+    "interfaceType": "short-answer",
+    "difficulty": "Hard",
+    "passageTitle": "Memory on the Page",
+    "passage": "A small experiment compared students who copied lecture notes by hand with those who typed them quickly on laptops. The writer says the handwritten group did not remember more because of any special talent in the wrist. Their advantage came from the slower pace, which forced them to shorten ideas and decide what mattered before the line disappeared. A second benefit appeared when students returned to the notes later: the physical layout of the page acted as a simple map, so they could recall where a fact had been written. The writer warns, however, that handwriting only helps when students are selective. Copying every sentence word for word is unlikely to improve memory, no matter how neat the page looks. The real value lies in turning spoken information into a smaller, organised record.",
+    "instructions": "Answer the questions below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN THREE WORDS",
+    "questions": [
+      {
+        "id": "1",
+        "question": "What did the slower pace force students to do?",
+        "answers": ["shorten ideas", "decide what mattered"],
+        "evidence": "The slower pace ... forced them to shorten ideas and decide what mattered.",
+        "explanation": "The passage explains that the slower pace made students condense and choose."
+      },
+      {
+        "id": "2",
+        "question": "What acted as a simple map later on?",
+        "answers": ["page layout", "the page layout"],
+        "evidence": "The physical layout of the page acted as a simple map.",
+        "explanation": "The page layout helped students remember where information was placed."
+      },
+      {
+        "id": "3",
+        "question": "What is unlikely to improve memory?",
+        "answers": ["word for word"],
+        "evidence": "Copying every sentence word for word is unlikely to improve memory.",
+        "explanation": "The writer warns against verbatim copying as a memory strategy."
+      },
+      {
+        "id": "4",
+        "question": "When does handwriting help?",
+        "answers": ["students are selective"],
+        "evidence": "Handwriting only helps when students are selective.",
+        "explanation": "The writer makes the condition explicit in the passage."
+      }
+    ],
+    "tags": ["ielts", "reading", "short answer", "memory"],
+    "estimatedTime": 240,
+    "status": "active"
+  }
+]
