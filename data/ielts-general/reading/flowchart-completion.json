@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ielts-gt-fc-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Flow-chart Completion",
+    "interfaceType": "flowchart-completion",
+    "difficulty": "Easy",
+    "passageTitle": "Applying for a Library Card",
+    "passage": "To apply for a library card, visitors should first complete the form at the desk or online. They then show one proof of address and a photo ID before the application can be processed. The librarian prints the card, activates it on the system, and explains that borrowing begins immediately. New members are also asked to choose a four-digit PIN for self-service machines. If the applicant is under sixteen, a parent must sign the form, although no fee is charged for the card itself. The notice says the whole process usually takes less than ten minutes when the documents are ready.",
+    "instructions": "Complete the flow-chart below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "steps": [
+      {
+        "id": "1",
+        "beforeText": "Complete the",
+        "blankId": "1",
+        "afterText": " at the desk or online.",
+        "answers": ["form"],
+        "evidence": "visitors should first complete the form at the desk or online",
+        "explanation": "The first action is to complete the application form."
+      },
+      {
+        "id": "2",
+        "beforeText": "Show one proof of",
+        "blankId": "2",
+        "afterText": " and a photo ID.",
+        "answers": ["address"],
+        "evidence": "They then show one proof of address and a photo ID",
+        "explanation": "The proof requirement is the address document."
+      },
+      {
+        "id": "3",
+        "beforeText": "Choose a four-digit",
+        "blankId": "3",
+        "afterText": " for self-service machines.",
+        "answers": ["PIN"],
+        "evidence": "asked to choose a four-digit PIN for self-service machines",
+        "explanation": "The member selects a four-digit PIN."
+      },
+      {
+        "id": "4",
+        "beforeText": "A parent must sign the",
+        "blankId": "4",
+        "afterText": " if the applicant is under sixteen.",
+        "answers": ["form"],
+        "evidence": "a parent must sign the form",
+        "explanation": "The notice clearly states what the parent signs."
+      }
+    ],
+    "tags": ["ielts", "reading", "flow-chart completion", "library"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-fc-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Flow-chart Completion",
+    "interfaceType": "flowchart-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Workplace Safety Reporting",
+    "passage": "If a worker notices a wet floor, loose cable, or broken shelf, the first step is to mark the area so others do not walk into it. The worker then sends a short report through the safety app and attaches a photo if one is available. After the report is logged, the supervisor checks whether the hazard can be fixed at once or whether a maintenance request is needed. The writer stresses that reporting quickly matters more than assigning blame. Staff are told to keep a record number from the app so they can follow the case later. The system was introduced because small problems were sometimes ignored until they caused a larger accident.",
+    "instructions": "Complete the flow-chart below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "steps": [
+      {
+        "id": "1",
+        "beforeText": "Mark the area so others do not walk into the",
+        "blankId": "1",
+        "afterText": ".",
+        "answers": ["hazard"],
+        "evidence": "mark the area so others do not walk into it",
+        "explanation": "The first step prevents people from entering the danger area."
+      },
+      {
+        "id": "2",
+        "beforeText": "Send a short report through the",
+        "blankId": "2",
+        "afterText": ".",
+        "answers": ["safety app"],
+        "evidence": "sends a short report through the safety app",
+        "explanation": "The reporting channel is named directly."
+      },
+      {
+        "id": "3",
+        "beforeText": "The supervisor checks whether a",
+        "blankId": "3",
+        "afterText": " is needed.",
+        "answers": ["maintenance request"],
+        "evidence": "whether a maintenance request is needed",
+        "explanation": "The supervisor decides if maintenance must be requested."
+      },
+      {
+        "id": "4",
+        "beforeText": "Keep a",
+        "blankId": "4",
+        "afterText": " from the app.",
+        "answers": ["record number"],
+        "evidence": "Staff are told to keep a record number from the app",
+        "explanation": "The worker keeps the record number for later follow-up."
+      }
+    ],
+    "tags": ["ielts", "reading", "flow-chart completion", "safety"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-fc-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Flow-chart Completion",
+    "interfaceType": "flowchart-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Booking a Community Room",
+    "passage": "Anyone booking the community room should first check the availability calendar on the centre website. If the slot is open, the user fills in a short request form and states whether the event needs tables, chairs, or a projector. The office then confirms the booking by email and sends a payment link if a deposit is required. On the day of the event, organisers collect the key from reception and return it before the building closes. The notice also reminds users that repeated bookings are only allowed for local groups that have followed the rules in the past.",
+    "instructions": "Complete the flow-chart below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "steps": [
+      {
+        "id": "1",
+        "beforeText": "Check the availability",
+        "blankId": "1",
+        "afterText": " on the centre website.",
+        "answers": ["calendar"],
+        "evidence": "should first check the availability calendar on the centre website",
+        "explanation": "The first action is to check the calendar."
+      },
+      {
+        "id": "2",
+        "beforeText": "Fill in a short",
+        "blankId": "2",
+        "afterText": ".",
+        "answers": ["request form"],
+        "evidence": "fills in a short request form",
+        "explanation": "The request form is the next step."
+      },
+      {
+        "id": "3",
+        "beforeText": "The office sends a payment",
+        "blankId": "3",
+        "afterText": " if a deposit is required.",
+        "answers": ["link"],
+        "evidence": "sends a payment link if a deposit is required",
+        "explanation": "The office sends a payment link when needed."
+      },
+      {
+        "id": "4",
+        "beforeText": "Collect the key from",
+        "blankId": "4",
+        "afterText": " on the day of the event.",
+        "answers": ["reception"],
+        "evidence": "organisers collect the key from reception",
+        "explanation": "The key is collected at reception."
+      }
+    ],
+    "tags": ["ielts", "reading", "flow-chart completion", "community"],
+    "estimatedTime": 220,
+    "status": "active"
+  }
+]
