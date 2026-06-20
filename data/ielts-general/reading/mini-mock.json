@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ielts-gt-mini-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "interfaceType": "ielts-reading-mini-mock",
+    "difficulty": "Mixed",
+    "mockTitle": "Community Centre Membership and Facilities",
+    "passageTitle": "Making the Centre Easier to Use",
+    "passage": "The community centre expanded after a survey found that residents wanted a place for classes, exercise, and small meetings without having to travel across town. Membership now comes in three forms. The standard plan covers all opening hours. The off-peak plan is cheaper, but it excludes weekday evenings. Family membership includes two adults and up to two children. Applicants must show proof of address, and members can freeze the account for one month if they travel. The building now includes a quiet reading corner, a small gym, a craft room, and a multi-purpose hall. The gym is busiest before work, so timed entry helps prevent overcrowding. A booking app allows members to reserve the hall in 30-minute blocks. The cafe was moved beside the entrance because visitors wanted a place to meet before class, and the parking area was reorganised to make room for bicycle racks. During festival weekends the hall is opened to non-members for a small fee, but the reading corner remains members-only so it stays quiet. The writer says the centre works best when it feels practical rather than fancy: people need clear signs, simple prices, and staff who can explain how each room works. The building should support routine community use rather than special events alone.",
+    "instructions": "Answer all 10 questions. Check your answers only after every question has been completed.",
+    "questions": [
+      {
+        "id": "q1",
+        "number": 1,
+        "type": "tfng",
+        "question": "The family plan includes two adults and up to three children.",
+        "answer": "False",
+        "evidence": "Family membership includes two adults and up to two children",
+        "explanation": "The passage says up to two children, not three."
+      },
+      {
+        "id": "q2",
+        "number": 2,
+        "type": "tfng",
+        "question": "Members can freeze the account for one month.",
+        "answer": "True",
+        "evidence": "members can freeze the account for one month if they travel",
+        "explanation": "The account can be paused for one month."
+      },
+      {
+        "id": "q3",
+        "number": 3,
+        "type": "ynng",
+        "question": "The writer thinks the centre should focus only on special events.",
+        "answer": "No",
+        "evidence": "The building should support routine community use rather than special events alone",
+        "explanation": "The writer prefers everyday community use, not special events only."
+      },
+      {
+        "id": "q4",
+        "number": 4,
+        "type": "ynng",
+        "question": "The writer believes clear signs matter more than fancy decoration.",
+        "answer": "Yes",
+        "evidence": "people need clear signs, simple prices, and staff who can explain how each room works",
+        "explanation": "The writer explicitly values practical features over appearance."
+      },
+      {
+        "id": "q5",
+        "number": 5,
+        "type": "multiple-choice",
+        "question": "Why was the cafe moved beside the entrance?",
+        "options": [
+          "To give visitors a place to meet before class",
+          "To reduce the price of membership",
+          "To replace the reading corner",
+          "To store the bicycle racks"
+        ],
+        "answer": "To give visitors a place to meet before class",
+        "evidence": "The cafe was moved beside the entrance because visitors wanted a place to meet before class",
+        "explanation": "The cafe was moved for social convenience."
+      },
+      {
+        "id": "q6",
+        "number": 6,
+        "type": "multiple-choice",
+        "question": "Which facility remains members-only?",
+        "options": [
+          "The reading corner",
+          "The cafe",
+          "The parking area",
+          "The hall"
+        ],
+        "answer": "The reading corner",
+        "evidence": "the reading corner remains members-only so it stays quiet",
+        "explanation": "The reading corner is reserved for members."
+      },
+      {
+        "id": "q7",
+        "number": 7,
+        "type": "completion",
+        "question": "Off-peak membership excludes weekday ____.",
+        "answer": "evenings",
+        "answers": ["evenings"],
+        "evidence": "The off-peak plan is cheaper, but it excludes weekday evenings",
+        "explanation": "The missing word is evenings."
+      },
+      {
+        "id": "q8",
+        "number": 8,
+        "type": "completion",
+        "question": "Applicants must show proof of ____.",
+        "answer": "address",
+        "answers": ["address"],
+        "evidence": "Applicants must show proof of address",
+        "explanation": "The passage names the required document."
+      },
+      {
+        "id": "q9",
+        "number": 9,
+        "type": "short-answer",
+        "question": "What can members freeze for one month?",
+        "answer": "the account",
+        "answers": ["the account", "account"],
+        "evidence": "members can freeze the account for one month if they travel",
+        "explanation": "The account can be paused for one month."
+      },
+      {
+        "id": "q10",
+        "number": 10,
+        "type": "short-answer",
+        "question": "What was added beside the building?",
+        "answer": "bicycle racks",
+        "answers": ["bicycle racks"],
+        "evidence": "the parking area was reorganised to make room for bicycle racks",
+        "explanation": "The racks were added beside the building in the reorganised parking area."
+      }
+    ],
+    "status": "active"
+  }
+]
