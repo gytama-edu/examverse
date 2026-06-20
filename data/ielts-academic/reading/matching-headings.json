@@ -1,62 +1,352 @@
 [
   {
-    "id": "ielts-gt-mh-001", "exam": "IELTS General Training", "section": "Reading", "questionType": "Matching Headings", "interfaceType": "matching-headings", "difficulty": "Easy", "passageTitle": "A Workplace Training Path", "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
+    "id": "ielts-ac-mh-001",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Headings",
+    "interfaceType": "matching-headings",
+    "difficulty": "Easy",
+    "passageTitle": "Urban Gardens in Changing Cities",
+    "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
     "headings": [
-      { "id": "i", "text": "A structured beginning for new employees" }, { "id": "ii", "text": "Learning everyday judgement from an experienced colleague" }, { "id": "iii", "text": "Keeping established staff informed about change" }, { "id": "iv", "text": "Checking whether training improves real performance" }, { "id": "v", "text": "Moving all training outside paid working hours" }, { "id": "vi", "text": "Why online courses will replace every instructor" }
+      {
+        "id": "i",
+        "text": "Turning neglected sites into useful shared spaces"
+      },
+      {
+        "id": "ii",
+        "text": "Adapting cultivation to the limits of city environments"
+      },
+      {
+        "id": "iii",
+        "text": "Gardens as places for practical community learning"
+      },
+      {
+        "id": "iv",
+        "text": "Digital tools that improve everyday growing decisions"
+      },
+      {
+        "id": "v",
+        "text": "The rapid replacement of conventional agriculture"
+      },
+      {
+        "id": "vi",
+        "text": "Commercial pressure to close successful gardens"
+      }
     ],
     "paragraphs": [
-      { "id": "A", "text": "During their first week, new employees follow an induction timetable rather than joining a team without preparation. The programme introduces building safety, essential computer systems, and the people responsible for common requests. Short practical tasks allow staff to use each system with support before they need it in normal work. Managers also explain how the role contributes to the wider organisation. The purpose is not to teach every future duty, but to give newcomers a reliable starting point and reduce avoidable confusion.", "answer": "i", "explanation": "The paragraph describes a planned induction that gives new staff a safe and organized start." },
-      { "id": "B", "text": "After induction, each new employee is paired with a colleague who has performed the role for at least a year. The colleague does not deliver formal lessons. Instead, the pair discuss difficult situations, observe how routine decisions are made, and review questions at the end of each week. This arrangement passes on practical knowledge that is rarely written in a manual. It also gives the newcomer a familiar person to approach before a small uncertainty becomes a larger workplace error.", "answer": "ii", "explanation": "The main idea is informal mentoring that transfers practical judgement and gives newcomers support." },
-      { "id": "C", "text": "Training is not limited to recently hired staff. When regulations, software, or customer procedures change, experienced employees attend short refresher sessions. These sessions begin with what has changed rather than repeating the entire original course. Staff then apply the new rule to examples from their own work and identify questions that the written guidance has not answered. Regular updates prevent old habits from continuing after a policy changes and help different teams apply the same standard consistently.", "answer": "iii", "explanation": "The paragraph focuses on refresher training that updates experienced staff when policies or tools change." },
-      { "id": "D", "text": "A completed course does not automatically prove that training was useful. Supervisors compare work quality before and after a programme, while participants report which parts they could apply. Customer feedback and error records may offer additional evidence over several months. If performance remains unchanged, the organisation examines whether the material, practice time, or workplace support was inadequate. Evaluation therefore connects training to actual behaviour and allows the next version of a course to address weaknesses rather than simply repeat the same content.", "answer": "iv", "explanation": "The paragraph explains how workplaces evaluate training through later performance and feedback." }
-    ], "tags": ["ielts", "general reading", "matching headings", "workplace training"], "estimatedTime": 420, "status": "active"
+      {
+        "id": "A",
+        "text": "Many early urban gardens were not created as part of a formal food policy. Residents began planting on abandoned lots because the land attracted rubbish and made neighbourhoods feel unsafe. Turning these sites into shared gardens improved their appearance while providing herbs and vegetables close to home. The harvest was useful, but participants often valued the return of regular activity to an empty space just as highly. In this way, food production became one part of a broader effort to repair neglected surroundings.",
+        "answer": "i",
+        "explanation": "The paragraph mainly explains how unused and unsafe land was transformed into active, useful community space."
+      },
+      {
+        "id": "B",
+        "text": "Growing crops in a city requires methods that differ from those used on large rural farms. Shallow rooftop soil cannot support every plant, nearby buildings may block sunlight, and water must often be carried or pumped to the site. Gardeners respond by choosing compact varieties, collecting rainwater, and placing containers where light is strongest. Some use vertical frames to increase the growing area without occupying more ground. These solutions do not remove every limitation, but they make productive use of restricted urban space.",
+        "answer": "ii",
+        "explanation": "The focus is on practical ways gardeners adjust to limited soil, light, water, and space."
+      },
+      {
+        "id": "C",
+        "text": "Community gardens increasingly serve as outdoor classrooms rather than simply places to collect food. Schools may use a small plot to demonstrate plant growth, insects, or composting, while older residents share knowledge about seasonal planting. New gardeners learn by watching experienced volunteers and testing techniques for themselves. Because the work produces visible results, lessons about nutrition and ecology can feel less abstract. The central benefit described by participants is not a larger harvest but the exchange of knowledge between people of different ages and backgrounds.",
+        "answer": "iii",
+        "explanation": "The paragraph emphasizes education and the exchange of practical knowledge in community gardens."
+      },
+      {
+        "id": "D",
+        "text": "A newer generation of city gardens uses inexpensive sensors to guide routine care. Small devices can report when soil is dry, while online weather data helps coordinators decide whether watering is necessary. Shared calendars also prevent several volunteers from completing the same task. Such systems do not replace the judgement of an experienced gardener, especially when plants show unusual damage. Their main value is that they organize basic information and help teams respond consistently when volunteers visit the site at different times.",
+        "answer": "iv",
+        "explanation": "The paragraph describes how sensors, weather data, and calendars support routine garden management."
+      }
+    ],
+    "tags": [
+      "ielts",
+      "reading",
+      "matching headings",
+      "urban gardens"
+    ],
+    "estimatedTime": 420,
+    "status": "active"
   },
   {
-    "id": "ielts-gt-mh-002", "exam": "IELTS General Training", "section": "Reading", "questionType": "Matching Headings", "interfaceType": "matching-headings", "difficulty": "Easy", "passageTitle": "Services at Greenfield Library", "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
+    "id": "ielts-ac-mh-002",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Headings",
+    "interfaceType": "matching-headings",
+    "difficulty": "Medium",
+    "passageTitle": "How Sleep Became an Active Research Field",
+    "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
     "headings": [
-      { "id": "i", "text": "How to join and use the borrowing service" }, { "id": "ii", "text": "Library resources available beyond the building" }, { "id": "iii", "text": "Activities that bring local people together" }, { "id": "iv", "text": "Choosing and reserving a suitable study space" }, { "id": "v", "text": "Why overdue fines pay for all library services" }, { "id": "vi", "text": "Plans to replace the present building" }
+      {
+        "id": "i",
+        "text": "A major change in the scientific view of sleep"
+      },
+      {
+        "id": "ii",
+        "text": "New methods and the limits of measuring sleep"
+      },
+      {
+        "id": "iii",
+        "text": "The connection between sleep and remembered learning"
+      },
+      {
+        "id": "iv",
+        "text": "Why individual differences complicate general conclusions"
+      },
+      {
+        "id": "v",
+        "text": "Dream content as a complete record of daily experience"
+      },
+      {
+        "id": "vi",
+        "text": "The case for identical school schedules worldwide"
+      }
     ],
     "paragraphs": [
-      { "id": "A", "text": "Anyone who lives, works, or studies in Greenfield can apply for a library card without charge. Applicants should bring proof of their address or workplace to the main desk. Members may borrow up to twelve items for three weeks, and most loans can be renewed online if another reader has not reserved them. Children under sixteen need a parent or guardian to approve the application. The borrowing rules are explained during registration, so new members can begin using the collection immediately.", "answer": "i", "explanation": "The paragraph is mainly a guide to membership, registration, and borrowing rules." },
-      { "id": "B", "text": "Membership also provides access to services that do not require a visit to the library. Readers can download electronic books, listen to audiobooks, and search newspaper archives through the library website. A card number and password are needed when connecting from home. Staff run a weekly online help session for anyone unfamiliar with the system. Although digital titles cannot replace every printed item, they allow members to use a substantial part of the collection when the building is closed.", "answer": "ii", "explanation": "The main idea is access to digital library materials and support from outside the building." },
-      { "id": "C", "text": "Greenfield Library hosts events designed around participation rather than quiet individual reading. A conversation group welcomes adults practising English, while a Saturday workshop gives families simple science activities to complete together. Local residents also meet monthly to exchange seeds and gardening advice. Most events are free, though places must be booked when equipment is limited. By offering regular reasons to meet, the library acts as a community space where people can share skills as well as borrow information.", "answer": "iii", "explanation": "The paragraph highlights participatory events that connect and involve community members." },
-      { "id": "D", "text": "Visitors who need a quiet place can choose between open desks and six small study rooms. The rooms are intended for groups of two to six people and may be reserved for a maximum of two hours. Individual readers should use the silent area upstairs, where phone calls and group discussion are not permitted. A display near the entrance shows which spaces are free. These arrangements help visitors select an area that matches the type of work they plan to do.", "answer": "iv", "explanation": "The paragraph explains the different study spaces and how visitors can select or reserve them." }
-    ], "tags": ["ielts", "general reading", "matching headings", "library services"], "estimatedTime": 420, "status": "active"
+      {
+        "id": "A",
+        "text": "For much of the nineteenth century, many researchers treated sleep as a passive period in which the brain simply reduced its activity. This interpretation changed when electrical recordings showed that the sleeping brain moves through recognizable stages. Some stages contain slow waves, while others display patterns closer to waking activity. Sleep therefore came to be viewed as an organized biological process rather than an absence of consciousness. That shift encouraged scientists to ask what each stage contributes to health, learning, and emotional regulation.",
+        "answer": "i",
+        "explanation": "The paragraph centers on the historical shift from viewing sleep as passive to viewing it as an organized process."
+      },
+      {
+        "id": "B",
+        "text": "Modern sleep laboratories combine several measurements, including brain activity, eye movement, breathing, and muscle tension. These signals allow researchers to identify sleep stages with reasonable accuracy. Portable watches can gather data from people at home for longer periods, although they estimate sleep mainly from movement and heart rate. Laboratory equipment offers greater detail but may make participants sleep less naturally. Researchers must therefore choose between precise observation in an unfamiliar setting and less exact information collected during ordinary life.",
+        "answer": "ii",
+        "explanation": "The main idea is the trade-off between detailed laboratory measurement and less precise home monitoring."
+      },
+      {
+        "id": "C",
+        "text": "A consistent finding is that sleep after study can improve later recall. During sleep, recently learned information appears to be reorganized and connected with existing knowledge. Experiments have shown benefits for facts, physical skills, and some kinds of problem solving, although the strongest stage may differ by task. Sleep does not create knowledge that was never learned, nor does it guarantee perfect memory. Instead, it seems to strengthen selected traces that were formed while a person was awake.",
+        "answer": "iii",
+        "explanation": "The paragraph explains how sleep supports the consolidation of information learned while awake."
+      },
+      {
+        "id": "D",
+        "text": "Simple recommendations about sleep are difficult because people do not respond in exactly the same way. Age, health, daily timing, and previous sleep loss can all influence an experimental result. A schedule that improves performance for one group may have little effect on another. Even within the same person, the amount of sleep needed can change during illness or intense study. Researchers increasingly report these differences instead of presenting a single number as a universal requirement for everyone.",
+        "answer": "iv",
+        "explanation": "The paragraph focuses on individual variation and why it prevents one universal conclusion about sleep needs."
+      }
+    ],
+    "tags": [
+      "ielts",
+      "reading",
+      "matching headings",
+      "sleep research"
+    ],
+    "estimatedTime": 420,
+    "status": "active"
   },
   {
-    "id": "ielts-gt-mh-003", "exam": "IELTS General Training", "section": "Reading", "questionType": "Matching Headings", "interfaceType": "matching-headings", "difficulty": "Medium", "passageTitle": "Living Well at Harbour Apartments", "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
+    "id": "ielts-ac-mh-003",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Headings",
+    "interfaceType": "matching-headings",
+    "difficulty": "Medium",
+    "passageTitle": "Storing Renewable Electricity",
+    "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
     "headings": [
-      { "id": "i", "text": "Respectful use of areas shared by all residents" }, { "id": "ii", "text": "Reporting repairs and understanding who must act" }, { "id": "iii", "text": "Reducing disturbance from noise and visitors" }, { "id": "iv", "text": "Simple systems for waste and lower energy use" }, { "id": "v", "text": "The annual process for increasing rent" }, { "id": "vi", "text": "Special benefits offered to pet owners" }
+      {
+        "id": "i",
+        "text": "Why variable generation creates a storage need"
+      },
+      {
+        "id": "ii",
+        "text": "An established solution restricted by geography"
+      },
+      {
+        "id": "iii",
+        "text": "Rapid battery progress accompanied by material concerns"
+      },
+      {
+        "id": "iv",
+        "text": "Combining storage types through coordinated management"
+      },
+      {
+        "id": "v",
+        "text": "The immediate end of all fossil-fuel generation"
+      },
+      {
+        "id": "vi",
+        "text": "How every household can disconnect from the grid"
+      }
     ],
     "paragraphs": [
-      { "id": "A", "text": "The roof terrace, laundry room, and ground-floor courtyard are available to every resident. Personal belongings should not be left in these places after use, since they may block access or create a safety risk. Tables on the terrace cannot be reserved by one household for an entire day. Residents are welcome to hold small gatherings, but they should leave the area clean and return furniture to its original position. Shared facilities remain pleasant only when each user considers the people arriving next.", "answer": "i", "explanation": "The paragraph focuses on considerate behavior and fair access in shared apartment spaces." },
-      { "id": "B", "text": "Water leaks, electrical faults, and damage to common areas should be reported through the maintenance form as soon as they are noticed. The building team is responsible for fixed systems and equipment supplied with the apartment. Residents must replace ordinary light bulbs and repair damage caused by their own actions or guests. An emergency number is available when waiting until the next working day could cause harm. Clear reporting helps the manager decide both the urgency of a repair and who is responsible for it.", "answer": "ii", "explanation": "The main idea is how to report maintenance problems and distinguish building duties from resident responsibility." },
-      { "id": "C", "text": "Harbour Apartments observes quiet hours from ten at night until seven in the morning. During this period, music and conversations should not be audible from neighbouring homes. Visitors may stay overnight, but residents remain responsible for their behaviour in corridors and shared areas. Larger gatherings should end before quiet hours begin. These rules are not intended to prevent normal living; they provide a common standard for handling sound and guests in a building where many households live close together.", "answer": "iii", "explanation": "The paragraph sets expectations for quiet hours, gatherings, and responsibility for visitors." },
-      { "id": "D", "text": "Separate bins for food waste, recyclable packaging, and general rubbish are located beside each entrance. Large items must be taken to the collection room rather than left near the bins. Motion sensors reduce unnecessary lighting in corridors, while residents can monitor their own heating use through the building portal. The management publishes a monthly summary but does not identify individual apartments. The aim is to make responsible disposal and lower energy use convenient parts of everyday apartment life.", "answer": "iv", "explanation": "The paragraph describes practical waste sorting and energy-saving systems in the building." }
-    ], "tags": ["ielts", "general reading", "matching headings", "apartment rules"], "estimatedTime": 420, "status": "active"
+      {
+        "id": "A",
+        "text": "Wind turbines and solar panels generate electricity without burning fuel, but their output follows weather and daylight rather than demand. A sunny afternoon may produce more power than homes can use, while a calm evening can leave the same system short. Electricity networks must balance supply and demand continuously to avoid instability. Storage provides one way to move energy from periods of surplus to periods of need. Its importance grows as variable renewable sources supply a larger share of the grid.",
+        "answer": "i",
+        "explanation": "The paragraph explains the mismatch between renewable generation and demand that creates the need for storage."
+      },
+      {
+        "id": "B",
+        "text": "Pumped hydroelectric storage has supported electricity systems for decades. When power is plentiful, water is pumped from a lower reservoir to a higher one. It is released through turbines when electricity is needed again. The method can store large amounts of energy for many hours and the equipment often lasts for generations. However, suitable sites require major differences in elevation and access to water. Environmental approval can also be difficult, so the technology cannot simply be built wherever demand is highest.",
+        "answer": "ii",
+        "explanation": "The paragraph presents pumped hydro as a proven large-scale method whose use is limited by site requirements."
+      },
+      {
+        "id": "C",
+        "text": "Lithium-based batteries have fallen in price and can be installed quickly near renewable generators or urban demand. Their fast response makes them useful for correcting short changes in supply. Yet manufacturing depends on minerals that require energy to extract and are concentrated in a limited number of regions. Recycling systems are improving, but they do not yet recover every material economically. Researchers are therefore developing alternative chemistries while trying to extend the working life of existing battery packs.",
+        "answer": "iii",
+        "explanation": "The paragraph balances the speed and falling cost of battery deployment against mineral and recycling concerns."
+      },
+      {
+        "id": "D",
+        "text": "No single storage technology performs every job at the lowest cost. Batteries respond quickly, pumped systems hold large reserves, and heat storage can serve buildings or industry directly. Grid operators can combine these options and use software to decide when each should charge or release energy. This approach treats storage as a coordinated portfolio rather than a competition with one winner. Careful management can reduce waste and reserve expensive technologies for the tasks where their particular strengths matter most.",
+        "answer": "iv",
+        "explanation": "The paragraph advocates coordinating several storage methods according to their different strengths."
+      }
+    ],
+    "tags": [
+      "ielts",
+      "reading",
+      "matching headings",
+      "renewable energy"
+    ],
+    "estimatedTime": 420,
+    "status": "active"
   },
   {
-    "id": "ielts-gt-mh-004", "exam": "IELTS General Training", "section": "Reading", "questionType": "Matching Headings", "interfaceType": "matching-headings", "difficulty": "Medium", "passageTitle": "Changes to the City Bus Network", "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
+    "id": "ielts-ac-mh-004",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Headings",
+    "interfaceType": "matching-headings",
+    "difficulty": "Medium",
+    "passageTitle": "Designing the Modern Museum",
+    "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
     "headings": [
-      { "id": "i", "text": "Short-term route changes during street repairs" }, { "id": "ii", "text": "Getting current travel information before a journey" }, { "id": "iii", "text": "Improvements for passengers with limited mobility" }, { "id": "iv", "text": "A simpler way to pay across different services" }, { "id": "v", "text": "A permanent expansion into distant towns" }, { "id": "vi", "text": "New restrictions on carrying bicycles" }
+      {
+        "id": "i",
+        "text": "Using movement through space to shape a visitor's story"
+      },
+      {
+        "id": "ii",
+        "text": "Balancing visual atmosphere with the protection of objects"
+      },
+      {
+        "id": "iii",
+        "text": "Flexible rooms for collections that continue to change"
+      },
+      {
+        "id": "iv",
+        "text": "Designing access for different bodies and ways of learning"
+      },
+      {
+        "id": "v",
+        "text": "Why higher ticket prices improve exhibition quality"
+      },
+      {
+        "id": "vi",
+        "text": "Replacing all historic museum buildings with new ones"
+      }
     ],
     "paragraphs": [
-      { "id": "A", "text": "Road work on Market Street will affect routes 4, 9, and 16 for approximately three weeks. Buses will use River Road and serve temporary stops marked with yellow signs. The diversion may add up to ten minutes during busy periods, although the normal timetable will remain in place. Stops inside the closed section will not be served. Once the work is complete, every affected route will return to Market Street, so passengers should not treat the temporary stop locations as a permanent network change.", "answer": "i", "explanation": "The paragraph explains temporary diversions and stops caused by a limited period of road work." },
-      { "id": "B", "text": "Passengers can check live departure times through the CityMove application or the electronic displays at major stops. The application also sends alerts when a route is diverted or a journey is cancelled. Printed timetables remain useful for planning, but they cannot reflect an unexpected delay. Travellers without a smartphone may call the information line, which operates from early morning until midnight. Using a current source shortly before departure is the best way to avoid waiting for a service that has changed.", "answer": "ii", "explanation": "The paragraph compares ways to obtain up-to-date service information before travelling." },
-      { "id": "C", "text": "Twenty new buses will enter service this year with low floors and wider entrance areas. Each vehicle has a clearly marked space for a wheelchair or mobility scooter, and the next stop is announced both visually and by audio. Drivers are receiving additional training on positioning the bus close to the curb. Not every older stop is fully accessible yet, but the transport authority is publishing a map so passengers can plan journeys using stops that already meet the improved standard.", "answer": "iii", "explanation": "The main idea is a group of vehicle, driver, and information improvements for accessible travel." },
-      { "id": "D", "text": "A contactless CityPass can now be used on buses, trams, and the local ferry. Passengers tap the same card at the start of each journey, and the system automatically limits the total daily charge. Existing paper tickets will remain available for single trips during the transition. Users should register a card online if they want to protect its balance when it is lost. The change is intended to remove the need to understand a separate payment method for each type of transport.", "answer": "iv", "explanation": "The paragraph focuses on one integrated payment card that works across several transport services." }
-    ], "tags": ["ielts", "general reading", "matching headings", "public transport"], "estimatedTime": 420, "status": "active"
+      {
+        "id": "A",
+        "text": "Museum layout influences how visitors understand an exhibition before they read a single label. A narrow entrance may create suspense, while an open central space helps people compare objects from several directions. Designers also decide whether a route should be chronological, thematic, or freely explored. Clear orientation matters because visitors who feel lost spend more energy finding the exit than considering the collection. Movement is therefore used as a narrative tool, guiding attention without requiring everyone to follow exactly the same path.",
+        "answer": "i",
+        "explanation": "The paragraph explains how spatial routes and movement help communicate an exhibition's narrative."
+      },
+      {
+        "id": "B",
+        "text": "Light gives galleries atmosphere and allows visitors to notice colour and texture, but it can also cause permanent damage. Paper, fabric, and some pigments fade after repeated exposure, even when the change is initially invisible. Conservation teams set limits for sensitive objects and may rotate them off display. Architects respond with filtered windows, shaded areas, and carefully aimed lamps. The goal is not maximum brightness; it is enough light for meaningful viewing without shortening the life of the collection.",
+        "answer": "ii",
+        "explanation": "The paragraph focuses on the trade-off between effective lighting and long-term conservation."
+      },
+      {
+        "id": "C",
+        "text": "Permanent walls can become a problem when museums acquire new objects or change their interpretation of a collection. Many recent galleries use movable partitions, raised floors, and adjustable display systems. A room can then support a large sculpture one year and a group of small cases the next. Flexibility has limits, since heavy objects and climate-controlled cases still need specialist support. Nevertheless, adaptable spaces reduce the need for expensive rebuilding whenever curators develop a different exhibition plan.",
+        "answer": "iii",
+        "explanation": "The main idea is creating adaptable gallery spaces for changing collections and exhibition plans."
+      },
+      {
+        "id": "D",
+        "text": "Accessibility extends beyond providing a ramp at the entrance. Seating at regular intervals helps visitors with limited stamina, while varied label heights serve both standing adults and wheelchair users. Audio description, tactile models, and quieter rooms offer additional ways to engage with a collection. These features benefit more people than their original target groups; for example, a clear audio guide can help someone reading in a second language. Inclusive design therefore expands how information can be encountered throughout the museum.",
+        "answer": "iv",
+        "explanation": "The paragraph describes inclusive physical and informational design for varied needs and learning preferences."
+      }
+    ],
+    "tags": [
+      "ielts",
+      "reading",
+      "matching headings",
+      "museum design"
+    ],
+    "estimatedTime": 420,
+    "status": "active"
   },
   {
-    "id": "ielts-gt-mh-005", "exam": "IELTS General Training", "section": "Reading", "questionType": "Matching Headings", "interfaceType": "matching-headings", "difficulty": "Medium", "passageTitle": "Choosing an Adult Education Course", "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
+    "id": "ielts-ac-mh-005",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Headings",
+    "interfaceType": "matching-headings",
+    "difficulty": "Medium",
+    "passageTitle": "Making Marine Protection Work",
+    "instructions": "Choose the correct heading for each paragraph. There are more headings than paragraphs.",
     "headings": [
-      { "id": "i", "text": "Finding a starting level that matches current ability" }, { "id": "ii", "text": "Course formats designed around adult schedules" }, { "id": "iii", "text": "Showing progress through useful practical tasks" }, { "id": "iv", "text": "Support that connects learning with future plans" }, { "id": "v", "text": "Automatic recognition as a university degree" }, { "id": "vi", "text": "Receiving a full refund after any class" }
+      {
+        "id": "i",
+        "text": "The ecological case for limiting extraction"
+      },
+      {
+        "id": "ii",
+        "text": "Why the position and shape of protection matter"
+      },
+      {
+        "id": "iii",
+        "text": "Local support as a foundation for effective enforcement"
+      },
+      {
+        "id": "iv",
+        "text": "Using repeated evidence to adjust management"
+      },
+      {
+        "id": "v",
+        "text": "Tourism income as the only measure of success"
+      },
+      {
+        "id": "vi",
+        "text": "Replacing wild fisheries entirely with aquaculture"
+      }
     ],
     "paragraphs": [
-      { "id": "A", "text": "Applicants are encouraged to attend a short advice session before enrolling in language, computing, or mathematics courses. An adviser asks about previous study and may suggest a simple placement activity. The aim is not to reject learners but to prevent them from choosing a class that repeats familiar material or moves too quickly. Someone with uneven skills may be offered a trial lesson before making a final choice. Starting at a suitable level gives learners a realistic challenge and a clearer path to progress.", "answer": "i", "explanation": "The paragraph describes advice and placement used to select an appropriate starting level." },
-      { "id": "B", "text": "Most programmes are offered in more than one format because adult learners often balance study with work or family responsibilities. Evening classes provide weekly contact with a teacher, while blended courses combine monthly workshops with online activities. A small number of intensive weekend options are available for people who cannot attend regularly. The content and expected study time remain similar across formats. Learners should therefore choose according to when they can participate consistently, not because one option appears easier than another.", "answer": "ii", "explanation": "The paragraph focuses on flexible delivery formats designed for adults with different schedules." },
-      { "id": "C", "text": "Assessment is based mainly on tasks that reflect how a skill will be used outside the classroom. Computing learners create a document and solve common software problems, while language learners complete a conversation and a short written message. Teachers also give informal feedback during the course so students can improve before the final task. A practical assessment may feel less familiar than a traditional examination, but it demonstrates whether learners can apply their knowledge rather than simply remember isolated facts.", "answer": "iii", "explanation": "The main idea is evaluating progress through practical tasks that demonstrate real use of a skill." },
-      { "id": "D", "text": "Learners can arrange individual meetings with a study coach when motivation, time management, or future choices become difficult. The careers team also explains how course skills relate to local jobs and what further qualifications may be useful. This support is optional and does not replace classroom teaching. Its purpose is to help adults connect a current course with a longer plan, particularly when they are returning to education after many years or considering a change in employment.", "answer": "iv", "explanation": "The paragraph describes coaching and careers support that links present study with future goals." }
-    ], "tags": ["ielts", "general reading", "matching headings", "adult education"], "estimatedTime": 420, "status": "active"
+      {
+        "id": "A",
+        "text": "Marine protected areas are often created after fishing pressure has reduced the number or average size of important species. Limiting extraction gives adult animals more opportunities to reproduce and allows damaged habitats to recover. Protection does not produce immediate results, especially for slow-growing species, but well-managed areas can develop larger breeding populations over time. Some young fish may later move beyond the boundary. The central ecological argument is therefore that reducing local pressure can rebuild biological capacity rather than merely preserve a fixed snapshot.",
+        "answer": "i",
+        "explanation": "The paragraph explains the ecological reasons for restricting fishing and allowing populations to recover."
+      },
+      {
+        "id": "B",
+        "text": "A boundary drawn neatly on a map may fail if it ignores how species actually use the sea. Some fish move between feeding and breeding grounds, while larvae travel with currents. A reserve that protects only one stage of this movement may deliver limited benefits. Scientists use tracking, habitat maps, and current models to identify connected areas. Size also matters: very small zones are easier to patrol but may not contain enough habitat for wide-ranging species to remain protected.",
+        "answer": "ii",
+        "explanation": "The paragraph focuses on selecting effective boundaries by considering movement, habitat connections, and size."
+      },
+      {
+        "id": "C",
+        "text": "Rules have little effect when coastal communities see them as unfair or impossible to follow. Fishers may possess detailed knowledge of seasonal conditions, and involving them early can improve both boundaries and permitted activities. Local monitoring groups also report violations more quickly than distant agencies. Participation does not eliminate conflict, since restrictions can reduce income in the short term. It does, however, make enforcement more credible because the reasons for protection and the process for changing rules are better understood.",
+        "answer": "iii",
+        "explanation": "The main purpose is to show how community participation strengthens legitimacy and enforcement."
+      },
+      {
+        "id": "D",
+        "text": "Protection must be evaluated after a reserve is established. Researchers repeatedly measure fish abundance, habitat condition, and fishing activity inside and outside the boundary. If target species do not recover, managers examine whether the cause is illegal fishing, poor placement, pollution, or simply insufficient time. Regulations can then be adjusted rather than defended unchanged. This cycle of monitoring and revision treats a protected area as an ongoing management process, not a one-time decision that is automatically successful.",
+        "answer": "iv",
+        "explanation": "The paragraph describes repeated monitoring and the use of evidence to revise protection strategies."
+      }
+    ],
+    "tags": [
+      "ielts",
+      "reading",
+      "matching headings",
+      "marine conservation"
+    ],
+    "estimatedTime": 420,
+    "status": "active"
   }
 ]
