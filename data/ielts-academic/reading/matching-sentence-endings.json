@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ielts-ac-mse-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Medium",
+    "topic": "scientific note-taking",
+    "passageTitle": "Turning Lecture Notes into a Thinking Tool",
+    "passage": "Students who try to record every sentence in a scientific lecture often lose track of the argument. Selective notes are more useful when they identify the research question, method, principal result, and stated limitation. A diagram may represent a multi-stage process more efficiently than continuous prose, while abbreviations save time only if their meaning remains clear later. After class, some students write a short summary without looking at their notes. The attempt exposes gaps in understanding and requires retrieval rather than recognition. They then compare the summary with the original record and add missing connections in a different color. This two-stage review preserves a visible distinction between what was understood independently and what had to be reconstructed. Researchers caution that neatness alone is not a reliable measure of value: a visually perfect transcript may demand little interpretation, whereas an uneven page of organized questions and relationships can support deeper study.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"can reveal what the learner cannot yet reconstruct alone."},{"id":"B","text":"may reduce the attention available for following the central reasoning."},{"id":"C","text":"is valuable only when it is performed during the lecture."},{"id":"D","text":"keeps later additions separate from the learner's first understanding."},{"id":"E","text":"always proves that the material has been interpreted deeply."},{"id":"F","text":"can compress a sequence that would require lengthy written description."}],
+    "items": [
+      {"id":"1","prompt":"Attempting to copy the lecturer's every sentence","answer":"B","evidence":"Students who record every sentence often lose track of the argument.","explanation":"The passage links full transcription with reduced attention to reasoning."},
+      {"id":"2","prompt":"Representing a process as a diagram","answer":"F","evidence":"A diagram may represent a multi-stage process more efficiently than continuous prose.","explanation":"The diagram compresses complex sequential information."},
+      {"id":"3","prompt":"Producing a summary from memory","answer":"A","evidence":"The attempt exposes gaps in understanding and requires retrieval.","explanation":"Failure to reconstruct an idea reveals a learning gap."},
+      {"id":"4","prompt":"Using a different color during review","answer":"D","evidence":"The method preserves a visible distinction between independent understanding and reconstructed material.","explanation":"Color marks which connections were added only after comparison."}
+    ],
+    "tags": ["sentence logic","note-taking"],
+    "estimatedTime": 340,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mse-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Medium",
+    "topic": "mycelium construction materials",
+    "passageTitle": "Growing Lightweight Building Panels",
+    "passage": "Mycelium, the thread-like root network of fungi, can bind agricultural waste into a solid composite. Manufacturers place chopped stalks or husks in molds, add fungal material, and maintain warm, humid conditions while the network grows through the mixture. Heating then stops biological activity and dries the panel. The resulting product is light and can provide useful acoustic insulation. Its properties, however, vary with feedstock, fungal strain, density, and growth conditions. This variation complicates certification because structural products must perform consistently. Moisture is another challenge: untreated panels can absorb water and lose strength. Protective coatings improve resistance but may reduce compostability, one of the material's environmental attractions. Researchers therefore see the most immediate potential in interior elements that carry little load and remain dry. Using regional crop waste could reduce transport and disposal, but only if factories can maintain reliable quality across harvests that differ in composition.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"may weaken one of the product's end-of-life advantages."},{"id":"B","text":"makes immediate use in major load-bearing structures straightforward."},{"id":"C","text":"ends the organism's growth and removes moisture from the product."},{"id":"D","text":"is currently most suitable where structural demands are limited."},{"id":"E","text":"guarantees identical performance across seasonal harvests."},{"id":"F","text":"allows loose plant material to become a connected composite."}],
+    "items": [
+      {"id":"1","prompt":"The fungal network growing through agricultural waste","answer":"F","evidence":"Mycelium can bind agricultural waste into a solid composite.","explanation":"The network physically connects the loose feedstock."},
+      {"id":"2","prompt":"Heating the newly grown panel","answer":"C","evidence":"Heating stops biological activity and dries the panel.","explanation":"The ending combines both functions of the heating stage."},
+      {"id":"3","prompt":"Applying a water-resistant coating","answer":"A","evidence":"Protective coatings may reduce compostability.","explanation":"Improved moisture resistance can compromise disposal by composting."},
+      {"id":"4","prompt":"Mycelium composite in its present form","answer":"D","evidence":"The most immediate potential is in dry interior elements that carry little load.","explanation":"Current variability and moisture sensitivity favor low-demand uses."}
+    ],
+    "tags": ["sentence logic","biomaterials"],
+    "estimatedTime": 350,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mse-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Hard",
+    "topic": "satellite wildfire detection",
+    "passageTitle": "Seeing Fire from Orbit",
+    "passage": "Earth-observing satellites detect heat and reflected light across large areas, making them valuable where ground observation is sparse. Geostationary satellites remain above the same region and can provide images every few minutes, but their sensors usually show less spatial detail. Polar-orbiting instruments pass closer to Earth and can identify smaller heat sources, although a particular location may wait hours for the next pass. Clouds and thick smoke complicate both systems by blocking some wavelengths. Algorithms compare new observations with the normal temperature pattern for that place and season; this reduces false alarms from bare rock or industrial sites. Yet an automated alert still requires interpretation. A detected hotspot may be a controlled agricultural burn, while a dangerous fire can remain hidden beneath cloud. Agencies increasingly combine rapid geostationary updates, detailed polar data, lightning records, and reports from people on the ground. The strength of satellite monitoring lies in extending awareness, not in replacing local confirmation.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"can distinguish smaller sources but revisits locations less frequently."},{"id":"B","text":"eliminates the need to interpret the cause of every hotspot."},{"id":"C","text":"helps reduce alerts caused by normally warm surfaces."},{"id":"D","text":"provides frequent updates at the cost of finer spatial detail."},{"id":"E","text":"works best as one part of a wider evidence system."},{"id":"F","text":"allows every fire to be seen through dense cloud."}],
+    "items": [
+      {"id":"1","prompt":"A geostationary satellite","answer":"D","evidence":"It can provide images every few minutes, but usually with less spatial detail.","explanation":"The sentence ending captures the frequency-resolution trade-off."},
+      {"id":"2","prompt":"A polar-orbiting instrument","answer":"A","evidence":"It identifies smaller heat sources, although the next pass may take hours.","explanation":"Closer observation improves detail but reduces revisit frequency."},
+      {"id":"3","prompt":"Comparing observations with seasonal temperature patterns","answer":"C","evidence":"The comparison reduces false alarms from bare rock or industrial sites.","explanation":"Normal local patterns help identify naturally or routinely warm areas."},
+      {"id":"4","prompt":"Satellite fire monitoring","answer":"E","evidence":"Its strength is extending awareness, not replacing local confirmation.","explanation":"The passage recommends combining satellite data with other evidence."}
+    ],
+    "tags": ["sentence logic","remote sensing"],
+    "estimatedTime": 360,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mse-004",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Sentence Endings",
+    "interfaceType": "matching-sentence-endings",
+    "matchingType": "sentence-endings",
+    "difficulty": "Hard",
+    "topic": "acoustic biodiversity monitoring",
+    "passageTitle": "Listening to Ecosystems at Scale",
+    "passage": "Autonomous recorders allow ecologists to collect thousands of hours of sound without remaining in the field. Microphones placed in forests capture birds, insects, frogs, rain, machinery, and human voices. Automated classifiers can search these recordings for a target species, but their accuracy depends on the examples used during training. A model developed with clear calls may perform poorly when several animals vocalize together or wind masks part of the signal. Researchers sometimes keep uncertain clips for expert review rather than forcing an immediate decision. Recording schedules also shape conclusions. A device active only after sunrise will miss species calling before dawn, while short surveys may overlook seasonal visitors. Sound does not provide a complete population count because one animal can call repeatedly and another may remain silent. Nevertheless, consistent acoustic records reveal changes in timing, presence, and disturbance over large areas, especially when field teams validate a sample of automated results.",
+    "instructions": "Complete each sentence with the correct ending, A–F.",
+    "options": [{"id":"A","text":"may fail when real recordings differ from its training examples."},{"id":"B","text":"should be treated as an exact count of individual animals."},{"id":"C","text":"can preserve difficult cases for later human judgment."},{"id":"D","text":"determines which daily and seasonal activity is represented."},{"id":"E","text":"removes all need for field-based checking."},{"id":"F","text":"enables extensive data collection with limited human presence."}],
+    "items": [
+      {"id":"1","prompt":"Using autonomous sound recorders","answer":"F","evidence":"Recorders collect thousands of hours without ecologists remaining in the field.","explanation":"Automation expands collection while reducing continuous staff presence."},
+      {"id":"2","prompt":"An automated classifier","answer":"A","evidence":"A model trained on clear calls may perform poorly with overlapping sounds or wind.","explanation":"Performance drops when deployment conditions differ from training data."},
+      {"id":"3","prompt":"Retaining an uncertain audio clip","answer":"C","evidence":"Researchers keep uncertain clips for expert review.","explanation":"Deferred classification allows a specialist to decide later."},
+      {"id":"4","prompt":"The chosen recording timetable","answer":"D","evidence":"After-sunrise recording misses pre-dawn callers, and short surveys miss seasonal visitors.","explanation":"Scheduling controls which activity enters the dataset."}
+    ],
+    "tags": ["sentence logic","ecoacoustics"],
+    "estimatedTime": 360,
+    "status": "active"
+  }
+]
