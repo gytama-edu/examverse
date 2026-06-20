@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ielts-ac-mf-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Medium",
+    "topic": "gesture-supported vocabulary research",
+    "passageTitle": "Four Accounts of Gesture in Word Learning",
+    "passage": "Mara Velen asked learners to invent a movement for each unfamiliar verb. Recall improved most when the movement represented the action rather than merely marking the rhythm of the word. She argued that meaningful motor links provide an additional route to memory.\n\nOsei Kwarteng compared teacher-led gestures with learner-created ones. Both helped initially, but student inventions produced greater variation and were sometimes difficult to interpret a week later. He concluded that creativity is useful only when the gesture remains clearly connected to meaning.\n\nLin Qiao studied learners during online lessons. Small on-screen gestures improved recognition but not accurate spelling. She suggested that visual movement supports access to meaning while written form still requires separate retrieval practice.\n\nPavel Nordin examined whether gesture benefits continue after learners stop moving. Participants who first practised with movement later recalled words while sitting still, indicating that the body need not repeat the action during every test.",
+    "instructions": "Match each statement with the correct researcher.",
+    "options": [{"id":"A","text":"Mara Velen"},{"id":"B","text":"Osei Kwarteng"},{"id":"C","text":"Lin Qiao"},{"id":"D","text":"Pavel Nordin"}],
+    "items": [
+      {"id":"1","prompt":"Found that movement aided meaning more than correct written form","answer":"C","evidence":"On-screen gestures improved recognition but not accurate spelling.","explanation":"Lin Qiao separated semantic recognition from spelling performance."},
+      {"id":"2","prompt":"Reported that the memory benefit remained when movement was absent at test","answer":"D","evidence":"Participants later recalled words while sitting still.","explanation":"Pavel Nordin showed that test-time movement was unnecessary."},
+      {"id":"3","prompt":"Warned that learner originality can reduce later clarity","answer":"B","evidence":"Student inventions were sometimes difficult to interpret a week later.","explanation":"Osei Kwarteng identified a trade-off between creativity and consistency."},
+      {"id":"4","prompt":"Linked better recall specifically to movements that represented an action","answer":"A","evidence":"Recall improved most when the movement represented the action.","explanation":"Mara Velen emphasized meaningful motor representation."}
+    ],
+    "tags": ["researchers","gesture learning"],
+    "estimatedTime": 350,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mf-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Hard",
+    "topic": "coral restoration strategies",
+    "passageTitle": "Contrasting Teams in Reef Recovery",
+    "passage": "The Pelagos Group grows coral fragments in underwater frames close to damaged reefs. Its team favors local nurseries because transplanted colonies experience nearly the same temperature and light conditions during growth. Storms can destroy the frames, so sites are spread across several sheltered locations.\n\nThe Aruna Laboratory keeps young corals in controlled tanks and exposes them gradually to warmer water. Researchers hope this conditioning will increase survival during heat events. Critics note that laboratory capacity is limited and that tank conditions cannot reproduce every ecological relationship.\n\nThe Meridian Collective concentrates on restoring grazing fish populations rather than planting coral. By reducing algae that compete for space, the group expects natural coral settlement to increase. Results develop slowly, but the method addresses an ecological process across a wider area.\n\nThe Tavira Network maps small patches that survived recent bleaching and restricts nearby anchoring. It treats surviving colonies as sources of naturally tolerant offspring. The approach requires strong local enforcement but avoids choosing tolerance through artificial tests.",
+    "instructions": "Match each statement with the correct research group.",
+    "options": [{"id":"A","text":"Pelagos Group"},{"id":"B","text":"Aruna Laboratory"},{"id":"C","text":"Meridian Collective"},{"id":"D","text":"Tavira Network"}],
+    "items": [
+      {"id":"1","prompt":"Attempts to improve heat response before coral is returned to the sea","answer":"B","evidence":"Young corals are gradually exposed to warmer water in controlled tanks.","explanation":"Aruna uses laboratory conditioning before transplantation."},
+      {"id":"2","prompt":"Protects colonies that already demonstrated resilience in natural conditions","answer":"D","evidence":"The network maps patches that survived bleaching and restricts anchoring nearby.","explanation":"Tavira safeguards naturally surviving coral as a reproductive source."},
+      {"id":"3","prompt":"Supports recovery by managing another organism in the ecosystem","answer":"C","evidence":"The collective restores grazing fish populations to reduce algae.","explanation":"Meridian acts through fish and algae rather than direct coral planting."},
+      {"id":"4","prompt":"Reduces environmental change between nursery growth and final placement","answer":"A","evidence":"Local underwater nurseries have nearly the same temperature and light as the reef.","explanation":"Pelagos grows fragments close to their destination."}
+    ],
+    "tags": ["research groups","reef recovery"],
+    "estimatedTime": 370,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mf-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Hard",
+    "topic": "theories of early writing",
+    "passageTitle": "Competing Explanations for the First Scripts",
+    "passage": "The Accounting Theory proposes that writing developed from clay tokens used to count goods. Marks impressed on containers eventually replaced the objects inside them, and the signs expanded beyond numbers. Its strongest evidence comes from administrative sites.\n\nThe Ritual Theory points to repeated symbols on ceremonial objects. Supporters argue that communities needed stable signs for names, offerings, and sacred sequences before governments required detailed records. The symbols are meaningful, although their connection to later scripts remains debated.\n\nThe Display Theory emphasizes public power. According to this view, early inscriptions made authority visible on monuments and seals. Even people unable to read could recognize that the controlled production of signs belonged to rulers or institutions.\n\nThe Network Theory treats writing as a response to communication across distance. Standard signs allowed traders from different speech communities to record quantities and destinations. Critics observe that exchange networks existed long before full writing systems, so contact alone may not explain the transition.",
+    "instructions": "Match each statement with the correct theory.",
+    "options": [{"id":"A","text":"Accounting Theory"},{"id":"B","text":"Ritual Theory"},{"id":"C","text":"Display Theory"},{"id":"D","text":"Network Theory"}],
+    "items": [
+      {"id":"1","prompt":"Links scripts to replacing physical counting objects","answer":"A","evidence":"Marks impressed on containers eventually replaced the tokens inside them.","explanation":"The Accounting Theory traces signs back to material counting aids."},
+      {"id":"2","prompt":"Suggests that visible signs communicated authority even to non-readers","answer":"C","evidence":"Even people unable to read could recognize controlled sign production as institutional power.","explanation":"The Display Theory centers on public demonstrations of authority."},
+      {"id":"3","prompt":"Places repeated sacred practices before administrative demand","answer":"B","evidence":"Communities needed stable signs for offerings and sacred sequences before detailed government records.","explanation":"The Ritual Theory gives ceremonial use chronological priority."},
+      {"id":"4","prompt":"Faces the objection that its proposed cause existed much earlier","answer":"D","evidence":"Exchange networks existed long before full writing systems.","explanation":"This timing problem is raised against the Network Theory."}
+    ],
+    "tags": ["theories","writing origins"],
+    "estimatedTime": 370,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-mf-004",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Matching Features",
+    "interfaceType": "matching-features",
+    "matchingType": "features",
+    "difficulty": "Medium",
+    "topic": "high-altitude observatory locations",
+    "passageTitle": "Choosing Sites Above the Clouds",
+    "passage": "Kestrel Plateau has exceptionally dry air, which reduces interference with infrared observations. Its road is usable throughout the year, but light from a growing mining settlement is becoming a concern.\n\nMount Ivara offers the darkest sky in the survey. Winter winds, however, frequently exceed safe operating limits, and the summit can be reached only by a cable system that closes during storms.\n\nSable Ridge lies lower than the other candidates. Atmospheric distortion is greater, yet the site is close to a university and an electrical substation. This makes construction, maintenance, and student access considerably less expensive.\n\nOrion Basin experiences stable air on most nights and has legal protection against nearby development. The main difficulty is water: every liter needed by staff must be transported from a valley community already facing shortages.",
+    "instructions": "Match each statement with the correct location.",
+    "options": [{"id":"A","text":"Kestrel Plateau"},{"id":"B","text":"Mount Ivara"},{"id":"C","text":"Sable Ridge"},{"id":"D","text":"Orion Basin"}],
+    "items": [
+      {"id":"1","prompt":"Has the lowest logistical cost despite weaker viewing conditions","answer":"C","evidence":"The lower site has greater atmospheric distortion but is near a university and power supply.","explanation":"Sable Ridge trades optical quality for access and infrastructure."},
+      {"id":"2","prompt":"Provides the darkest conditions but unreliable physical access","answer":"B","evidence":"The darkest sky is paired with a cable system that closes during storms.","explanation":"Mount Ivara's access depends on severe weather."},
+      {"id":"3","prompt":"Has long-term development protection but creates pressure on a scarce resource","answer":"D","evidence":"Development is legally restricted, but all staff water must come from a shortage-affected valley.","explanation":"Orion Basin combines protected skies with water concerns."},
+      {"id":"4","prompt":"May lose an advantage because of expanding activity nearby","answer":"A","evidence":"Light from a growing mining settlement is becoming a concern.","explanation":"Kestrel Plateau faces increasing light pollution."}
+    ],
+    "tags": ["locations","observatory planning"],
+    "estimatedTime": 350,
+    "status": "active"
+  }
+]
