@@ -2188,6 +2188,54 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .speaking-sample-card p { margin: 0; color: #b1bdcc; font-size: 14px; line-height: 1.8; }
 .speaking-page textarea.completion-input { min-height: 110px; resize: vertical; }
 .speaking-page button:focus-visible, .speaking-page a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+.writing-task1-page .completion-hero::after { content: "WRITE"; }
+.writing-task1-grid { display: grid; grid-template-columns: minmax(0,1.05fr) minmax(0,.95fr); gap: 16px; margin-top: 16px; }
+.writing-task1-sidebar { display: grid; gap: 16px; }
+.writing-task1-prompt-card { display: grid; gap: 14px; }
+.writing-task1-title { margin: 10px 0 0; font-size: 22px; }
+.writing-task1-graphic { display: grid; gap: 12px; margin-top: 6px; padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.016); overflow: hidden; }
+.writing-task1-legend { display: flex; flex-wrap: wrap; gap: 8px; }
+.writing-task1-graphic svg { width: 100%; height: auto; display: block; }
+.writing-task1-pie { position: relative; display: grid; place-items: center; min-height: 260px; border: 1px solid rgba(116,167,255,.16); border-radius: 14px; background: radial-gradient(circle, rgba(116,167,255,.07), rgba(8,14,26,.28)); }
+.writing-task1-pie::before { content: ""; position: absolute; width: 140px; height: 140px; border-radius: 50%; background: rgba(8,14,26,.95); box-shadow: inset 0 0 0 1px rgba(255,255,255,.05); }
+.writing-task1-pie-label { position: relative; max-width: 180px; color: #dce6f2; font: 650 12px/1.45 ui-monospace,monospace; text-align: center; }
+.writing-task1-table { width: 100%; border-collapse: collapse; color: #d8e2ef; }
+.writing-task1-table caption { margin-bottom: 10px; color: #8192a8; font: 700 9px/1 ui-monospace,monospace; letter-spacing: .11em; text-transform: uppercase; text-align: left; }
+.writing-task1-table th, .writing-task1-table td { padding: 12px 13px; border: 1px solid rgba(255,255,255,.06); text-align: left; }
+.writing-task1-table th { color: #aeb8c8; font: 650 9px/1.35 ui-monospace,monospace; text-transform: uppercase; letter-spacing: .08em; background: rgba(116,167,255,.04); }
+.writing-task1-table tbody tr:nth-child(even) td { background: rgba(255,255,255,.014); }
+.writing-task1-process { display: grid; grid-template-columns: repeat(7,minmax(0,1fr)); gap: 10px; align-items: stretch; }
+.writing-task1-process-step { display: grid; gap: 8px; padding: 14px; border: 1px solid rgba(116,167,255,.16); border-radius: 12px; background: rgba(255,255,255,.018); }
+.writing-task1-process-step span { color: #74a7ff; font: 700 9px/1 ui-monospace,monospace; letter-spacing: .08em; }
+.writing-task1-process-step strong { color: #dce6f2; font-size: 12px; }
+.writing-task1-process-step p { margin: 0; color: #91a0b3; font-size: 11px; line-height: 1.55; }
+.writing-task1-process-arrow { display: grid; place-items: center; color: var(--cyan); font: 700 18px/1 ui-monospace,monospace; }
+.writing-task1-map { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.writing-task1-map-panel { display: grid; gap: 10px; padding: 14px; border: 1px solid rgba(116,167,255,.16); border-radius: 12px; background: rgba(255,255,255,.018); }
+.writing-task1-map-panel h4 { margin: 0; color: #74a7ff; font: 700 9px/1 ui-monospace,monospace; letter-spacing: .1em; text-transform: uppercase; }
+.writing-task1-map-plan { display: grid; gap: 8px; }
+.writing-task1-map-item { padding: 11px 12px; border: 1px solid rgba(255,255,255,.06); border-radius: 10px; background: rgba(8,14,26,.38); }
+.writing-task1-map-item strong { display: block; color: #dce6f2; font-size: 13px; }
+.writing-task1-map-item span { display: block; margin-top: 4px; color: #91a0b3; font-size: 11px; line-height: 1.5; }
+.writing-task1-timer-box { display: grid; gap: 10px; padding: 16px; border: 1px solid rgba(69,230,248,.14); border-radius: 12px; background: rgba(69,230,248,.03); }
+.writing-task1-timer-box strong { color: var(--cyan); font: 700 34px/1 ui-monospace,monospace; letter-spacing: -.04em; }
+.writing-task1-timer-box span { color: #7b8b9f; font: 650 8px/1 ui-monospace,monospace; text-transform: uppercase; letter-spacing: .1em; }
+.writing-task1-timer-actions { margin-top: 14px; }
+.writing-task1-textarea-wrap { display: grid; gap: 10px; margin-top: 14px; }
+.writing-task1-textarea { min-height: 320px; resize: vertical; }
+.writing-task1-counter { display: grid; gap: 6px; padding: 12px 13px; border: 1px solid rgba(116,167,255,.16); border-radius: 10px; background: rgba(255,255,255,.018); }
+.writing-task1-counter span { color: #718299; font: 650 8px/1 ui-monospace,monospace; letter-spacing: .08em; text-transform: uppercase; }
+.writing-task1-counter strong { color: var(--completion-blue); font: 650 18px/1 ui-monospace,monospace; }
+.writing-task1-counter em { color: #8ce5bd; font-style: normal; font-size: 11px; }
+.writing-task1-counter em.ready { color: #61e7ae; }
+.writing-group { display: grid; gap: 10px; margin-top: 16px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.018); }
+.writing-group h4 { margin: 0; color: #8a79bc; font: 650 8px/1 ui-monospace,monospace; letter-spacing: .1em; text-transform: uppercase; }
+.writing-task1-guide-list, .writing-task1-checklist { display: grid; gap: 8px; margin: 0; padding-left: 18px; color: #bfc9d8; }
+.writing-task1-language-bank { display: flex; flex-wrap: wrap; gap: 8px; }
+.writing-task1-language-chip { padding: 6px 9px; border: 1px solid rgba(69,230,248,.16); border-radius: 999px; color: #a9dff0; background: rgba(69,230,248,.04); font: 650 9px/1 ui-monospace,monospace; }
+.writing-task1-sample { margin-top: 16px; }
+.writing-task1-sample p { margin: 0; color: #b1bdcc; font-size: 14px; line-height: 1.8; }
+.writing-task1-page button:focus-visible, .writing-task1-page a:focus-visible, .writing-task1-page textarea:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 .diagram-page .completion-task-card { position: relative; }
 .diagram-card { margin-top: 16px; padding: 18px; border: 1px solid rgba(116,167,255,.16); border-radius: 14px; background: linear-gradient(145deg, rgba(116,167,255,.03), rgba(8,14,26,.38)); }
 .diagram-title { margin: 10px 0 14px; font-size: 20px; }
@@ -2318,6 +2366,10 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .completion-blank-row { grid-template-columns: 1fr; }
   .speaking-layout { grid-template-columns: 1fr; }
   .speaking-part-grid { grid-template-columns: 1fr; }
+  .writing-task1-grid { grid-template-columns: 1fr; }
+  .writing-task1-map { grid-template-columns: 1fr; }
+  .writing-task1-process { grid-template-columns: 1fr; }
+  .writing-task1-process-arrow { min-height: 24px; }
 }
 @media (max-width: 620px) {
   .completion-hero { padding: 45px 0 56px; }
@@ -2347,6 +2399,7 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .completion-mistake-meta, .completion-mistake-answers { display: grid; grid-template-columns: 1fr; }
   .completion-mistake-meta span:last-child { text-align: left; }
   .speaking-timer-actions { display: grid; }
+  .writing-task1-textarea { min-height: 260px; }
 }
 
 /* IELTS Reading Multiple Choice practice system */
