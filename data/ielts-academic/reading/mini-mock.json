@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ielts-ac-mini-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "interfaceType": "ielts-reading-mini-mock",
+    "difficulty": "Mixed",
+    "mockTitle": "University Research and Study Spaces",
+    "passageTitle": "Reworking the Learning Commons",
+    "passage": "The learning commons was redesigned after a 12-week study showed that students were not short of seats but short of spaces that suited different tasks. Researchers counted how long each room stayed occupied, tracked the number of times students moved to a quieter corner, and interviewed first-year students, postgraduates, and part-time learners. The results were surprisingly consistent. Students preparing presentations wanted a place where they could talk without disturbing anyone else. Those rereading notes preferred silence, steady lighting, and fewer distractions. A single open-plan hall could not satisfy both groups, so the university kept the silent room for individual work, converted a former meeting room into a collaboration suite with glass partitions, and turned one side of the media room into a place for screen-based projects. A booking app was introduced for the collaboration suite, but the writer argues that technology is only useful when it supports behaviour that is already clear and simple. The app reduces arguments at busy times because it shows which half-hour blocks are free, yet staff still supervise the rooms and intervene if noise rises. During exam weeks, the library opens an overflow hall near the cafe to provide extra desks and keep students from crowding the stairwell. Staff report that the most successful changes have been practical rather than glamorous: clear rules, better lighting, and enough variety for different kinds of study. The writer does not think every space must appeal to everyone. Instead, success should be judged by whether students can move between tasks without wasting time or concentration.",
+    "instructions": "Answer all 10 questions. Check your answers only after every question has been completed.",
+    "questions": [
+      {
+        "id": "q1",
+        "number": 1,
+        "type": "tfng",
+        "question": "The silent room was converted into the collaboration suite.",
+        "answer": "False",
+        "evidence": "The university kept the silent room for individual work, converted a former meeting room into a collaboration suite with glass partitions",
+        "explanation": "The collaboration suite came from a former meeting room, not from the silent room."
+      },
+      {
+        "id": "q2",
+        "number": 2,
+        "type": "tfng",
+        "question": "Students can reserve the collaboration suite in half-hour blocks.",
+        "answer": "True",
+        "evidence": "The app reduces arguments at busy times because it shows which half-hour blocks are free",
+        "explanation": "The booking app allows half-hour reservations."
+      },
+      {
+        "id": "q3",
+        "number": 3,
+        "type": "ynng",
+        "question": "The writer thinks the booking app removes the need for staff supervision.",
+        "answer": "No",
+        "evidence": "yet staff still supervise the rooms and intervene if noise rises",
+        "explanation": "The writer explicitly says staff supervision is still needed."
+      },
+      {
+        "id": "q4",
+        "number": 4,
+        "type": "ynng",
+        "question": "The writer believes success should be judged by how easily students move between tasks.",
+        "answer": "Yes",
+        "evidence": "success should be judged by whether students can move between tasks without wasting time or concentration",
+        "explanation": "This is the writer's own criterion for judging success."
+      },
+      {
+        "id": "q5",
+        "number": 5,
+        "type": "multiple-choice",
+        "question": "Why was the overflow hall opened during exam weeks?",
+        "options": [
+          "To provide extra desks",
+          "To host evening concerts",
+          "To replace the media room",
+          "To sell study books"
+        ],
+        "answer": "To provide extra desks",
+        "evidence": "the library opens an overflow hall near the cafe to provide extra desks and keep students from crowding the stairwell",
+        "explanation": "The passage says the hall was opened to create more desk space."
+      },
+      {
+        "id": "q6",
+        "number": 6,
+        "type": "multiple-choice",
+        "question": "What did the researchers count?",
+        "options": [
+          "Room occupancy",
+          "Lunch breaks",
+          "Book loans",
+          "Wifi speed"
+        ],
+        "answer": "Room occupancy",
+        "evidence": "Researchers counted how long each room stayed occupied",
+        "explanation": "The researchers measured how long the rooms were occupied."
+      },
+      {
+        "id": "q7",
+        "number": 7,
+        "type": "completion",
+        "question": "The collaboration suite has ____ partitions.",
+        "answer": "glass",
+        "answers": ["glass"],
+        "evidence": "converted a former meeting room into a collaboration suite with glass partitions",
+        "explanation": "The passage says the partitions are glass."
+      },
+      {
+        "id": "q8",
+        "number": 8,
+        "type": "completion",
+        "question": "The overflow hall is near the ____.",
+        "answer": "cafe",
+        "answers": ["cafe"],
+        "evidence": "During exam weeks, the library opens an overflow hall near the cafe",
+        "explanation": "The hall is described as being near the cafe."
+      },
+      {
+        "id": "q9",
+        "number": 9,
+        "type": "short-answer",
+        "question": "What did researchers count?",
+        "answer": "room occupancy",
+        "answers": ["room occupancy", "occupancy"],
+        "evidence": "Researchers counted how long each room stayed occupied",
+        "explanation": "The phrase 'room occupancy' matches the information in the passage."
+      },
+      {
+        "id": "q10",
+        "number": 10,
+        "type": "short-answer",
+        "question": "Which learners were interviewed alongside first-year students and postgraduates?",
+        "answer": "part-time learners",
+        "answers": ["part-time learners", "part time learners"],
+        "evidence": "interviewed first-year students, postgraduates, and part-time learners",
+        "explanation": "The third group named in the interviews was part-time learners."
+      }
+    ],
+    "status": "active"
+  }
+]
