@@ -236,26 +236,34 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .reveal { opacity: 1; transform: none; }
 }
 
-.logo-text {
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-copy {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   line-height: 1.1;
 }
 
-.logo-name {
+.logo-title {
   font-size: 1.35rem;
   font-weight: 800;
+  color: #f5f7ff;
 }
 
-.logo-presented {
+.logo-title strong {
+  color: #4deaff;
+}
+
+.logo-subtitle {
   margin-top: 5px;
-  font-size: 0.72rem;
-  font-weight: 500;
+  font-size: 0.68rem;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.58);
-}
-
-.logo-name strong {
-  color: #4deaff;
+  color: rgba(255, 255, 255, 0.55);
 }
