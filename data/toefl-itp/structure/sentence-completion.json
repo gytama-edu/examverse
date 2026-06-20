@@ -1,0 +1,212 @@
+[
+  {
+    "id": "toefl-itp-structure-001",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Easy",
+    "topic": "Subject-Verb Agreement",
+    "question": "The results of the experiment _____ published yesterday.",
+    "options": [
+      { "key": "A", "text": "was" },
+      { "key": "B", "text": "were" },
+      { "key": "C", "text": "is" },
+      { "key": "D", "text": "has" }
+    ],
+    "answer": "B",
+    "explanation": "The subject 'results' is plural, so the correct verb is 'were'.",
+    "tags": ["grammar", "subject verb agreement"],
+    "estimatedTime": 45,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-002",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Easy",
+    "topic": "Verb Tense",
+    "question": "By the time the lecture began, most students _____ their seats.",
+    "options": [
+      { "key": "A", "text": "had taken" },
+      { "key": "B", "text": "take" },
+      { "key": "C", "text": "are taking" },
+      { "key": "D", "text": "will take" }
+    ],
+    "answer": "A",
+    "explanation": "The students took their seats before the lecture began, so the past perfect 'had taken' is correct.",
+    "tags": ["grammar", "verb tense", "past perfect"],
+    "estimatedTime": 45,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-003",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Easy",
+    "topic": "Parallel Structure",
+    "question": "The new training program aims to improve accuracy, increase speed, and _____ communication.",
+    "options": [
+      { "key": "A", "text": "strengthening" },
+      { "key": "B", "text": "strengthened" },
+      { "key": "C", "text": "strengthen" },
+      { "key": "D", "text": "strength" }
+    ],
+    "answer": "C",
+    "explanation": "The verbs 'improve', 'increase', and 'strengthen' must use the same base form in the series.",
+    "tags": ["grammar", "parallel structure"],
+    "estimatedTime": 45,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-004",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Easy",
+    "topic": "Word Form",
+    "question": "After a brief discussion, the committee made a _____ decision.",
+    "options": [
+      { "key": "A", "text": "unanimously" },
+      { "key": "B", "text": "unanimous" },
+      { "key": "C", "text": "unanimity" },
+      { "key": "D", "text": "unanimousness" }
+    ],
+    "answer": "B",
+    "explanation": "The noun 'decision' needs the adjective 'unanimous' before it.",
+    "tags": ["grammar", "word form", "adjective"],
+    "estimatedTime": 45,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-005",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Easy",
+    "topic": "Preposition",
+    "question": "The final report is divided _____ three main sections.",
+    "options": [
+      { "key": "A", "text": "at" },
+      { "key": "B", "text": "by" },
+      { "key": "C", "text": "for" },
+      { "key": "D", "text": "into" }
+    ],
+    "answer": "D",
+    "explanation": "Use 'divide into' when something is separated into parts or groups.",
+    "tags": ["grammar", "preposition", "fixed expression"],
+    "estimatedTime": 45,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-006",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Medium",
+    "topic": "Noun Clause",
+    "question": "The researcher explained _____ the results were unexpected.",
+    "options": [
+      { "key": "A", "text": "why" },
+      { "key": "B", "text": "because of" },
+      { "key": "C", "text": "which" },
+      { "key": "D", "text": "what did" }
+    ],
+    "answer": "A",
+    "explanation": "The word 'why' introduces a noun clause that explains the reason the results were unexpected.",
+    "tags": ["grammar", "noun clause", "clause connector"],
+    "estimatedTime": 50,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-007",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Medium",
+    "topic": "Adjective Clause",
+    "question": "The book _____ on the reference desk belongs to the history department.",
+    "options": [
+      { "key": "A", "text": "it is lying" },
+      { "key": "B", "text": "that is lying" },
+      { "key": "C", "text": "is lying" },
+      { "key": "D", "text": "which lying" }
+    ],
+    "answer": "B",
+    "explanation": "The adjective clause 'that is lying on the reference desk' describes the book.",
+    "tags": ["grammar", "adjective clause", "relative clause"],
+    "estimatedTime": 50,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-008",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Medium",
+    "topic": "Inversion",
+    "question": "Only after the meeting _____ the cause of the problem.",
+    "options": [
+      { "key": "A", "text": "they understood" },
+      { "key": "B", "text": "did they understand" },
+      { "key": "C", "text": "they did understand" },
+      { "key": "D", "text": "understood they" }
+    ],
+    "answer": "B",
+    "explanation": "An initial phrase beginning with 'only after' requires inversion: 'did they understand'.",
+    "tags": ["grammar", "inversion", "word order"],
+    "estimatedTime": 55,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-009",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Easy",
+    "topic": "Gerund and Infinitive",
+    "question": "The professor recommended _____ the article before the next class.",
+    "options": [
+      { "key": "A", "text": "to read" },
+      { "key": "B", "text": "read" },
+      { "key": "C", "text": "reading" },
+      { "key": "D", "text": "to reading" }
+    ],
+    "answer": "C",
+    "explanation": "The verb 'recommend' is followed by a gerund when no person is named: 'recommend reading'.",
+    "tags": ["grammar", "gerund", "verb pattern"],
+    "estimatedTime": 45,
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-structure-010",
+    "exam": "TOEFL ITP",
+    "section": "Structure and Written Expression",
+    "questionType": "Sentence Completion",
+    "interfaceType": "multiple-choice",
+    "difficulty": "Easy",
+    "topic": "Comparative Structure",
+    "question": "This year's survey results are significantly _____ than last year's results.",
+    "options": [
+      { "key": "A", "text": "good" },
+      { "key": "B", "text": "best" },
+      { "key": "C", "text": "better" },
+      { "key": "D", "text": "more better" }
+    ],
+    "answer": "C",
+    "explanation": "The word 'than' signals a comparison, so the comparative form 'better' is required.",
+    "tags": ["grammar", "comparative", "irregular adjective"],
+    "estimatedTime": 45,
+    "status": "active"
+  }
+]
