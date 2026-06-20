@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ielts-ac-dlc-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Diagram Label Completion",
+    "interfaceType": "diagram-label-completion",
+    "difficulty": "Easy",
+    "passageTitle": "A Simple Water Filtration System",
+    "passage": "The filtration system begins with a wide collection tank where untreated water is stored. From there, water passes through a gravel layer that removes larger particles. It then moves through a sand layer, which traps finer material. Before the water is released, it enters a small chamber containing charcoal, which helps reduce unpleasant smells. The writer explains that the order matters because each stage prepares the water for the next one, so no single part has to do all the work at once.",
+    "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "diagramTitle": "Water filtration system",
+    "diagramType": "process-schematic",
+    "labels": [
+      {
+        "id": "1",
+        "position": "top-left",
+        "labelText": "Storage area:",
+        "answers": ["collection tank"],
+        "evidence": "a wide collection tank where untreated water is stored",
+        "explanation": "The storage area is the collection tank."
+      },
+      {
+        "id": "2",
+        "position": "top-right",
+        "labelText": "First filter:",
+        "answers": ["gravel layer"],
+        "evidence": "water passes through a gravel layer that removes larger particles",
+        "explanation": "The first filter is the gravel layer."
+      },
+      {
+        "id": "3",
+        "position": "bottom-left",
+        "labelText": "Second filter:",
+        "answers": ["sand layer"],
+        "evidence": "It then moves through a sand layer, which traps finer material",
+        "explanation": "The second filter is the sand layer."
+      },
+      {
+        "id": "4",
+        "position": "bottom-right",
+        "labelText": "Smell reducer:",
+        "answers": ["charcoal"],
+        "evidence": "it enters a small chamber containing charcoal, which helps reduce unpleasant smells",
+        "explanation": "Charcoal reduces the smell in the final chamber."
+      }
+    ],
+    "tags": ["ielts", "reading", "diagram label completion"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-dlc-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Diagram Label Completion",
+    "interfaceType": "diagram-label-completion",
+    "difficulty": "Medium",
+    "passageTitle": "The Structure of an Insect Wing",
+    "passage": "An insect wing is not a simple sheet of skin. A thin outer membrane covers the surface and is supported by a network of veins that carry strength across the wing. Near the leading edge, a stiffened rib helps the wing stay stable during rapid movement. Small flexible joints at the base allow the wing to fold neatly against the body when the insect is resting. The writer notes that the pattern of veins is important because it lets the wing remain light while still resisting tearing in flight.",
+    "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "diagramTitle": "Insect wing structure",
+    "diagramType": "body-part-schematic",
+    "labels": [
+      {
+        "id": "1",
+        "position": "top-left",
+        "labelText": "Outer cover:",
+        "answers": ["outer membrane"],
+        "evidence": "A thin outer membrane covers the surface",
+        "explanation": "The outer cover is the membrane."
+      },
+      {
+        "id": "2",
+        "position": "top-right",
+        "labelText": "Support network:",
+        "answers": ["veins"],
+        "evidence": "supported by a network of veins",
+        "explanation": "The support network is made of veins."
+      },
+      {
+        "id": "3",
+        "position": "bottom-left",
+        "labelText": "Stiffened edge:",
+        "answers": ["leading edge"],
+        "evidence": "Near the leading edge, a stiffened rib helps",
+        "explanation": "The stiffened edge is the leading edge."
+      },
+      {
+        "id": "4",
+        "position": "bottom-right",
+        "labelText": "Folding point:",
+        "answers": ["the base"],
+        "evidence": "Small flexible joints at the base allow the wing to fold",
+        "explanation": "The folding point is at the base."
+      }
+    ],
+    "tags": ["ielts", "reading", "diagram label completion"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-dlc-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Diagram Label Completion",
+    "interfaceType": "diagram-label-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Controlling Greenhouse Temperature",
+    "passage": "The greenhouse uses a simple system to prevent the air from becoming too hot in the afternoon. Sunlight enters through the glass roof, then a sensor near the ceiling detects a rise in temperature. If the reading becomes too high, an automatic vent opens and releases warm air at the top. Cooler air enters through low side openings, which helps the plants stay within a stable range. The writer says the design works best when the vent and the side openings are used together rather than separately.",
+    "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "diagramTitle": "Greenhouse control system",
+    "diagramType": "environment-control-schematic",
+    "labels": [
+      {
+        "id": "1",
+        "position": "top-left",
+        "labelText": "Heat detector:",
+        "answers": ["sensor"],
+        "evidence": "a sensor near the ceiling detects a rise in temperature",
+        "explanation": "The detector is the sensor."
+      },
+      {
+        "id": "2",
+        "position": "top-right",
+        "labelText": "Hot-air outlet:",
+        "answers": ["automatic vent"],
+        "evidence": "an automatic vent opens and releases warm air at the top",
+        "explanation": "The vent lets hot air out."
+      },
+      {
+        "id": "3",
+        "position": "bottom-left",
+        "labelText": "Fresh-air entry:",
+        "answers": ["side openings"],
+        "evidence": "Cooler air enters through low side openings",
+        "explanation": "The passage names the entry points as side openings."
+      },
+      {
+        "id": "4",
+        "position": "bottom-right",
+        "labelText": "Roof section:",
+        "answers": ["glass roof"],
+        "evidence": "Sunlight enters through the glass roof",
+        "explanation": "The roof part mentioned is the glass roof."
+      }
+    ],
+    "tags": ["ielts", "reading", "diagram label completion"],
+    "estimatedTime": 240,
+    "status": "active"
+  }
+]
