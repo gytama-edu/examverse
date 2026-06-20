@@ -1,0 +1,206 @@
+[
+  {
+    "id": "ielts-ac-tc-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Table Completion",
+    "interfaceType": "table-completion",
+    "difficulty": "Easy",
+    "passageTitle": "Study Spaces on Campus",
+    "passage": "The university library offers several study areas. The silent room is designed for individual reading and does not allow group discussion. The media room contains computers and recording equipment for students working on digital projects. A separate tutorial room can be booked by small groups, but students must reserve it at least one day in advance. During exam periods, the library also opens an overflow hall to provide additional desks. Staff say the mix of spaces is meant to suit both quiet study and collaborative work without letting noise spread through the building.",
+    "instructions": "Complete the table below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "tableTitle": "Campus study areas",
+    "columns": ["Area", "Main use", "Special rule or feature"],
+    "rows": [
+      {
+        "cells": [
+          "Silent room",
+          {
+            "blankId": "1",
+            "answers": ["individual reading"],
+            "evidence": "The silent room is designed for individual reading",
+            "explanation": "The passage states exactly how the silent room is used."
+          },
+          "Group discussion is not allowed"
+        ]
+      },
+      {
+        "cells": [
+          "Media room",
+          {
+            "blankId": "2",
+            "answers": ["digital projects"],
+            "evidence": "The media room contains computers and recording equipment for students working on digital projects.",
+            "explanation": "The room is used for digital projects."
+          },
+          "Computers and recording equipment"
+        ]
+      },
+      {
+        "cells": [
+          "Tutorial room",
+          {
+            "blankId": "3",
+            "answers": ["small groups"],
+            "evidence": "A separate tutorial room can be booked by small groups",
+            "explanation": "The passage says the tutorial room is for small groups."
+          },
+          "Booked one day in advance"
+        ]
+      },
+      {
+        "cells": [
+          "Overflow hall",
+          {
+            "blankId": "4",
+            "answers": ["additional desks"],
+            "evidence": "the library also opens an overflow hall to provide additional desks",
+            "explanation": "The overflow hall is opened to provide extra desks."
+          },
+          "Open during exam periods"
+        ]
+      }
+    ],
+    "tags": ["ielts", "reading", "table completion", "campus"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-tc-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Table Completion",
+    "interfaceType": "table-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Museum Visitor Research",
+    "passage": "A city museum studied how visitors moved through one new gallery. First, researchers asked ten people to give short interviews at the exit so they could explain which displays held attention. Next, another group wore lightweight sensors that recorded eye movements while they walked. The team then compared the results with an online survey that measured overall rating and visit length. Finally, staff phoned a small sample of regular visitors two weeks later to ask whether the exhibits were easy to remember. The writer argues that the best research combines quick reactions with later reflection, because immediate praise can hide confusion that only appears after the visit has ended.",
+    "instructions": "Complete the table below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "tableTitle": "Visitor research methods",
+    "columns": ["Research stage", "What it measures", "Tool or timing"],
+    "rows": [
+      {
+        "cells": [
+          "Exit interviews",
+          {
+            "blankId": "1",
+            "answers": ["visitor reactions"],
+            "evidence": "asked ten people to give short interviews at the exit so they could explain which displays held attention",
+            "explanation": "The exit interviews collected visitor reactions."
+          },
+          "At the exit"
+        ]
+      },
+      {
+        "cells": [
+          "Eye-sensor walk",
+          {
+            "blankId": "2",
+            "answers": ["eye movements"],
+            "evidence": "wear lightweight sensors that recorded eye movements while they walked",
+            "explanation": "The sensors measured eye movements."
+          },
+          "Lightweight sensors"
+        ]
+      },
+      {
+        "cells": [
+          "Online survey",
+          {
+            "blankId": "3",
+            "answers": ["overall rating"],
+            "evidence": "an online survey that measured overall rating and visit length",
+            "explanation": "The survey measured overall rating."
+          },
+          "After the visit"
+        ]
+      },
+      {
+        "cells": [
+          "Follow-up call",
+          {
+            "blankId": "4",
+            "answers": ["two weeks"],
+            "evidence": "phoned a small sample of regular visitors two weeks later",
+            "explanation": "The timing of the follow-up call is given directly."
+          },
+          "Regular visitors"
+        ]
+      }
+    ],
+    "tags": ["ielts", "reading", "table completion", "museum"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-tc-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Table Completion",
+    "interfaceType": "table-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Renewable Energy Storage",
+    "passage": "A coastal energy trial used solar panels by day and stored the extra power in a battery bank for night use. When the weather was windy, the system redirected power into a thermal tank that kept water warm for nearby housing. Engineers also tested software that shifted electricity during peak demand so the grid would not overload. The final report said the most useful feature was not the biggest battery, but the combination of storage types that could balance supply after cloudy days. The writer notes that renewable energy becomes more reliable when different forms of storage support one another rather than competing for the same task.",
+    "instructions": "Complete the table below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "tableTitle": "Storage features",
+    "columns": ["System part", "Function", "Key detail"],
+    "rows": [
+      {
+        "cells": [
+          "Battery bank",
+          {
+            "blankId": "1",
+            "answers": ["night use"],
+            "evidence": "stored the extra power in a battery bank for night use",
+            "explanation": "The battery bank stores energy for night use."
+          },
+          "Uses solar power"
+        ]
+      },
+      {
+        "cells": [
+          "Thermal tank",
+          {
+            "blankId": "2",
+            "answers": ["water warm"],
+            "evidence": "a thermal tank that kept water warm for nearby housing",
+            "explanation": "The thermal tank keeps water warm."
+          },
+          "Works when windy"
+        ]
+      },
+      {
+        "cells": [
+          "Software",
+          {
+            "blankId": "3",
+            "answers": ["peak demand"],
+            "evidence": "shifted electricity during peak demand",
+            "explanation": "The software shifts electricity when demand is high."
+          },
+          "Prevents overload"
+        ]
+      },
+      {
+        "cells": [
+          "Storage mix",
+          {
+            "blankId": "4",
+            "answers": ["cloudy days"],
+            "evidence": "could balance supply after cloudy days",
+            "explanation": "The mixed storage system helps after cloudy days."
+          },
+          "Supports supply"
+        ]
+      }
+    ],
+    "tags": ["ielts", "reading", "table completion", "energy"],
+    "estimatedTime": 240,
+    "status": "active"
+  }
+]
