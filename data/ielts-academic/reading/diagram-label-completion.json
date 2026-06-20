@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ielts-gt-dlc-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Diagram Label Completion",
+    "interfaceType": "diagram-label-completion",
+    "difficulty": "Easy",
+    "passageTitle": "The Office Recycling Station",
+    "passage": "The office recycling station sits beside the staff kitchen so people can sort items while making tea or lunch. One bin is marked for paper, another for plastic bottles, and a smaller tray is used for metal cans. A notice above the station asks staff to remove food containers before throwing anything away because leftover liquid can ruin a full bag. At the end of the day, the facilities team empties the bins into the loading area for collection. The writer says the station works well because the labels are clear and the bins are placed where employees naturally walk past them.",
+    "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "diagramTitle": "Office recycling station",
+    "diagramType": "sorting-station-schematic",
+    "labels": [
+      {
+        "id": "1",
+        "position": "top-left",
+        "labelText": "Paper bin:",
+        "answers": ["paper"],
+        "evidence": "One bin is marked for paper",
+        "explanation": "The paper bin is clearly named."
+      },
+      {
+        "id": "2",
+        "position": "top-right",
+        "labelText": "Bottle bin:",
+        "answers": ["plastic bottles"],
+        "evidence": "another for plastic bottles",
+        "explanation": "The bottle bin is for plastic bottles."
+      },
+      {
+        "id": "3",
+        "position": "bottom-left",
+        "labelText": "Can tray:",
+        "answers": ["metal cans"],
+        "evidence": "a smaller tray is used for metal cans",
+        "explanation": "The tray is for metal cans."
+      },
+      {
+        "id": "4",
+        "position": "bottom-right",
+        "labelText": "Collection area:",
+        "answers": ["loading area"],
+        "evidence": "empties the bins into the loading area for collection",
+        "explanation": "The collection area is the loading area."
+      }
+    ],
+    "tags": ["ielts", "reading", "diagram label completion"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-dlc-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Diagram Label Completion",
+    "interfaceType": "diagram-label-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Campsite Map Facilities",
+    "passage": "The campsite map shows a reception hut at the entrance and a path leading to the river picnic area. Showers are located beside the main wash block, while the quiet tent field is set farther away from the car park so noise is reduced at night. A small supply shed stores firewood and spare gas canisters, and the map also marks an aid room next to the ranger office. The notice reminds visitors that the river crossing should be used only during daylight.",
+    "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "diagramTitle": "Campsite map facilities",
+    "diagramType": "site-map-schematic",
+    "labels": [
+      {
+        "id": "1",
+        "position": "top-left",
+        "labelText": "Entrance hut:",
+        "answers": ["reception hut"],
+        "evidence": "a reception hut at the entrance",
+        "explanation": "The entrance hut is the reception hut."
+      },
+      {
+        "id": "2",
+        "position": "top-right",
+        "labelText": "Washed area:",
+        "answers": ["wash block"],
+        "evidence": "Showers are located beside the main wash block",
+        "explanation": "The shower area is the wash block."
+      },
+      {
+        "id": "3",
+        "position": "bottom-left",
+        "labelText": "Storage shed:",
+        "answers": ["supply shed"],
+        "evidence": "A small supply shed stores firewood and spare gas canisters",
+        "explanation": "The storage building is the supply shed."
+      },
+      {
+        "id": "4",
+        "position": "bottom-right",
+        "labelText": "Medical room:",
+        "answers": ["aid room"],
+        "evidence": "the map also marks an aid room next to the ranger office",
+        "explanation": "The passage identifies the medical space as the aid room."
+      }
+    ],
+    "tags": ["ielts", "reading", "diagram label completion"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-dlc-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Diagram Label Completion",
+    "interfaceType": "diagram-label-completion",
+    "difficulty": "Medium",
+    "passageTitle": "A Bicycle Repair Kit",
+    "passage": "The bicycle repair kit is packed in a zip case that fits under the saddle. Inside, riders will find a multi-tool, tyre levers, a small pump, and a patch pack for punctures. The writer recommends placing the pump near the opening so it can be reached quickly on the roadside, while the patch pack should stay in the inner pocket where it will not be crushed. A cloth is included to wipe grease from hands before the bike is lifted back onto the stand. The note says the kit is most useful when all the parts are returned to their own places after each ride.",
+    "instructions": "Label the diagram below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "diagramTitle": "Bicycle repair kit",
+    "diagramType": "tool-kit-schematic",
+    "labels": [
+      {
+        "id": "1",
+        "position": "top-left",
+        "labelText": "Container:",
+        "answers": ["zip case"],
+        "evidence": "packed in a zip case that fits under the saddle",
+        "explanation": "The kit container is the zip case."
+      },
+      {
+        "id": "2",
+        "position": "top-right",
+        "labelText": "Roadside tool:",
+        "answers": ["small pump"],
+        "evidence": "Inside, riders will find ... a small pump",
+        "explanation": "The pump is the roadside tool."
+      },
+      {
+        "id": "3",
+        "position": "bottom-left",
+        "labelText": "Puncture repair:",
+        "answers": ["patch pack"],
+        "evidence": "a patch pack for punctures",
+        "explanation": "The repair item is the patch pack."
+      },
+      {
+        "id": "4",
+        "position": "bottom-right",
+        "labelText": "Cleaning cloth:",
+        "answers": ["cloth"],
+        "evidence": "A cloth is included to wipe grease from hands",
+        "explanation": "The cloth is the cleaning item."
+      }
+    ],
+    "tags": ["ielts", "reading", "diagram label completion"],
+    "estimatedTime": 220,
+    "status": "active"
+  }
+]
