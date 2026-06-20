@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ielts-ac-fc-001",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Flow-chart Completion",
+    "interfaceType": "flowchart-completion",
+    "difficulty": "Easy",
+    "passageTitle": "Restoring a Damaged Riverbank",
+    "passage": "The restoration team began by mapping the riverbank and marking places where rainwater had carved narrow channels. They next removed tangled weeds that were trapping moisture close to the soil. After that, they spread a layer of leaf mulch to protect the surface from drying too quickly. Finally, young willow cuttings were planted along the edge so their roots could grip the bank during the next storm season. The writer says this order matters because each stage prepares the ground for the one after it. Simply planting trees first would not have worked, since the bank needed to be cleared and covered before new growth could settle properly.",
+    "instructions": "Complete the flow-chart below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "steps": [
+      {
+        "id": "1",
+        "beforeText": "Map the riverbank and mark places where rainwater had carved",
+        "blankId": "1",
+        "afterText": ".",
+        "answers": ["narrow channels"],
+        "evidence": "marking places where rainwater had carved narrow channels",
+        "explanation": "The first step identifies the carved features that were mapped."
+      },
+      {
+        "id": "2",
+        "beforeText": "Remove",
+        "blankId": "2",
+        "afterText": " that were trapping moisture close to the soil.",
+        "answers": ["tangled weeds"],
+        "evidence": "They next removed tangled weeds that were trapping moisture close to the soil.",
+        "explanation": "The passage names the plants removed in the second step."
+      },
+      {
+        "id": "3",
+        "beforeText": "Spread a layer of",
+        "blankId": "3",
+        "afterText": " to protect the surface.",
+        "answers": ["leaf mulch"],
+        "evidence": "they spread a layer of leaf mulch to protect the surface",
+        "explanation": "The protective covering is identified directly."
+      },
+      {
+        "id": "4",
+        "beforeText": "Plant young willow cuttings along",
+        "blankId": "4",
+        "afterText": ".",
+        "answers": ["the edge"],
+        "evidence": "young willow cuttings were planted along the edge",
+        "explanation": "The final planting location is stated at the end of the passage."
+      }
+    ],
+    "tags": ["ielts", "reading", "flow-chart completion", "riverbank"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-fc-002",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Flow-chart Completion",
+    "interfaceType": "flowchart-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Testing Laboratory Samples",
+    "passage": "To test each sample fairly, the laboratory first logs its code and checks whether the container seal is intact. The technician then places the material in a cooling rack for ten minutes so the temperature can settle. After this, a tiny portion is mixed with a reagent that reveals the presence of minerals. If the colour shift is unclear, the sample is run through the scanner and compared with the reference record. The writer notes that the order should not be rushed, because a sample taken straight from the delivery box can give a false reading before it has stabilised. Careful tracking also helps the team report results in a way other scientists can repeat.",
+    "instructions": "Complete the flow-chart below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "steps": [
+      {
+        "id": "1",
+        "beforeText": "Log the sample code and check that the",
+        "blankId": "1",
+        "afterText": " is intact.",
+        "answers": ["container seal"],
+        "evidence": "checks whether the container seal is intact",
+        "explanation": "The first step is to verify that the container is properly sealed."
+      },
+      {
+        "id": "2",
+        "beforeText": "Place the material in a",
+        "blankId": "2",
+        "afterText": " for ten minutes.",
+        "answers": ["cooling rack"],
+        "evidence": "places the material in a cooling rack for ten minutes",
+        "explanation": "The sample is allowed to settle in the cooling rack."
+      },
+      {
+        "id": "3",
+        "beforeText": "Mix a tiny portion with a",
+        "blankId": "3",
+        "afterText": ".",
+        "answers": ["reagent"],
+        "evidence": "a tiny portion is mixed with a reagent",
+        "explanation": "The chemical used in the testing stage is named directly."
+      },
+      {
+        "id": "4",
+        "beforeText": "Compare the sample with the",
+        "blankId": "4",
+        "afterText": " if the colour shift is unclear.",
+        "answers": ["reference record"],
+        "evidence": "compared with the reference record",
+        "explanation": "The final comparison source is the reference record."
+      }
+    ],
+    "tags": ["ielts", "reading", "flow-chart completion", "laboratory"],
+    "estimatedTime": 240,
+    "status": "active"
+  },
+  {
+    "id": "ielts-ac-fc-003",
+    "examKey": "academic",
+    "exam": "IELTS Academic",
+    "section": "Reading",
+    "questionType": "Flow-chart Completion",
+    "interfaceType": "flowchart-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Preserving a Digital Archive",
+    "passage": "The archive team begins by checking which files are most at risk, especially images stored on ageing discs. They then copy each item to a secure server and create a second backup in a separate building. Once the files are safe, the staff attach descriptive tags so later users can search by date, place, or author. The final stage is to open a small sample of records and check whether the links still work after transfer. The writer argues that preservation is not only about storing data but also about keeping it findable and usable. A file that survives technically but cannot be located again has still failed the archive's purpose.",
+    "instructions": "Complete the flow-chart below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "steps": [
+      {
+        "id": "1",
+        "beforeText": "Check which files are most at",
+        "blankId": "1",
+        "afterText": ".",
+        "answers": ["risk"],
+        "evidence": "checking which files are most at risk",
+        "explanation": "The first stage identifies the files most threatened."
+      },
+      {
+        "id": "2",
+        "beforeText": "Copy each item to a secure",
+        "blankId": "2",
+        "afterText": ".",
+        "answers": ["server"],
+        "evidence": "copy each item to a secure server",
+        "explanation": "The main storage location is named directly."
+      },
+      {
+        "id": "3",
+        "beforeText": "Attach descriptive",
+        "blankId": "3",
+        "afterText": " so later users can search.",
+        "answers": ["tags"],
+        "evidence": "The staff attach descriptive tags so later users can search",
+        "explanation": "The passage says the files are labelled with tags."
+      },
+      {
+        "id": "4",
+        "beforeText": "Open a small sample of records and check whether the",
+        "blankId": "4",
+        "afterText": " still work.",
+        "answers": ["links"],
+        "evidence": "check whether the links still work after transfer",
+        "explanation": "The final quality-check focuses on links after transfer."
+      }
+    ],
+    "tags": ["ielts", "reading", "flow-chart completion", "archives"],
+    "estimatedTime": 240,
+    "status": "active"
+  }
+]
