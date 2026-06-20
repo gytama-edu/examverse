@@ -1,0 +1,206 @@
+[
+  {
+    "id": "ielts-gt-tc-001",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Table Completion",
+    "interfaceType": "table-completion",
+    "difficulty": "Easy",
+    "passageTitle": "Gym Membership Options",
+    "passage": "The Riverside gym offers four membership options. The standard plan gives access every day, while the peak plan is cheaper but only suits people who train at quieter times. A family plan covers two adults and up to two children, and the student plan includes a discount for members with a current college card. Anyone who wants to pause training for a holiday can freeze the account for one month without losing the joining fee. The notice explains that all members may use the changing rooms and water stations, but towel hire costs extra unless it is included in a premium package.",
+    "instructions": "Complete the table below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "tableTitle": "Membership comparison",
+    "columns": ["Plan", "Main benefit", "Key condition"],
+    "rows": [
+      {
+        "cells": [
+          "Standard plan",
+          {
+            "blankId": "1",
+            "answers": ["every day"],
+            "evidence": "The standard plan gives access every day",
+            "explanation": "The standard plan allows daily access."
+          },
+          "Full access"
+        ]
+      },
+      {
+        "cells": [
+          "Peak plan",
+          {
+            "blankId": "2",
+            "answers": ["cheaper"],
+            "evidence": "the peak plan is cheaper",
+            "explanation": "The peak plan is the lower-cost option."
+          },
+          "Quieter times"
+        ]
+      },
+      {
+        "cells": [
+          "Family plan",
+          {
+            "blankId": "3",
+            "answers": ["two children"],
+            "evidence": "A family plan covers two adults and up to two children",
+            "explanation": "The family plan includes children."
+          },
+          "Two adults"
+        ]
+      },
+      {
+        "cells": [
+          "Freeze option",
+          {
+            "blankId": "4",
+            "answers": ["one month"],
+            "evidence": "freeze the account for one month",
+            "explanation": "The account can be paused for one month."
+          },
+          "Keeps joining fee"
+        ]
+      }
+    ],
+    "tags": ["ielts", "reading", "table completion", "gym"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-tc-002",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Table Completion",
+    "interfaceType": "table-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Workplace Training Schedule",
+    "passage": "New staff in the warehouse begin with a safety briefing on Monday morning, followed by a tour of the building. On Tuesday afternoon they complete an equipment demonstration and practise packing goods under supervision. Wednesday is reserved for an introduction to the digital logbook, while Thursday gives each worker time to shadow a team mentor. The week ends with a short review session so the supervisor can answer any final questions. The manager says the schedule is designed to introduce one skill at a time rather than overwhelm new employees with too much information on the first day.",
+    "instructions": "Complete the table below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "tableTitle": "Training schedule",
+    "columns": ["Day", "Main activity", "Purpose"],
+    "rows": [
+      {
+        "cells": [
+          "Monday",
+          {
+            "blankId": "1",
+            "answers": ["safety briefing"],
+            "evidence": "New staff ... begin with a safety briefing on Monday morning",
+            "explanation": "The first scheduled activity is the safety briefing."
+          },
+          "Start of week"
+        ]
+      },
+      {
+        "cells": [
+          "Tuesday",
+          {
+            "blankId": "2",
+            "answers": ["equipment demonstration"],
+            "evidence": "On Tuesday afternoon they complete an equipment demonstration",
+            "explanation": "The Tuesday activity is the equipment demonstration."
+          },
+          "Practice packing"
+        ]
+      },
+      {
+        "cells": [
+          "Thursday",
+          {
+            "blankId": "3",
+            "answers": ["team mentor"],
+            "evidence": "Thursday gives each worker time to shadow a team mentor",
+            "explanation": "Workers shadow a team mentor on Thursday."
+          },
+          "Shadowing"
+        ]
+      },
+      {
+        "cells": [
+          "Friday",
+          {
+            "blankId": "4",
+            "answers": ["review session"],
+            "evidence": "The week ends with a short review session",
+            "explanation": "The final activity is a short review session."
+          },
+          "Final questions"
+        ]
+      }
+    ],
+    "tags": ["ielts", "reading", "table completion", "workplace"],
+    "estimatedTime": 220,
+    "status": "active"
+  },
+  {
+    "id": "ielts-gt-tc-003",
+    "examKey": "general",
+    "exam": "IELTS General Training",
+    "section": "Reading",
+    "questionType": "Table Completion",
+    "interfaceType": "table-completion",
+    "difficulty": "Medium",
+    "passageTitle": "Local Transport Discounts",
+    "passage": "The city transport office now offers several discounts to regular users. Off-peak travel is charged at half price, which makes later buses cheaper for commuters with flexible hours. Students can also buy a term pass, but they must show a valid ID card when registering. Seniors receive a lower fare before noon, and children under five travel free with a paying adult. The final option is a weekend card that gives a return trip at no extra cost on routes across the centre. Staff say the new system is meant to encourage people to leave their cars at home on busy shopping days.",
+    "instructions": "Complete the table below. Use NO MORE THAN TWO WORDS from the passage for each answer.",
+    "wordLimit": "NO MORE THAN TWO WORDS",
+    "tableTitle": "Discount options",
+    "columns": ["Group", "Discount", "Condition"],
+    "rows": [
+      {
+        "cells": [
+          "Off-peak users",
+          {
+            "blankId": "1",
+            "answers": ["half price"],
+            "evidence": "Off-peak travel is charged at half price",
+            "explanation": "The off-peak discount is half price."
+          },
+          "Later buses"
+        ]
+      },
+      {
+        "cells": [
+          "Students",
+          {
+            "blankId": "2",
+            "answers": ["term pass"],
+            "evidence": "Students can also buy a term pass",
+            "explanation": "The student option is the term pass."
+          },
+          "Valid ID card"
+        ]
+      },
+      {
+        "cells": [
+          "Seniors",
+          {
+            "blankId": "3",
+            "answers": ["before noon"],
+            "evidence": "Seniors receive a lower fare before noon",
+            "explanation": "The senior discount applies before noon."
+          },
+          "Lower fare"
+        ]
+      },
+      {
+        "cells": [
+          "Weekend card",
+          {
+            "blankId": "4",
+            "answers": ["return trip"],
+            "evidence": "the weekend card ... gives a return trip at no extra cost",
+            "explanation": "The weekend card includes a return trip."
+          },
+          "Centre routes"
+        ]
+      }
+    ],
+    "tags": ["ielts", "reading", "table completion", "transport"],
+    "estimatedTime": 220,
+    "status": "active"
+  }
+]
