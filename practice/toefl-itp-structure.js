@@ -11,14 +11,21 @@
     'error-recognition': 'Error Recognition'
   };
 
+  const params = new URLSearchParams(window.location.search);
+  const requestedMode = params.get('mode');
+  const initialMode = Object.prototype.hasOwnProperty.call(MODE_LABELS, requestedMode)
+    ? requestedMode
+    : 'sentence-completion';
+
   const state = {
     datasets: {},
-    mode: 'sentence-completion',
+    mode: initialMode,
     currentIndex: 0,
     selectedAnswer: null,
     score: 0,
     answered: false,
-    loaded: false
+    loaded: false,
+    wrongAnswers: []
   };
 
   const elements = {
@@ -46,6 +53,19 @@
 
   const currentQuestions = () => state.datasets[state.mode] || [];
   const currentQuestion = () => currentQuestions()[state.currentIndex];
+
+  const answerTextFor = (question, key) => {
+    const answers = question.options || question.segments || [];
+    const answer = answers.find((item) => item.key === key);
+    return answer ? `${key}. ${answer.text}` : key;
+  };
+
+  const updateModeUrl = (mode) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set('mode', mode);
+    url.hash = 'practice-shell';
+    history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+  };
 
   const setProgress = (value) => {
     const safeValue = Math.max(0, Math.min(100, Math.round(value)));
@@ -170,7 +190,20 @@
     const question = currentQuestion();
     const isCorrect = state.selectedAnswer === question.answer;
     state.answered = true;
-    if (isCorrect) state.score += 1;
+    if (isCorrect) {
+      state.score += 1;
+    } else {
+      state.wrongAnswers.push({
+        questionNumber: state.currentIndex + 1,
+        topic: question.topic,
+        questionText: question.question || question.sentence,
+        selectedAnswer: state.selectedAnswer,
+        selectedAnswerText: answerTextFor(question, state.selectedAnswer),
+        correctAnswer: question.answer,
+        correctAnswerText: answerTextFor(question, question.answer),
+        explanation: question.explanation
+      });
+    }
 
     elements.questionCard.querySelectorAll('.practice-answer-btn').forEach((button) => {
       const key = button.dataset.key;
@@ -208,6 +241,62 @@
     return 'Keep building the foundation. Study one grammar pattern at a time, then try the set again.';
   };
 
+  const makeReviewStat = (label, value, accentClass = '') => {
+    const stat = createElement('div', `practice-review-stat ${accentClass}`.trim());
+    stat.append(createElement('span', null, label), createElement('strong', null, value));
+    return stat;
+  };
+
+  const buildMistakeCard = (mistake) => {
+    const card = createElement('article', 'practice-mistake-card');
+    const meta = createElement('div', 'practice-mistake-meta');
+    meta.append(
+      createElement('span', null, `Question ${mistake.questionNumber}`),
+      createElement('span', null, mistake.topic)
+    );
+
+    const question = createElement('p', 'practice-mistake-question', mistake.questionText);
+    const answers = createElement('div', 'practice-mistake-answer');
+    const studentAnswer = createElement('div');
+    studentAnswer.append(
+      createElement('span', null, 'Your answer'),
+      createElement('strong', 'wrong', mistake.selectedAnswerText)
+    );
+    const correctAnswer = createElement('div');
+    correctAnswer.append(
+      createElement('span', null, 'Correct answer'),
+      createElement('strong', 'correct', mistake.correctAnswerText)
+    );
+    answers.append(studentAnswer, correctAnswer);
+
+    const explanation = createElement('p', 'practice-mistake-explanation', mistake.explanation);
+    card.append(meta, question, answers, explanation);
+    return card;
+  };
+
+  const buildReview = (total, percentage) => {
+    const review = createElement('section', 'practice-review practice-review-card');
+    review.setAttribute('aria-label', 'Practice session review');
+    review.append(createElement('h4', null, 'Session Review'));
+
+    const stats = createElement('div', 'practice-review-grid');
+    stats.append(
+      makeReviewStat('Total questions', String(total)),
+      makeReviewStat('Correct answers', String(state.score), 'correct'),
+      makeReviewStat('Wrong answers', String(state.wrongAnswers.length), 'wrong'),
+      makeReviewStat('Accuracy', `${percentage}%`, 'accuracy')
+    );
+    review.append(stats, createElement('p', 'practice-review-message', resultMessage(percentage)));
+
+    if (state.wrongAnswers.length) {
+      const mistakes = createElement('div', 'practice-mistake-list');
+      mistakes.append(createElement('h4', null, 'Review Mistakes'));
+      state.wrongAnswers.forEach((mistake) => mistakes.append(buildMistakeCard(mistake)));
+      review.append(mistakes);
+    }
+    return review;
+  };
+
   const showResults = () => {
     const total = currentQuestions().length;
     const percentage = total ? Math.round((state.score / total) * 100) : 0;
@@ -219,10 +308,9 @@
     const label = createElement('span', 'section-kicker', 'Practice complete');
     const score = createElement('strong', 'practice-result-score', `${state.score}/${total}`);
     const heading = createElement('h3', null, `${percentage}% correct`);
-    const message = createElement('p', null, resultMessage(percentage));
     const hint = createElement('small', null, 'Restart this mode to review the same core patterns again.');
-    result.append(label, score, heading, message, hint);
-    elements.questionCard.replaceChildren(result);
+    result.append(label, score, heading, hint);
+    elements.questionCard.replaceChildren(result, buildReview(total, percentage));
 
     elements.feedback.hidden = true;
     elements.feedback.replaceChildren();
@@ -236,12 +324,14 @@
     state.selectedAnswer = null;
     state.score = 0;
     state.answered = false;
+    state.wrongAnswers = [];
     renderQuestion();
   };
 
   const switchMode = (mode) => {
     if (!MODE_LABELS[mode]) return;
     state.mode = mode;
+    updateModeUrl(mode);
     updateModeControls();
     if (state.loaded) resetSession();
   };
