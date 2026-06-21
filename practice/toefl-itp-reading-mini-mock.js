@@ -50,6 +50,7 @@
     reviewButton: document.querySelector('#review-answers-btn'),
     reviewPanel: document.querySelector('#mock-review-panel'),
     confirmPanel: document.querySelector('#mock-confirm-panel'),
+    confirmBackdrop: document.querySelector('#mock-confirm-backdrop'),
     confirmText: document.querySelector('#mock-confirm-text'),
     continueButton: document.querySelector('#mock-continue'),
     submitNowButton: document.querySelector('#mock-submit-now'),
@@ -286,14 +287,22 @@
   };
 
   const openConfirmPanel = () => {
+    if (!state.started || state.submitted) {
+      return;
+    }
     state.confirmOpen = true;
     el.confirmText.textContent = `You still have ${unansweredCount()} unanswered questions.`;
     el.confirmPanel.hidden = false;
+    el.confirmPanel.classList.add('is-open');
+    el.confirmPanel.setAttribute('aria-hidden', 'false');
+    el.continueButton.focus();
   };
 
   const closeConfirmPanel = () => {
     state.confirmOpen = false;
+    el.confirmPanel.classList.remove('is-open');
     el.confirmPanel.hidden = true;
+    el.confirmPanel.setAttribute('aria-hidden', 'true');
   };
 
   const performanceMessage = (score) => {
@@ -432,6 +441,8 @@
     setVisible(el.results, false);
     el.reviewPanel.hidden = true;
     el.confirmPanel.hidden = true;
+    el.confirmPanel.classList.remove('is-open');
+    el.confirmPanel.setAttribute('aria-hidden', 'true');
     el.sessionTitle.textContent = 'Loading mini mock...';
     el.statusPill.textContent = state.loaded ? 'Ready' : 'Preparing data';
     el.start.disabled = !state.loaded;
@@ -562,7 +573,13 @@
   el.reviewButton.addEventListener('click', openReviewPanel);
   el.continueButton.addEventListener('click', closeConfirmPanel);
   el.submitNowButton.addEventListener('click', () => finalizeSubmission(false));
+  el.confirmBackdrop.addEventListener('click', closeConfirmPanel);
   el.retry.addEventListener('click', loadDataset);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !el.confirmPanel.hidden) {
+      closeConfirmPanel();
+    }
+  });
 
   updateTimerState();
   updateProgress();
