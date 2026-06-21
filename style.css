@@ -2549,10 +2549,127 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .daily-life-option { min-height: 62px; }
 }
 
+/* Hub skill practice cards */
+.skill-practice-section { margin-top: 24px; }
+.skill-practice-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.skill-practice-header .section-description,
+.skill-practice-header p {
+  max-width: 620px;
+}
+.skill-practice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.skill-practice-grid.featured {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.skill-practice-card {
+  display: grid;
+  gap: 10px;
+  min-height: 175px;
+  padding: 20px;
+  border: 1px solid rgba(170,141,255,.18);
+  border-radius: 15px;
+  background: linear-gradient(145deg, rgba(16,25,44,.88), rgba(7,12,24,.86));
+  box-shadow: inset 0 1px rgba(255,255,255,.03);
+}
+.skill-practice-card-featured {
+  min-height: 195px;
+  border-color: rgba(116,167,255,.28);
+  background: linear-gradient(145deg, rgba(19,35,61,.92), rgba(8,14,28,.88));
+}
+.skill-practice-card-featured .skill-practice-status-live {
+  color: #9ef0c9;
+}
+.skill-practice-code {
+  color: #66788f;
+  font: 650 9px/1 ui-monospace, monospace;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+.skill-practice-card h3 {
+  margin: 0;
+  color: #ecf2fa;
+  font-size: 18px;
+  line-height: 1.35;
+}
+.skill-practice-card p {
+  margin: 0;
+  color: #9aa8ba;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.skill-practice-links {
+  display: grid;
+  gap: 8px;
+  margin-top: auto;
+}
+.skill-practice-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 11px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 9px;
+  color: #dce7f2;
+  background: rgba(255,255,255,.02);
+  text-decoration: none;
+  transition: transform .18s, border-color .18s, background .18s, box-shadow .18s;
+}
+.skill-practice-link:hover {
+  transform: translateY(-1px);
+  border-color: rgba(69,230,248,.36);
+  background: rgba(69,230,248,.04);
+  box-shadow: 0 0 18px rgba(69,230,248,.04);
+}
+.skill-practice-link span:first-child {
+  min-width: 0;
+  color: inherit;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.skill-practice-status {
+  flex: 0 0 auto;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font: 700 8px/1 ui-monospace, monospace;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.skill-practice-status-live {
+  color: #62e7ad;
+  background: rgba(97,231,174,.09);
+}
+.skill-practice-status-soon {
+  color: #7f90a6;
+  background: rgba(255,255,255,.035);
+}
+.skill-practice-mock {
+  border-color: rgba(116,167,255,.28);
+  background: linear-gradient(145deg, rgba(19,35,61,.92), rgba(8,14,28,.88));
+}
+.skill-practice-mock .skill-practice-links a {
+  border-color: rgba(116,167,255,.18);
+}
+.skill-practice-mock .skill-practice-links a:hover {
+  border-color: rgba(116,167,255,.38);
+}
+
 @media (max-width: 1050px) {
   .completion-hero-grid { grid-template-columns: minmax(0,1fr) 330px; gap: 5%; }
   .completion-guide { grid-template-columns: 1fr; gap: 18px; }
   .completion-guide ol { grid-template-columns: repeat(5,minmax(120px,1fr)); overflow-x: auto; padding-bottom: 5px; }
+  .skill-practice-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .skill-practice-grid.featured { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .skill-practice-card-featured { grid-column: span 2; }
 }
 @media (max-width: 860px) {
   .completion-hero { padding: 56px 0 65px; }
@@ -2598,6 +2715,9 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .completion-mistake-meta span:last-child { text-align: left; }
   .speaking-timer-actions { display: grid; }
   .writing-task1-textarea { min-height: 260px; }
+  .skill-practice-header { display: grid; align-items: start; }
+  .skill-practice-grid, .skill-practice-grid.featured { grid-template-columns: 1fr; }
+  .skill-practice-card-featured { grid-column: auto; }
 }
 
 /* IELTS Reading Multiple Choice practice system */
