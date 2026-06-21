@@ -1,0 +1,260 @@
+[
+  {
+    "id": "toefl-ibt-rap-001",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "reading",
+    "taskType": "read-an-academic-passage",
+    "interfaceType": "academic-passage-reading",
+    "difficulty": "Easy",
+    "title": "How Urban Trees Cool Cities",
+    "discipline": "Environmental Science",
+    "context": "An introductory passage about urban climate",
+    "passage": "Cities are often warmer than nearby rural areas because roads, roofs, and concrete absorb solar energy during the day and release it slowly at night. This pattern is known as the urban heat island effect. Trees can reduce this warming in two main ways. First, their leaves and branches provide shade, preventing some sunlight from reaching heat-absorbing surfaces. Second, trees release water vapor through a process called transpiration. As this water evaporates, it removes heat from the surrounding air. The amount of cooling varies according to tree species, canopy size, soil moisture, and location. A large tree beside a paved square may have a stronger local effect than a small tree in an already shaded park. For this reason, city planners increasingly use detailed temperature maps to decide where new trees can provide the greatest benefit. However, planting alone is not enough. Young trees need water, suitable soil, and long-term care before they can develop broad canopies. Effective urban forestry therefore combines careful placement with continued maintenance.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "prompt": "What is the passage mainly about?",
+        "options": [
+          { "id": "A", "text": "Why rural areas are becoming warmer than cities" },
+          { "id": "B", "text": "How trees reduce urban heat and what makes planting effective" },
+          { "id": "C", "text": "Why paved squares should replace city parks" },
+          { "id": "D", "text": "How architects design concrete buildings" }
+        ],
+        "answer": "B",
+        "evidence": "The passage explains shade, transpiration, placement, and long-term tree care.",
+        "explanation": "The central idea combines the cooling mechanisms of trees with the planning and maintenance needed for successful urban forestry."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "prompt": "According to the passage, what happens during transpiration?",
+        "options": [
+          { "id": "A", "text": "Trees absorb heat into their roots" },
+          { "id": "B", "text": "Concrete releases stored energy" },
+          { "id": "C", "text": "Trees release water vapor that cools as it evaporates" },
+          { "id": "D", "text": "Leaves block all sunlight from reaching the ground" }
+        ],
+        "answer": "C",
+        "evidence": "Trees release water vapor through transpiration, and evaporation removes heat from the surrounding air.",
+        "explanation": "Transpiration contributes to cooling because the released water evaporates and takes heat from the air."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "prompt": "Why do planners use detailed temperature maps?",
+        "options": [
+          { "id": "A", "text": "To identify locations where trees can have the greatest cooling effect" },
+          { "id": "B", "text": "To measure the age of every tree in a city" },
+          { "id": "C", "text": "To remove trees from shaded parks" },
+          { "id": "D", "text": "To predict which roads will absorb no sunlight" }
+        ],
+        "answer": "A",
+        "evidence": "Planners use temperature maps to decide where new trees can provide the greatest benefit.",
+        "explanation": "The maps guide placement by showing the areas where additional shade and transpiration are most useful."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "prompt": "The word 'varies' in the passage is closest in meaning to",
+        "options": [
+          { "id": "A", "text": "disappears" },
+          { "id": "B", "text": "differs" },
+          { "id": "C", "text": "continues" },
+          { "id": "D", "text": "increases" }
+        ],
+        "answer": "B",
+        "evidence": "The amount of cooling varies according to tree species, canopy size, soil moisture, and location.",
+        "explanation": "Because several conditions change the amount of cooling, 'varies' means differs."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "prompt": "What can be inferred about newly planted trees?",
+        "options": [
+          { "id": "A", "text": "They immediately provide their maximum cooling benefit" },
+          { "id": "B", "text": "They require support before developing effective canopies" },
+          { "id": "C", "text": "They survive best without additional water" },
+          { "id": "D", "text": "They are useful only in rural locations" }
+        ],
+        "answer": "B",
+        "evidence": "Young trees need water, suitable soil, and long-term care before they can develop broad canopies.",
+        "explanation": "The need for care before canopy development implies that full cooling benefits take time and support."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-rap-002",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "reading",
+    "taskType": "read-an-academic-passage",
+    "interfaceType": "academic-passage-reading",
+    "difficulty": "Medium",
+    "title": "The Development of Early Navigation",
+    "discipline": "History",
+    "context": "A passage about wayfinding before modern instruments",
+    "passage": "Long before magnetic compasses became common, sailors developed several methods for finding their way across open water. Near coastlines, they could follow visible landmarks and learn the characteristic shape of bays, cliffs, and islands. Longer journeys required a different kind of knowledge. Navigators observed the position of the Sun during the day and familiar stars at night. In the Northern Hemisphere, the height of the North Star above the horizon offered a useful estimate of latitude. Sailors also interpreted wind direction, wave patterns, cloud formations, and the behavior of birds. These signs did not function independently. Experienced navigators combined them, checking one observation against another. Knowledge was often preserved through oral instruction and repeated voyages rather than written charts. This made navigation a practical skill rooted in memory and close environmental observation. Instruments later made some measurements more consistent, but they did not immediately replace traditional expertise. Even when sailors carried compasses, they still needed local knowledge to recognize dangerous currents, shallow water, and seasonal weather. The history of navigation therefore shows that technological tools usually extend human judgment rather than eliminate it.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "prompt": "What is the main idea of the passage?",
+        "options": [
+          { "id": "A", "text": "Early sailors depended on combined environmental knowledge, which remained useful alongside instruments" },
+          { "id": "B", "text": "Written charts were the only reliable form of early navigation" },
+          { "id": "C", "text": "Magnetic compasses made local knowledge unnecessary" },
+          { "id": "D", "text": "Bird behavior was more accurate than every other navigational sign" }
+        ],
+        "answer": "A",
+        "evidence": "The passage describes combined observations and concludes that tools extended rather than eliminated human judgment.",
+        "explanation": "The passage emphasizes both the range of traditional techniques and their continued value after instruments appeared."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "prompt": "How did the North Star help navigators?",
+        "options": [
+          { "id": "A", "text": "Its color indicated dangerous currents" },
+          { "id": "B", "text": "Its height helped estimate latitude" },
+          { "id": "C", "text": "Its movement predicted wave patterns" },
+          { "id": "D", "text": "Its brightness identified shallow water" }
+        ],
+        "answer": "B",
+        "evidence": "The height of the North Star above the horizon offered a useful estimate of latitude.",
+        "explanation": "The passage directly identifies latitude estimation as the star's navigational use."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "prompt": "Why does the author mention repeated voyages?",
+        "options": [
+          { "id": "A", "text": "To show how navigational knowledge was learned and preserved" },
+          { "id": "B", "text": "To explain why sailors avoided familiar routes" },
+          { "id": "C", "text": "To prove that written charts were widely available" },
+          { "id": "D", "text": "To describe the invention of the compass" }
+        ],
+        "answer": "A",
+        "evidence": "Knowledge was preserved through oral instruction and repeated voyages rather than written charts.",
+        "explanation": "Repeated experience was one of the main ways practical navigation knowledge passed between sailors."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "prompt": "The word 'characteristic' is closest in meaning to",
+        "options": [
+          { "id": "A", "text": "hidden" },
+          { "id": "B", "text": "changing" },
+          { "id": "C", "text": "distinctive" },
+          { "id": "D", "text": "distant" }
+        ],
+        "answer": "C",
+        "evidence": "Sailors learned the characteristic shape of bays, cliffs, and islands.",
+        "explanation": "Here, characteristic refers to a recognizable or distinctive shape."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "prompt": "Which statement best describes the author's view of technology?",
+        "options": [
+          { "id": "A", "text": "Technology always replaces traditional knowledge immediately" },
+          { "id": "B", "text": "Technology is useful mainly when it supports informed human judgment" },
+          { "id": "C", "text": "Technology made long-distance travel impossible" },
+          { "id": "D", "text": "Technology is less consistent than environmental observation" }
+        ],
+        "answer": "B",
+        "evidence": "The passage concludes that technological tools usually extend human judgment rather than eliminate it.",
+        "explanation": "The author presents instruments as helpful extensions of expertise, not complete replacements for it."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-rap-003",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "reading",
+    "taskType": "read-an-academic-passage",
+    "interfaceType": "academic-passage-reading",
+    "difficulty": "Medium",
+    "title": "Why Sleep Supports Memory",
+    "discipline": "Psychology",
+    "context": "A passage about learning and memory consolidation",
+    "passage": "Learning does not end when a person closes a book or leaves a classroom. During sleep, the brain continues to process recently acquired information. Researchers describe one part of this process as memory consolidation, in which new and initially fragile memories become more stable. Different stages of sleep appear to contribute in different ways. Slow-wave sleep is often associated with strengthening factual information, while rapid eye movement sleep may support emotional and procedural learning. These relationships are not perfectly simple, and scientists continue to investigate how the stages interact. Experiments nevertheless show a consistent pattern: people who sleep after learning often remember more than people who remain awake for an equivalent period. Sleep does not replace effective study. If material was never understood or practiced, sleep cannot create knowledge from nothing. Instead, it helps preserve and reorganize what was learned. This finding has practical implications for students. Reducing sleep to gain extra study time may provide more minutes of exposure, but it can weaken the brain's ability to retain that material. A balanced schedule that combines focused practice with adequate sleep is therefore generally more effective than studying continuously through the night.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "prompt": "What is the passage mainly about?",
+        "options": [
+          { "id": "A", "text": "Why all stages of sleep perform exactly the same function" },
+          { "id": "B", "text": "How sleep helps stabilize learning and why students should balance study with rest" },
+          { "id": "C", "text": "Why studying at night prevents all memory formation" },
+          { "id": "D", "text": "How emotional learning replaces factual learning" }
+        ],
+        "answer": "B",
+        "evidence": "The passage explains consolidation and concludes that focused practice plus adequate sleep is generally more effective.",
+        "explanation": "The main idea links sleep's role in memory with the practical need for balanced study habits."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "prompt": "What happens during memory consolidation?",
+        "options": [
+          { "id": "A", "text": "Fragile new memories become more stable" },
+          { "id": "B", "text": "The brain stops processing information" },
+          { "id": "C", "text": "Unstudied information is created automatically" },
+          { "id": "D", "text": "All emotional memories are removed" }
+        ],
+        "answer": "A",
+        "evidence": "New and initially fragile memories become more stable during memory consolidation.",
+        "explanation": "The passage defines consolidation directly as the stabilization of new memories."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "prompt": "What consistent pattern has been found in experiments?",
+        "options": [
+          { "id": "A", "text": "People remember best when they avoid sleep after learning" },
+          { "id": "B", "text": "People who sleep after learning often remember more" },
+          { "id": "C", "text": "People learn equally well without first understanding material" },
+          { "id": "D", "text": "People remember only emotional information during sleep" }
+        ],
+        "answer": "B",
+        "evidence": "People who sleep after learning often remember more than people who remain awake for an equivalent period.",
+        "explanation": "This comparison is presented as the consistent experimental finding."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "prompt": "The word 'adequate' is closest in meaning to",
+        "options": [
+          { "id": "A", "text": "sufficient" },
+          { "id": "B", "text": "interrupted" },
+          { "id": "C", "text": "unusual" },
+          { "id": "D", "text": "brief" }
+        ],
+        "answer": "A",
+        "evidence": "The passage recommends a schedule combining focused practice with adequate sleep.",
+        "explanation": "In this context, adequate means enough or sufficient for effective learning."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "prompt": "Why might studying through the night be ineffective?",
+        "options": [
+          { "id": "A", "text": "It eliminates all exposure to the material" },
+          { "id": "B", "text": "It prevents students from understanding any new idea" },
+          { "id": "C", "text": "The extra study time may be offset by weaker retention" },
+          { "id": "D", "text": "It causes slow-wave sleep to occur during class" }
+        ],
+        "answer": "C",
+        "evidence": "Reducing sleep may provide more exposure time, but it can weaken the brain's ability to retain the material.",
+        "explanation": "The passage presents a tradeoff: more study minutes do not help if reduced sleep harms memory retention."
+      }
+    ],
+    "status": "active"
+  }
+]
