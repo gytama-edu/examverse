@@ -2469,6 +2469,86 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .completion-mistake-explanation strong { color: #a993dd; }
 .completion-page button:focus-visible, .completion-page a:focus-visible, .completion-page input:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 
+/* TOEFL iBT daily-life reading practice */
+.daily-life-page .daily-life-context { margin: 10px 0 14px; color: #98a8bb; font-size: 13px; line-height: 1.7; }
+.daily-life-page .daily-life-passage { margin: 0; color: #b7c3d3; font-size: 1.08rem; line-height: 1.9; }
+.daily-life-page .completion-question-area { display: grid; gap: 16px; }
+.daily-life-question-list { display: grid; gap: 14px; }
+.daily-life-question-card { padding: 22px; border: 1px solid rgba(170,141,255,.2); border-radius: 14px; background: rgba(170,141,255,.025); }
+.daily-life-question-card.correct { border-color: rgba(97,231,174,.42); background: rgba(97,231,174,.035); }
+.daily-life-question-card.wrong { border-color: rgba(255,107,145,.48); background: rgba(255,107,145,.035); }
+.daily-life-question-header { display: grid; gap: 7px; }
+.daily-life-question-number { color: #8c7abd; font: 650 8px/1 ui-monospace,monospace; letter-spacing: .1em; text-transform: uppercase; }
+.daily-life-question-card h3 { margin: 0; font-size: 19px; line-height: 1.45; }
+.daily-life-option-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 9px; margin-top: 13px; }
+.daily-life-option { display: grid; grid-template-columns: 36px 1fr; align-items: center; gap: 12px; min-height: 68px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 11px; color: #b9c5d3; background: rgba(255,255,255,.018); text-align: left; cursor: pointer; transition: transform .18s, border-color .18s, background .18s, box-shadow .18s; }
+.daily-life-option:hover:not(:disabled) { transform: translateY(-2px); border-color: rgba(117,167,255,.32); background: rgba(117,167,255,.035); }
+.daily-life-option-key { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid rgba(117,167,255,.22); border-radius: 9px; color: #75a7ff; background: rgba(117,167,255,.045); font: 700 10px/1 ui-monospace,monospace; }
+.daily-life-option-text { font-size: 12px; line-height: 1.5; }
+.daily-life-option.selected { border-color: rgba(69,230,248,.52); color: #dce7f2; background: linear-gradient(120deg,rgba(69,230,248,.075),rgba(170,142,255,.035)); box-shadow: 0 0 20px rgba(69,230,248,.055); }
+.daily-life-option.selected .daily-life-option-key { border-color: rgba(69,230,248,.55); color: #9df2fb; background: rgba(69,230,248,.09); }
+.daily-life-option.correct { border-color: rgba(97,231,174,.52); color: #d9eee5; background: rgba(97,231,174,.06); }
+.daily-life-option.correct .daily-life-option-key { border-color: rgba(97,231,174,.55); color: #83edbd; background: rgba(97,231,174,.09); }
+.daily-life-option.wrong { border-color: rgba(255,107,145,.56); color: #edd7df; background: rgba(255,107,145,.06); }
+.daily-life-option.wrong .daily-life-option-key { border-color: rgba(255,107,145,.52); color: #ff9bb5; background: rgba(255,107,145,.09); }
+.daily-life-option:disabled { cursor: default; opacity: .78; }
+.daily-life-option.correct:disabled, .daily-life-option.wrong:disabled { opacity: 1; }
+.daily-life-response { display: grid; gap: 10px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+.daily-life-response-status { display: inline-flex; padding: 5px 8px; border-radius: 5px; font: 700 8px/1 ui-monospace,monospace; letter-spacing: .08em; text-transform: uppercase; }
+.daily-life-response-status.correct { color: #62e7ad; background: rgba(79,223,161,.09); }
+.daily-life-response-status.wrong { color: #ff88a7; background: rgba(255,107,145,.09); }
+.daily-life-response-answers { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+.daily-life-response-answers > div { display: grid; gap: 5px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 9px; background: rgba(255,255,255,.018); }
+.daily-life-response-answers span { color: #68798f; font: 650 8px/1 ui-monospace,monospace; text-transform: uppercase; }
+.daily-life-response-answers strong { font-size: 11px; }
+.daily-life-response-answers .wrong { color: #ff91ad; }
+.daily-life-response-answers .correct { color: #6deab5; }
+.daily-life-response-evidence, .daily-life-response-explanation { margin: 0; color: #91a0b3; font-size: 11px; line-height: 1.55; }
+.daily-life-response-evidence strong { color: #79c8d5; }
+.daily-life-response-explanation strong { color: #a993dd; }
+.daily-life-feedback { display: flex; justify-content: space-between; gap: 15px; margin-top: 14px; padding: 15px 18px; border: 1px solid rgba(170,141,255,.2); border-radius: 11px; background: rgba(170,141,255,.04); }
+.daily-life-feedback strong { color: #c9baff; font-size: 12px; }
+.daily-life-feedback span { color: #788aa0; font-size: 11px; }
+.daily-life-review { padding-top: 23px; border-top: 1px solid var(--line); }
+.daily-life-review > h4, .daily-life-mistake-list > h4 { margin: 0 0 14px; color: #8192a8; font: 700 9px/1 ui-monospace,monospace; letter-spacing: .11em; text-transform: uppercase; }
+.daily-life-review-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 9px; }
+.daily-life-review-stat { display: grid; gap: 7px; min-height: 78px; padding: 14px; border: 1px solid var(--line); border-radius: 11px; background: rgba(255,255,255,.022); }
+.daily-life-review-stat span { color: #687990; font: 650 8px/1.35 ui-monospace,monospace; text-transform: uppercase; }
+.daily-life-review-stat strong { color: #dce6f2; font: 650 20px/1 ui-monospace,monospace; }
+.daily-life-review-stat.correct strong { color: #62e7ad; }
+.daily-life-review-stat.wrong strong { color: #ff88a7; }
+.daily-life-review-stat.accuracy strong { color: var(--completion-purple); }
+.daily-life-review-message { margin: 12px 0 0; padding: 14px 16px; border-left: 2px solid rgba(170,141,255,.52); border-radius: 0 9px 9px 0; color: #aebaca; background: rgba(170,141,255,.035); font-size: 12px; line-height: 1.6; }
+.daily-life-mistake-list { max-height: 550px; margin-top: 24px; padding: 22px 8px 0 0; border-top: 1px solid var(--line); overflow-y: auto; scrollbar-color: rgba(170,141,255,.35) rgba(255,255,255,.03); }
+.daily-life-mistake-card { padding: 17px; border: 1px solid rgba(255,107,145,.16); border-radius: 12px; background: linear-gradient(130deg,rgba(255,107,145,.035),rgba(9,15,28,.5)); }
+.daily-life-mistake-card + .daily-life-mistake-card { margin-top: 9px; }
+.daily-life-mistake-meta { display: flex; justify-content: space-between; gap: 12px; }
+.daily-life-mistake-meta span { color: #7a8ba1; font: 650 8px/1.2 ui-monospace,monospace; text-transform: uppercase; }
+.daily-life-mistake-meta span:last-child { color: #a58fc7; text-align: right; }
+.daily-life-mistake-prompt { margin: 13px 0; color: #d7e1ed; font-size: 13px; }
+.daily-life-mistake-answers { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+.daily-life-mistake-answers > div { display: grid; gap: 5px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 9px; background: rgba(255,255,255,.018); }
+.daily-life-mistake-answers span { color: #68798f; font: 650 8px/1 ui-monospace,monospace; text-transform: uppercase; }
+.daily-life-mistake-answers strong { font-size: 11px; }
+.daily-life-mistake-answers .wrong { color: #ff91ad; }
+.daily-life-mistake-answers .correct { color: #6deab5; }
+.daily-life-mistake-evidence, .daily-life-mistake-explanation { margin: 11px 0 0; color: #91a0b3; font-size: 11px; line-height: 1.55; }
+.daily-life-mistake-evidence strong { color: #79c8d5; }
+.daily-life-mistake-explanation strong { color: #a993dd; }
+.daily-life-page button:focus-visible, .daily-life-page a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+
+@media (max-width: 860px) {
+  .daily-life-option-grid, .daily-life-response-answers, .daily-life-mistake-answers { grid-template-columns: 1fr; }
+  .daily-life-feedback { display: grid; }
+  .daily-life-review-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 620px) {
+  .daily-life-question-card { padding: 18px; }
+  .daily-life-question-card h3 { font-size: 17px; }
+  .daily-life-passage { font-size: 13px; }
+  .daily-life-option { min-height: 62px; }
+}
+
 @media (max-width: 1050px) {
   .completion-hero-grid { grid-template-columns: minmax(0,1fr) 330px; gap: 5%; }
   .completion-guide { grid-template-columns: 1fr; gap: 18px; }
