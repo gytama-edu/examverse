@@ -258,7 +258,7 @@
     "id": "toefl-ibt-cw-004",
     "examKey": "toefl-ibt",
     "exam": "TOEFL iBT 2026",
-    "section": "Reading",
+    "section": "reading",
     "taskType": "complete-the-words",
     "interfaceType": "complete-the-words",
     "difficulty": "Easy",
