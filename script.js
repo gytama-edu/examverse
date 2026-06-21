@@ -111,8 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
         (event) => {
           const x = (event.clientX / window.innerWidth - 0.5) * 18;
           const y = (event.clientY / window.innerHeight - 0.5) * 18;
-          ambientLights[0].style.transform = `translate(${x}px, ${y}px)`;
-          ambientLights[1].style.transform = `translate(${-x}px, ${-y}px)`;
+          if (ambientLights[0]) ambientLights[0].style.transform = `translate(${x}px, ${y}px)`;
+          if (ambientLights[1]) ambientLights[1].style.transform = `translate(${-x}px, ${-y}px)`;
         },
         { passive: true }
       );
