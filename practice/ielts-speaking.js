@@ -7,12 +7,15 @@
     3: '../data/ielts-speaking/part-3.json'
   };
 
-  const hubTarget = /ielts-general\.html/i.test(document.referrer)
-    ? '../pages/ielts-general.html'
-    : '../pages/ielts-academic.html';
-  const hubLabel = hubTarget.includes('general')
-    ? 'Back to IELTS General Hub'
-    : 'Back to IELTS Academic Hub';
+  const params = new URLSearchParams(window.location.search);
+  const source = params.get('source');
+  const HUB_CONFIG = {
+    academic: { url: '../pages/ielts-academic.html', label: 'Back to IELTS Academic Hub' },
+    general: { url: '../pages/ielts-general.html', label: 'Back to IELTS General Hub' }
+  };
+  const hub = HUB_CONFIG[source] || { url: '../index.html', label: 'Back to Exam Verse' };
+  const hubTarget = hub.url;
+  const hubLabel = hub.label;
 
   const PART_CONFIG = {
     1: {
@@ -47,7 +50,7 @@
     }
   };
 
-  const requestedPart = Number(new URLSearchParams(window.location.search).get('part'));
+  const requestedPart = Number(params.get('part'));
   const initialPart = Object.prototype.hasOwnProperty.call(PART_CONFIG, requestedPart) ? requestedPart : 1;
 
   const state = {
@@ -101,6 +104,12 @@
     url.hash = 'speaking-shell';
     history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
   };
+
+  document.querySelectorAll('[data-speaking-part-link]').forEach((link) => {
+    const url = new URL(link.getAttribute('href'), window.location.href);
+    if (HUB_CONFIG[source]) url.searchParams.set('source', source);
+    link.href = `${url.pathname}${url.search}${url.hash}`;
+  });
 
   const updatePartUi = () => {
     const config = PART_CONFIG[state.part];
