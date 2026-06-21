@@ -1,0 +1,394 @@
+[
+  {
+    "id": "toefl-ibt-reading-mini-mock-001",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "reading",
+    "taskType": "reading-mini-mock",
+    "interfaceType": "reading-mini-mock",
+    "difficulty": "Mixed",
+    "title": "TOEFL iBT Reading Mini Mock",
+    "instructions": "Complete the words passage, then answer the daily-life and academic questions in one timed session.",
+    "timeLimitSeconds": 1500,
+    "totalQuestions": 20,
+    "completeWords": {
+      "id": "toefl-ibt-ctw-001",
+      "examKey": "toefl-ibt",
+      "exam": "TOEFL iBT 2026",
+      "section": "reading",
+      "taskType": "complete-the-words",
+      "interfaceType": "complete-the-words",
+      "difficulty": "Easy",
+      "title": "Building Better Study Habits",
+      "instructions": "Fill in the missing letters in the paragraph.",
+      "passageTemplate": "Good study habits help students stay calm and make steady progress. Before starting, they {{1}} a simple plan and {{2}} one realistic goal. During study time, they {{3}} phones so attention stays on the task. They also {{4}} the work into short parts and {{5}} breaks at regular times. When a topic feels hard, they {{6}} notes in their own words and ask a teacher for {{7}} examples. At the end, they {{8}} on what they learned, {{9}} questions they still have, and save useful ideas in one organized {{10}} for future review and steady improvement.",
+      "gaps": [
+        {
+          "id": "1",
+          "prefix": "cre",
+          "missingLetters": "ate",
+          "fullWord": "create",
+          "explanation": "Create means to make a simple plan before studying."
+        },
+        {
+          "id": "2",
+          "prefix": "cho",
+          "missingLetters": "ose",
+          "fullWord": "choose",
+          "explanation": "Choose means to select one realistic goal."
+        },
+        {
+          "id": "3",
+          "prefix": "elim",
+          "missingLetters": "inate",
+          "fullWord": "eliminate",
+          "explanation": "Eliminate means to remove distractions such as phones."
+        },
+        {
+          "id": "4",
+          "prefix": "br",
+          "missingLetters": "eak",
+          "fullWord": "break",
+          "explanation": "Break means to divide the work into shorter parts."
+        },
+        {
+          "id": "5",
+          "prefix": "ta",
+          "missingLetters": "ke",
+          "fullWord": "take",
+          "explanation": "Take breaks at regular times helps students stay focused."
+        },
+        {
+          "id": "6",
+          "prefix": "rew",
+          "missingLetters": "rite",
+          "fullWord": "rewrite",
+          "explanation": "Rewrite means to put notes into your own words."
+        },
+        {
+          "id": "7",
+          "prefix": "cle",
+          "missingLetters": "ar",
+          "fullWord": "clear",
+          "explanation": "Clear examples make a hard topic easier to understand."
+        },
+        {
+          "id": "8",
+          "prefix": "ref",
+          "missingLetters": "lect",
+          "fullWord": "reflect",
+          "explanation": "Reflect means to think carefully about what you learned."
+        },
+        {
+          "id": "9",
+          "prefix": "no",
+          "missingLetters": "te",
+          "fullWord": "note",
+          "explanation": "Note means to write down the questions you still have."
+        },
+        {
+          "id": "10",
+          "prefix": "fol",
+          "missingLetters": "der",
+          "fullWord": "folder",
+          "explanation": "A folder helps students store useful ideas in one place."
+        }
+      ],
+      "status": "active"
+    },
+    "dailyLife": {
+      "id": "toefl-ibt-rdl-001",
+      "examKey": "toefl-ibt",
+      "exam": "TOEFL iBT 2026",
+      "section": "reading",
+      "taskType": "read-in-daily-life",
+      "interfaceType": "daily-life-reading",
+      "difficulty": "Easy",
+      "title": "Campus Library Study Room Notice",
+      "textType": "Campus library notice",
+      "context": "A short notice from the library desk",
+      "instructions": "Read the notice and choose the best answer for each question.",
+      "passage": "The campus library will open its quiet study rooms for evening bookings from Monday to Thursday. Students may reserve a room online after 2:00 p.m. on the same day, and each booking lasts 90 minutes. The library asks students to arrive on time because a room may be given to someone else after ten minutes of inactivity. Food is not allowed, but water in closed bottles is fine. During exam week, the front desk will stay open one hour later so students can ask for help with printer cards, overdue notices, or room changes. Anyone who needs a longer booking should speak to a librarian, since extensions are approved only when no one else is waiting.",
+      "questions": [
+        {
+          "id": "1",
+          "number": 1,
+          "prompt": "What is the main purpose of the notice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To explain how students can use the study rooms"
+            },
+            {
+              "id": "B",
+              "text": "To advertise a new library book display"
+            },
+            {
+              "id": "C",
+              "text": "To cancel all evening library services"
+            },
+            {
+              "id": "D",
+              "text": "To invite students to a reading competition"
+            }
+          ],
+          "answer": "A",
+          "evidence": "The notice explains evening bookings, booking length, arrival rules, and front-desk help.",
+          "explanation": "The text is mainly giving students practical information about how to reserve and use the study rooms."
+        },
+        {
+          "id": "2",
+          "number": 2,
+          "prompt": "How long does each study room booking last?",
+          "options": [
+            {
+              "id": "A",
+              "text": "30 minutes"
+            },
+            {
+              "id": "B",
+              "text": "60 minutes"
+            },
+            {
+              "id": "C",
+              "text": "90 minutes"
+            },
+            {
+              "id": "D",
+              "text": "120 minutes"
+            }
+          ],
+          "answer": "C",
+          "evidence": "Each booking lasts 90 minutes.",
+          "explanation": "The notice gives the exact booking length, so the correct answer is 90 minutes."
+        },
+        {
+          "id": "3",
+          "number": 3,
+          "prompt": "Why should students arrive on time?",
+          "options": [
+            {
+              "id": "A",
+              "text": "So they can borrow more than one room"
+            },
+            {
+              "id": "B",
+              "text": "Because late arrivals may lose the booking"
+            },
+            {
+              "id": "C",
+              "text": "Because the library opens only after 2:00 p.m."
+            },
+            {
+              "id": "D",
+              "text": "Because food is served only at the door"
+            }
+          ],
+          "answer": "B",
+          "evidence": "A room may be given to someone else after ten minutes of inactivity.",
+          "explanation": "If students arrive late and do not use the room quickly, the reservation can be reassigned."
+        },
+        {
+          "id": "4",
+          "number": 4,
+          "prompt": "When can students reserve a room online?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Before 2:00 p.m."
+            },
+            {
+              "id": "B",
+              "text": "After 2:00 p.m."
+            },
+            {
+              "id": "C",
+              "text": "Only after 6:00 p.m."
+            },
+            {
+              "id": "D",
+              "text": "Only on weekends"
+            }
+          ],
+          "answer": "B",
+          "evidence": "Students may reserve a room online after 2:00 p.m. on the same day.",
+          "explanation": "The notice gives the exact time that online booking opens."
+        },
+        {
+          "id": "5",
+          "number": 5,
+          "prompt": "Which item is allowed in the study rooms?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Food"
+            },
+            {
+              "id": "B",
+              "text": "Open bottles of soda"
+            },
+            {
+              "id": "C",
+              "text": "Water in closed bottles"
+            },
+            {
+              "id": "D",
+              "text": "Hot drinks without lids"
+            }
+          ],
+          "answer": "C",
+          "evidence": "Food is not allowed, but water in closed bottles is fine.",
+          "explanation": "The notice states that only closed bottles of water are allowed."
+        }
+      ],
+      "status": "active"
+    },
+    "academic": {
+      "id": "toefl-ibt-rap-001",
+      "examKey": "toefl-ibt",
+      "exam": "TOEFL iBT 2026",
+      "section": "reading",
+      "taskType": "read-an-academic-passage",
+      "interfaceType": "academic-passage-reading",
+      "difficulty": "Easy",
+      "title": "How Urban Trees Cool Cities",
+      "discipline": "Environmental Science",
+      "context": "An introductory passage about urban climate",
+      "passage": "Cities are often warmer than nearby rural areas because roads, roofs, and concrete absorb solar energy during the day and release it slowly at night. This pattern is known as the urban heat island effect. Trees can reduce this warming in two main ways. First, their leaves and branches provide shade, preventing some sunlight from reaching heat-absorbing surfaces. Second, trees release water vapor through a process called transpiration. As this water evaporates, it removes heat from the surrounding air. The amount of cooling varies according to tree species, canopy size, soil moisture, and location. A large tree beside a paved square may have a stronger local effect than a small tree in an already shaded park. For this reason, city planners increasingly use detailed temperature maps to decide where new trees can provide the greatest benefit. However, planting alone is not enough. Young trees need water, suitable soil, and long-term care before they can develop broad canopies. Effective urban forestry therefore combines careful placement with continued maintenance.",
+      "questions": [
+        {
+          "id": "1",
+          "number": 1,
+          "prompt": "What is the passage mainly about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Why rural areas are becoming warmer than cities"
+            },
+            {
+              "id": "B",
+              "text": "How trees reduce urban heat and what makes planting effective"
+            },
+            {
+              "id": "C",
+              "text": "Why paved squares should replace city parks"
+            },
+            {
+              "id": "D",
+              "text": "How architects design concrete buildings"
+            }
+          ],
+          "answer": "B",
+          "evidence": "The passage explains shade, transpiration, placement, and long-term tree care.",
+          "explanation": "The central idea combines the cooling mechanisms of trees with the planning and maintenance needed for successful urban forestry."
+        },
+        {
+          "id": "2",
+          "number": 2,
+          "prompt": "According to the passage, what happens during transpiration?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trees absorb heat into their roots"
+            },
+            {
+              "id": "B",
+              "text": "Concrete releases stored energy"
+            },
+            {
+              "id": "C",
+              "text": "Trees release water vapor that cools as it evaporates"
+            },
+            {
+              "id": "D",
+              "text": "Leaves block all sunlight from reaching the ground"
+            }
+          ],
+          "answer": "C",
+          "evidence": "Trees release water vapor through transpiration, and evaporation removes heat from the surrounding air.",
+          "explanation": "Transpiration contributes to cooling because the released water evaporates and takes heat from the air."
+        },
+        {
+          "id": "3",
+          "number": 3,
+          "prompt": "Why do planners use detailed temperature maps?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To identify locations where trees can have the greatest cooling effect"
+            },
+            {
+              "id": "B",
+              "text": "To measure the age of every tree in a city"
+            },
+            {
+              "id": "C",
+              "text": "To remove trees from shaded parks"
+            },
+            {
+              "id": "D",
+              "text": "To predict which roads will absorb no sunlight"
+            }
+          ],
+          "answer": "A",
+          "evidence": "Planners use temperature maps to decide where new trees can provide the greatest benefit.",
+          "explanation": "The maps guide placement by showing the areas where additional shade and transpiration are most useful."
+        },
+        {
+          "id": "4",
+          "number": 4,
+          "prompt": "The word 'varies' in the passage is closest in meaning to",
+          "options": [
+            {
+              "id": "A",
+              "text": "disappears"
+            },
+            {
+              "id": "B",
+              "text": "differs"
+            },
+            {
+              "id": "C",
+              "text": "continues"
+            },
+            {
+              "id": "D",
+              "text": "increases"
+            }
+          ],
+          "answer": "B",
+          "evidence": "The amount of cooling varies according to tree species, canopy size, soil moisture, and location.",
+          "explanation": "Because several conditions change the amount of cooling, 'varies' means differs."
+        },
+        {
+          "id": "5",
+          "number": 5,
+          "prompt": "What can be inferred about newly planted trees?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They immediately provide their maximum cooling benefit"
+            },
+            {
+              "id": "B",
+              "text": "They require support before developing effective canopies"
+            },
+            {
+              "id": "C",
+              "text": "They survive best without additional water"
+            },
+            {
+              "id": "D",
+              "text": "They are useful only in rural locations"
+            }
+          ],
+          "answer": "B",
+          "evidence": "Young trees need water, suitable soil, and long-term care before they can develop broad canopies.",
+          "explanation": "The need for care before canopy development implies that full cooling benefits take time and support."
+        }
+      ],
+      "status": "active"
+    },
+    "status": "active"
+  }
+]
