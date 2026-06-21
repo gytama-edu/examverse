@@ -1,0 +1,272 @@
+[
+  {
+    "id": "toefl-itp-rc-001",
+    "examKey": "toefl-itp",
+    "exam": "TOEFL ITP",
+    "section": "reading",
+    "taskType": "reading-comprehension",
+    "interfaceType": "toefl-itp-reading-mcq",
+    "difficulty": "Easy",
+    "discipline": "Marine Biology",
+    "title": "How Coral Reefs Support Marine Ecosystems",
+    "passage": "Coral reefs are often called the rainforests of the sea because they support a large variety of life in a relatively small area. Tiny coral animals build hard structures that create hiding places, feeding zones, and breeding grounds for fish, crustaceans, and many other organisms. Even species that do not live on the reef permanently may depend on it for shelter during early stages of life.\n\nReefs also help keep nearby waters productive. By slowing waves and currents, they create calmer spaces where small plants and plankton can grow. Those organisms become food for larger animals, which means the reef supports a chain of life that extends beyond its own surface. In healthy reef systems, this network can make the surrounding ecosystem more resilient after storms or seasonal changes.\n\nThe passage of time, however, can damage reefs when water becomes too warm or polluted. When coral weakens, the animals that rely on it often lose shelter and food sources. For that reason, scientists study reef health not only to protect one habitat but also to understand the wider coastal system. The author mentions seagrass beds and mangrove forests in the final paragraph to show that coral reefs work together with other habitats to support marine life and protect shorelines.",
+    "questions": [
+      {
+        "id": "itp-rc-q-001",
+        "number": 1,
+        "skill": "Main Idea",
+        "question": "What is the passage mainly about?",
+        "options": [
+          { "id": "A", "text": "The many ways coral reefs support marine ecosystems" },
+          { "id": "B", "text": "The history of reef-based tourism around the world" },
+          { "id": "C", "text": "The causes of ocean storms near tropical islands" },
+          { "id": "D", "text": "The process of building artificial coral structures" }
+        ],
+        "answer": "A",
+        "evidence": "The passage explains how reefs provide shelter, feeding areas, calmer waters, and wider ecosystem support.",
+        "explanation": "The central focus is the ecological role of coral reefs, not tourism, storms, or artificial construction."
+      },
+      {
+        "id": "itp-rc-q-002",
+        "number": 2,
+        "skill": "Detail",
+        "question": "According to the passage, why do some young animals depend on reefs?",
+        "options": [
+          { "id": "A", "text": "Reefs make the water too warm for predators" },
+          { "id": "B", "text": "Reefs provide shelter during early stages of life" },
+          { "id": "C", "text": "Reefs force animals to migrate farther offshore" },
+          { "id": "D", "text": "Reefs contain fresh water for drinking" }
+        ],
+        "answer": "B",
+        "evidence": "Even species that do not live on the reef permanently may depend on it for shelter during early stages of life.",
+        "explanation": "The passage states directly that reefs offer shelter while young animals are still developing."
+      },
+      {
+        "id": "itp-rc-q-003",
+        "number": 3,
+        "skill": "Vocabulary in Context",
+        "question": "In the passage, the word resilient most nearly means",
+        "options": [
+          { "id": "A", "text": "easy to find" },
+          { "id": "B", "text": "unusually bright" },
+          { "id": "C", "text": "able to recover after change or damage" },
+          { "id": "D", "text": "separated from other habitats" }
+        ],
+        "answer": "C",
+        "evidence": "The text says the network can make the surrounding ecosystem more resilient after storms or seasonal changes.",
+        "explanation": "The context shows that resilient means able to bounce back or remain strong after disturbance."
+      },
+      {
+        "id": "itp-rc-q-004",
+        "number": 4,
+        "skill": "Inference",
+        "question": "What can be inferred about reefs when the coral weakens?",
+        "options": [
+          { "id": "A", "text": "The surrounding ecosystem becomes more stable immediately" },
+          { "id": "B", "text": "Animals that depend on the reef may lose shelter and food" },
+          { "id": "C", "text": "Nearby waters always become colder" },
+          { "id": "D", "text": "The reef will naturally replace mangrove forests" }
+        ],
+        "answer": "B",
+        "evidence": "When coral weakens, the animals that rely on it often lose shelter and food sources.",
+        "explanation": "The passage connects weak coral with reduced protection and fewer resources for reef-dependent animals."
+      },
+      {
+        "id": "itp-rc-q-005",
+        "number": 5,
+        "skill": "Reference / Organization",
+        "question": "Why does the author mention seagrass beds and mangrove forests in the final paragraph?",
+        "options": [
+          { "id": "A", "text": "To show that coral reefs work with other habitats to support marine life" },
+          { "id": "B", "text": "To prove that coral reefs are more dangerous than forests" },
+          { "id": "C", "text": "To explain why storms always begin near the coast" },
+          { "id": "D", "text": "To compare coral reefs with desert ecosystems" }
+        ],
+        "answer": "A",
+        "evidence": "The final paragraph says scientists study reef health to understand the wider coastal system.",
+        "explanation": "The examples of seagrass beds and mangroves help show that reefs are part of a connected habitat system."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-rc-002",
+    "examKey": "toefl-itp",
+    "exam": "TOEFL ITP",
+    "section": "reading",
+    "taskType": "reading-comprehension",
+    "interfaceType": "toefl-itp-reading-mcq",
+    "difficulty": "Medium",
+    "discipline": "Education History",
+    "title": "The Development of Public Libraries",
+    "passage": "Public libraries began as small collections that were usually available only to people who could pay a fee or join a society. Over time, many communities decided that books and information should be available to everyone, not only to a narrow group. This idea helped public libraries grow into civic institutions supported by local taxes and public policy.\n\nAs library systems expanded, they changed in practical ways. Large reading rooms were built for students and researchers, while children's corners, newspaper shelves, and reference desks made the buildings useful to more visitors. Later, libraries added borrowing services, meeting rooms, and public computers. These changes were not made simply to make the buildings look modern. They were responses to the needs of the communities around them.\n\nToday, libraries still lend books, but they also offer language classes, job search help, tax forms, and quiet spaces for study. Their role has grown from storing books to connecting people with information and services. The author mentions job training, resume help, and internet access near the end of the passage to show that public libraries now serve as community centers as well as places for reading.",
+    "questions": [
+      {
+        "id": "itp-rc-q-006",
+        "number": 1,
+        "skill": "Main Idea",
+        "question": "What is the passage mainly about?",
+        "options": [
+          { "id": "A", "text": "How public libraries developed into broader community institutions" },
+          { "id": "B", "text": "Why private book clubs replaced all libraries" },
+          { "id": "C", "text": "How to build a large reading room from scratch" },
+          { "id": "D", "text": "Why newspapers are more important than books" }
+        ],
+        "answer": "A",
+        "evidence": "The passage explains how libraries changed from limited collections into public community centers.",
+        "explanation": "The entire text focuses on the growth and changing role of public libraries."
+      },
+      {
+        "id": "itp-rc-q-007",
+        "number": 2,
+        "skill": "Detail",
+        "question": "What helped public libraries grow into civic institutions?",
+        "options": [
+          { "id": "A", "text": "A decision to limit books to researchers only" },
+          { "id": "B", "text": "Support from local taxes and public policy" },
+          { "id": "C", "text": "A decline in the number of visitors" },
+          { "id": "D", "text": "A rule that every visitor must pay a fee" }
+        ],
+        "answer": "B",
+        "evidence": "This idea helped public libraries grow into civic institutions supported by local taxes and public policy.",
+        "explanation": "The passage directly identifies taxes and policy support as important to library growth."
+      },
+      {
+        "id": "itp-rc-q-008",
+        "number": 3,
+        "skill": "Vocabulary in Context",
+        "question": "In the passage, the word narrow most nearly means",
+        "options": [
+          { "id": "A", "text": "limited" },
+          { "id": "B", "text": "wide" },
+          { "id": "C", "text": "quiet" },
+          { "id": "D", "text": "public" }
+        ],
+        "answer": "A",
+        "evidence": "Public libraries should be available to everyone, not only to a narrow group.",
+        "explanation": "The contrast with everyone shows that narrow means restricted or limited."
+      },
+      {
+        "id": "itp-rc-q-009",
+        "number": 4,
+        "skill": "Inference",
+        "question": "What can be inferred about libraries today?",
+        "options": [
+          { "id": "A", "text": "They matter less because books are no longer needed" },
+          { "id": "B", "text": "They continue to adapt to the needs of their communities" },
+          { "id": "C", "text": "They only serve children and students" },
+          { "id": "D", "text": "They have stopped offering information services" }
+        ],
+        "answer": "B",
+        "evidence": "Libraries added borrowing services, meeting rooms, public computers, and other services in response to community needs.",
+        "explanation": "The passage shows that libraries remain useful because they keep changing with the community."
+      },
+      {
+        "id": "itp-rc-q-010",
+        "number": 5,
+        "skill": "Reference / Organization",
+        "question": "Why does the author mention job training, resume help, and internet access near the end?",
+        "options": [
+          { "id": "A", "text": "To show that libraries now support practical community needs" },
+          { "id": "B", "text": "To explain why reading rooms are no longer needed" },
+          { "id": "C", "text": "To argue that libraries should stop lending books" },
+          { "id": "D", "text": "To prove that taxes are unnecessary for public services" }
+        ],
+        "answer": "A",
+        "evidence": "Their role has grown from storing books to connecting people with information and services.",
+        "explanation": "The examples show that libraries now do much more than lend books."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-itp-rc-003",
+    "examKey": "toefl-itp",
+    "exam": "TOEFL ITP",
+    "section": "reading",
+    "taskType": "reading-comprehension",
+    "interfaceType": "toefl-itp-reading-mcq",
+    "difficulty": "Medium",
+    "discipline": "Animal Behavior",
+    "title": "How Migratory Animals Navigate",
+    "passage": "Every year, many migratory animals travel long distances between feeding and breeding areas. Their journeys are impressive not only because of the distance involved, but also because the animals often return to the same general places at about the same time each year. To do this, they use more than one navigation clue.\n\nBirds can track the sun during the day and the stars at night, but they also notice coastlines, mountains, and other landmarks when those features are available. Sea turtles, which spend much of their lives in the ocean, appear to sense the Earth's magnetic field as well as the angle of waves near the shore. Salmon rely on smell when they return from the sea to the streams where they were born. In each case, the animals combine signals rather than trusting only one cue.\n\nScientists believe this flexible system helps animals stay accurate even when weather, light, or landscape changes. If clouds hide the stars, a bird may still use landmarks. If waves shift, a turtle may depend more on magnetic information. The author includes birds, turtles, and salmon in separate examples to show that different species use different combinations of cues, even though all of them are trying to solve the same problem of navigation.",
+    "questions": [
+      {
+        "id": "itp-rc-q-011",
+        "number": 1,
+        "skill": "Main Idea",
+        "question": "What is the passage mainly about?",
+        "options": [
+          { "id": "A", "text": "The many reasons animals migrate in groups" },
+          { "id": "B", "text": "The different clues migratory animals use to navigate" },
+          { "id": "C", "text": "Why oceans are warmer than rivers" },
+          { "id": "D", "text": "How scientists measure the weight of birds" }
+        ],
+        "answer": "B",
+        "evidence": "The passage explains that animals use the sun, stars, landmarks, magnetic fields, and smell to find their way.",
+        "explanation": "The main point is the navigation system migratory animals use, not migration in general."
+      },
+      {
+        "id": "itp-rc-q-012",
+        "number": 2,
+        "skill": "Detail",
+        "question": "According to the passage, what do salmon use when they return to the streams where they were born?",
+        "options": [
+          { "id": "A", "text": "The sound of waves" },
+          { "id": "B", "text": "The smell of the water" },
+          { "id": "C", "text": "The shape of the moon" },
+          { "id": "D", "text": "The position of coral reefs" }
+        ],
+        "answer": "B",
+        "evidence": "Salmon rely on smell when they return from the sea to the streams where they were born.",
+        "explanation": "The passage directly states that smell is the important clue for salmon."
+      },
+      {
+        "id": "itp-rc-q-013",
+        "number": 3,
+        "skill": "Vocabulary in Context",
+        "question": "In the passage, the word cue most nearly means",
+        "options": [
+          { "id": "A", "text": "a clue or signal" },
+          { "id": "B", "text": "a food source" },
+          { "id": "C", "text": "a season of rain" },
+          { "id": "D", "text": "a place to hide" }
+        ],
+        "answer": "A",
+        "evidence": "The animals combine signals rather than trusting only one cue.",
+        "explanation": "The context shows that cue means a sign or clue that helps navigation."
+      },
+      {
+        "id": "itp-rc-q-014",
+        "number": 4,
+        "skill": "Inference",
+        "question": "What can be inferred if one navigation clue is blocked?",
+        "options": [
+          { "id": "A", "text": "The animal must stop migrating forever" },
+          { "id": "B", "text": "The animal may use another clue instead" },
+          { "id": "C", "text": "The animal will always get lost immediately" },
+          { "id": "D", "text": "The animal can only move during storms" }
+        ],
+        "answer": "B",
+        "evidence": "The passage says animals combine signals rather than trusting only one cue.",
+        "explanation": "Because they use several clues, they can still navigate when one clue is unavailable."
+      },
+      {
+        "id": "itp-rc-q-015",
+        "number": 5,
+        "skill": "Reference / Organization",
+        "question": "Why does the author discuss birds, turtles, and salmon in separate examples?",
+        "options": [
+          { "id": "A", "text": "To show that all animals use the exact same signal" },
+          { "id": "B", "text": "To show that different species use different combinations of cues" },
+          { "id": "C", "text": "To prove that migration only happens in water" },
+          { "id": "D", "text": "To describe the food each animal eats" }
+        ],
+        "answer": "B",
+        "evidence": "The author includes birds, turtles, and salmon in separate examples to show that different species use different combinations of cues.",
+        "explanation": "The examples are organized to compare several species and the navigation clues they rely on."
+      }
+    ],
+    "status": "active"
+  }
+]
