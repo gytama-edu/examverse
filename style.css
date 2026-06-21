@@ -617,6 +617,13 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.visible { opacity: 1; transform: none; }
+
+/* Keep the two IELTS hero areas visible even if reveal JS is delayed or blocked. */
+.ielts-ac-hero .reveal,
+.ielts-gen-hero .reveal {
+  opacity: 1;
+  transform: none;
+}
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes pulse { 50% { opacity: .35; transform: scale(.75); } }
 @keyframes signal { from { height: 3px; } to { height: 16px; } }
