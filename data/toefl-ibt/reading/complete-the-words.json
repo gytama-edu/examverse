@@ -9,7 +9,7 @@
     "difficulty": "Easy",
     "title": "Building Better Study Habits",
     "instructions": "Fill in the missing letters in the paragraph.",
-    "passageTemplate": "Good study habits help students stay calm and make steady progress. Before starting, they cre{{1}} a simple plan and ch{{2}} one realistic goal. During study time, they el{{3}} phones so attention stays on the task. They also br{{4}} the work into short parts and ta{{5}} breaks at regular times. When a topic feels hard, they re{{6}} notes in their own words and ask a teacher for cl{{7}} examples. At the end, they re{{8}} on what they learned, no{{9}} questions they still have, and save useful ideas in one organised fo{{10}}.",
+    "passageTemplate": "Good study habits help students stay calm and make steady progress. Before starting, they {{1}} a simple plan and {{2}} one realistic goal. During study time, they {{3}} phones so attention stays on the task. They also {{4}} the work into short parts and {{5}} breaks at regular times. When a topic feels hard, they {{6}} notes in their own words and ask a teacher for {{7}} examples. At the end, they {{8}} on what they learned, {{9}} questions they still have, and save useful ideas in one organized {{10}} for future review and steady improvement.",
     "gaps": [
       {
         "id": "1",
@@ -20,15 +20,15 @@
       },
       {
         "id": "2",
-        "prefix": "ch",
-        "missingLetters": "oose",
+        "prefix": "cho",
+        "missingLetters": "ose",
         "fullWord": "choose",
         "explanation": "Choose means to select one realistic goal."
       },
       {
         "id": "3",
-        "prefix": "el",
-        "missingLetters": "iminate",
+        "prefix": "elim",
+        "missingLetters": "inate",
         "fullWord": "eliminate",
         "explanation": "Eliminate means to remove distractions such as phones."
       },
@@ -48,22 +48,22 @@
       },
       {
         "id": "6",
-        "prefix": "re",
-        "missingLetters": "write",
+        "prefix": "rew",
+        "missingLetters": "rite",
         "fullWord": "rewrite",
         "explanation": "Rewrite means to put notes into your own words."
       },
       {
         "id": "7",
-        "prefix": "cl",
-        "missingLetters": "ear",
+        "prefix": "cle",
+        "missingLetters": "ar",
         "fullWord": "clear",
         "explanation": "Clear examples make a hard topic easier to understand."
       },
       {
         "id": "8",
-        "prefix": "re",
-        "missingLetters": "flect",
+        "prefix": "ref",
+        "missingLetters": "lect",
         "fullWord": "reflect",
         "explanation": "Reflect means to think carefully about what you learned."
       },
@@ -76,8 +76,8 @@
       },
       {
         "id": "10",
-        "prefix": "fo",
-        "missingLetters": "lder",
+        "prefix": "fol",
+        "missingLetters": "der",
         "fullWord": "folder",
         "explanation": "A folder helps students store useful ideas in one place."
       }
@@ -94,12 +94,12 @@
     "difficulty": "Medium",
     "title": "Planning a Community Recycling Project",
     "instructions": "Fill in the missing letters in the paragraph.",
-    "passageTemplate": "A community recycling project can reduce waste and build shared responsibility. Volunteers co{{1}} clean plastic, pa{{2}} cardboard, and ar{{3}} meetings with local shops to explain the goals. The team has to so{{4}} materials by type, mo{{5}} residents with posters, and re{{6}} useful items whenever possible. They also in{{7}} schools so children learn early habits. Careful planning helps the group bu{{8}} trust, tr{{9}} the process, and co{{10}} the program every month. Students also record how much material they collect, because the numbers show whether the project is growing or needs a new plan. When neighbours see cleaner streets and fuller bins, they often join the effort and keep the habit going.",
+    "passageTemplate": "A community recycling project can reduce waste and build shared responsibility. Volunteers {{1}} clean plastic, {{2}} cardboard, and {{3}} meetings with local shops to explain the goals. The team has to {{4}} materials by type, {{5}} residents with posters, and {{6}} useful items whenever possible. They also {{7}} schools so children learn early habits. Careful planning helps the group {{8}} trust, {{9}} the process, and {{10}} the program every month. Students also record how much material they collect, because the numbers show whether the project is growing or needs a new plan. When neighbours see cleaner streets and fuller bins, they often join the effort and keep the habit going.",
     "gaps": [
       {
         "id": "1",
-        "prefix": "co",
-        "missingLetters": "llect",
+        "prefix": "col",
+        "missingLetters": "lect",
         "fullWord": "collect",
         "explanation": "Collect means to gather clean plastic for recycling."
       },
@@ -112,8 +112,8 @@
       },
       {
         "id": "3",
-        "prefix": "ar",
-        "missingLetters": "range",
+        "prefix": "arr",
+        "missingLetters": "ange",
         "fullWord": "arrange",
         "explanation": "Arrange means to plan meetings with local shops."
       },
@@ -126,8 +126,8 @@
       },
       {
         "id": "5",
-        "prefix": "mo",
-        "missingLetters": "tivate",
+        "prefix": "moti",
+        "missingLetters": "vate",
         "fullWord": "motivate",
         "explanation": "Motivate means to encourage residents to join in."
       },
@@ -140,8 +140,8 @@
       },
       {
         "id": "7",
-        "prefix": "in",
-        "missingLetters": "volve",
+        "prefix": "inv",
+        "missingLetters": "olve",
         "fullWord": "involve",
         "explanation": "Involve means to include schools in the project."
       },
@@ -161,8 +161,8 @@
       },
       {
         "id": "10",
-        "prefix": "co",
-        "missingLetters": "ntinue",
+        "prefix": "cont",
+        "missingLetters": "inue",
         "fullWord": "continue",
         "explanation": "Continue means to keep the program going every month."
       }
@@ -179,7 +179,7 @@
     "difficulty": "Medium",
     "title": "How Birds Share Information",
     "instructions": "Fill in the missing letters in the paragraph.",
-    "passageTemplate": "Birds communicate in more ways than people first notice. Some species si{{1}} quietly when they are alone, while others ca{{2}} out to warn a group about danger. A bird may al{{3}} its call when the weather changes or when a rival enters the area. Parents also re{{4}} chicks with repeated sounds, and young birds le{{5}} familiar patterns before using them on their own. Even movement can co{{6}} a message, because a raised feather or a steady dance may signal attention. By wa{{7}} closely, researchers can ex{{8}} how birds share space, find mates, and protect ne{{9}}. Their sounds are not random; they su{{10}} the life of the flock.",
+    "passageTemplate": "Birds communicate in more ways than people first notice. Some species {{1}} quietly when they are alone, while others {{2}} out to warn a group about danger. A bird may {{3}} its call when the weather changes or when a rival enters the area. Parents also {{4}} chicks with repeated sounds, and young birds {{5}} familiar patterns before using them on their own. Even movement can {{6}} a message, because a raised feather or a steady dance may signal attention. By {{7}} closely, researchers can {{8}} how birds share space, find mates, and protect {{9}}. Their sounds are not random; they {{10}} the life of the flock.",
     "gaps": [
       {
         "id": "1",
@@ -204,8 +204,8 @@
       },
       {
         "id": "4",
-        "prefix": "re",
-        "missingLetters": "spond",
+        "prefix": "res",
+        "missingLetters": "pond",
         "fullWord": "respond",
         "explanation": "Respond means to answer or react to chicks."
       },
@@ -218,22 +218,22 @@
       },
       {
         "id": "6",
-        "prefix": "co",
-        "missingLetters": "nvey",
+        "prefix": "con",
+        "missingLetters": "vey",
         "fullWord": "convey",
         "explanation": "Convey means to send a message without words."
       },
       {
         "id": "7",
-        "prefix": "wa",
-        "missingLetters": "tching",
+        "prefix": "watc",
+        "missingLetters": "hing",
         "fullWord": "watching",
         "explanation": "Watching closely helps researchers notice the signals."
       },
       {
         "id": "8",
-        "prefix": "ex",
-        "missingLetters": "plain",
+        "prefix": "exp",
+        "missingLetters": "lain",
         "fullWord": "explain",
         "explanation": "Explain means to show how the birds share information."
       },
@@ -246,8 +246,8 @@
       },
       {
         "id": "10",
-        "prefix": "su",
-        "missingLetters": "pport",
+        "prefix": "sup",
+        "missingLetters": "port",
         "fullWord": "support",
         "explanation": "Support means to help sustain the life of the flock."
       }
