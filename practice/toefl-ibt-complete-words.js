@@ -76,9 +76,10 @@
     input.autocapitalize = 'off';
     input.inputMode = 'text';
     input.maxLength = Math.max(1, gap.missingLetters.length);
+    const widthInCh = Math.min(Math.max(gap.missingLetters.length + 0.5, 2.2), 7);
+    input.style.width = `${widthInCh}ch`;
     input.value = state.answers[gap.id] || '';
     input.setAttribute('aria-label', `Missing letters for question ${index + 1}`);
-    input.style.setProperty('--missing-len', String(Math.max(2, gap.missingLetters.length)));
     input.addEventListener('input', () => {
       state.answers[gap.id] = input.value;
       updateButtons();
@@ -207,7 +208,7 @@
 
       if (isCorrect) score += 1;
 
-      if (word) word.classList.add(isCorrect ? 'complete-word-correct' : 'complete-word-wrong');
+      if (word) word.classList.add(isCorrect ? 'complete-word-correct' : 'complete-word-wrong', isCorrect ? 'correct' : 'wrong');
       if (input) {
         input.readOnly = true;
         input.classList.add(isCorrect ? 'complete-word-correct' : 'complete-word-wrong');
@@ -342,6 +343,10 @@
 
       const missing = requiredSetFields.filter((field) => set?.[field] === undefined || set?.[field] === null || set?.[field] === '');
       if (missing.length) throw new Error(`Invalid dataset: ${label} is missing ${missing.join(', ')}.`);
+
+      if (/[A-Za-z]\{\{\d+\}\}/.test(set.passageTemplate) || /\{\{\d+\}\}[A-Za-z]/.test(set.passageTemplate)) {
+        throw new Error(`Invalid dataset: ${label} placeholders must stand alone and not attach to letters.`);
+      }
 
       const placeholders = [...String(set.passageTemplate).matchAll(placeholderPattern)].map((match) => match[1]);
       const placeholderIds = new Set(placeholders);
