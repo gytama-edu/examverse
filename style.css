@@ -3905,6 +3905,11 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .mini-mock-review-evidence strong { color: #79c8d5; }
 .mini-mock-review-explanation strong { color: #a993dd; }
 .itp-reading-mini-mock-page .practice-load-error { margin-top: 0; }
+.ibt-reading-mini-mock-page .mini-mock-task-tabs { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.ibt-mini-mock-task-tab { width: 100%; text-align: left; cursor: pointer; appearance: none; font: inherit; }
+.ibt-mini-mock-task-tab strong { display: block; margin-top: 6px; font-size: 14px; line-height: 1.3; }
+.ibt-mini-mock-task-tab small { color: #8d9db2; font-size: 11px; line-height: 1.4; }
+.ibt-mini-mock-task-tab.active { border-color: rgba(69,230,248,.56); box-shadow: 0 0 0 1px rgba(69,230,248,.12) inset; }
 
 @media (max-width: 860px) {
   .mini-mock-summary-grid, .mini-mock-toolbar, .mini-mock-results-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
@@ -3920,4 +3925,5 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .mini-mock-navigator, .mini-mock-review-questions { grid-template-columns: repeat(5,minmax(0,1fr)); }
   .mini-mock-metric strong { font-size: 20px; }
   .mini-mock-review-card { padding: 14px; }
+  .ibt-reading-mini-mock-page .mini-mock-task-tabs { grid-template-columns: 1fr; }
 }
