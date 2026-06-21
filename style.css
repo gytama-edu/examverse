@@ -618,12 +618,6 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.visible { opacity: 1; transform: none; }
 
-/* Keep the two IELTS hero areas visible even if reveal JS is delayed or blocked. */
-.ielts-ac-hero .reveal,
-.ielts-gen-hero .reveal {
-  opacity: 1;
-  transform: none;
-}
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes pulse { 50% { opacity: .35; transform: scale(.75); } }
 @keyframes signal { from { height: 3px; } to { height: 16px; } }
@@ -3768,3 +3762,17 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 }
 
 /* End of IELTS Yes / No / Not Given responsive styling. */
+
+/* IELTS hubs remain readable when reveal animation JavaScript is unavailable. */
+.ielts-ac-page main > .ibt-section,
+.ielts-ac-page main > .ibt-practice-section,
+.ielts-gen-page main > .ibt-section,
+.ielts-gen-page main > .ibt-practice-section {
+  padding: 64px 0;
+}
+
+.ielts-ac-page .reveal,
+.ielts-gen-page .reveal {
+  opacity: 1;
+  transform: none;
+}
