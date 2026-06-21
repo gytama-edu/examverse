@@ -2118,6 +2118,7 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .completion-page { --completion-blue: #74a7ff; --completion-purple: #aa8dff; --completion-pink: #ed83cf; --completion-green: #61e7ae; }
 .completion-hero { position: relative; padding: 66px 0 76px; border-bottom: 1px solid rgba(255,255,255,.045); overflow: hidden; }
 .completion-hero::after { content: "COMPLETE"; position: absolute; right: -2vw; bottom: -3.5vw; z-index: -1; color: rgba(255,255,255,.018); font-size: clamp(80px,12vw,180px); font-weight: 900; line-height: .8; letter-spacing: -.08em; }
+.itp-reading-page .completion-hero::after { content: "READ"; }
 .completion-hero-grid { display: grid; grid-template-columns: minmax(0,1fr) 370px; align-items: center; gap: 7%; }
 .completion-hero h1 { margin: 21px 0 18px; }
 .completion-hero-lead { max-width: 700px; margin-bottom: 22px; color: #afbbce; font-size: 17px; line-height: 1.75; }
@@ -2474,6 +2475,7 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 /* TOEFL iBT daily-life reading practice */
 .daily-life-page .daily-life-context { margin: 10px 0 14px; color: #98a8bb; font-size: 13px; line-height: 1.7; }
 .daily-life-page .daily-life-passage { margin: 0; color: #b7c3d3; font-size: 1.08rem; line-height: 1.9; }
+.daily-life-page .daily-life-passage + .daily-life-passage { margin-top: 12px; }
 .daily-life-page .completion-question-area { display: grid; gap: 16px; }
 .daily-life-question-list { display: grid; gap: 14px; }
 .daily-life-question-card { padding: 22px; border: 1px solid rgba(170,141,255,.2); border-radius: 14px; background: rgba(170,141,255,.025); }
