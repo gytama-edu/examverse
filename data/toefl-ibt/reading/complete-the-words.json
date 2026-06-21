@@ -243,7 +243,7 @@
         "missingLetters": "sts",
         "fullWord": "nests",
         "explanation": "Nests are the places birds protect."
-      }, 
+      },
       {
         "id": "10",
         "prefix": "sup",
@@ -253,6 +253,5 @@
       }
     ],
     "status": "active"
-    }
-  ]
-  
+  }
+]
