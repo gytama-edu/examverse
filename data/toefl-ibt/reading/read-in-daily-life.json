@@ -1,0 +1,238 @@
+  [
+    {
+      "id": "toefl-ibt-rdl-001",
+      "examKey": "toefl-ibt",
+      "exam": "TOEFL iBT 2026",
+      "section": "reading",
+      "taskType": "read-in-daily-life",
+      "interfaceType": "daily-life-reading",
+      "difficulty": "Easy",
+      "title": "Campus Library Study Room Notice",
+      "textType": "Campus library notice",
+      "context": "A short notice from the library desk",
+      "instructions": "Read the notice and choose the best answer for each question.",
+      "passage": "The campus library will open its quiet study rooms for evening bookings from Monday to Thursday. Students may reserve a room online after 2:00 p.m. on the same day, and each booking lasts 90 minutes. The library asks students to arrive on time because a room may be given to someone else after ten minutes of inactivity. Food is not allowed, but water in closed bottles is fine. During exam week, the front desk will stay open one hour later so students can ask for help with printer cards, overdue notices, or room changes. Anyone who needs a longer booking should speak to a librarian, since extensions are approved only when no one else is waiting.",
+      "questions": [
+        {
+          "id": "1",
+          "number": 1,
+          "prompt": "What is the main purpose of the notice?",
+          "options": [
+            { "id": "A", "text": "To explain how students can use the study rooms" },
+            { "id": "B", "text": "To advertise a new library book display" },
+            { "id": "C", "text": "To cancel all evening library services" },
+            { "id": "D", "text": "To invite students to a reading competition" }
+          ],
+          "answer": "A",
+          "evidence": "The notice explains evening bookings, booking length, arrival rules, and front-desk help.",
+          "explanation": "The text is mainly giving students practical information about how to reserve and use the study rooms."
+        },
+        {
+          "id": "2",
+          "number": 2,
+          "prompt": "How long does each study room booking last?",
+          "options": [
+            { "id": "A", "text": "30 minutes" },
+            { "id": "B", "text": "60 minutes" },
+            { "id": "C", "text": "90 minutes" },
+            { "id": "D", "text": "120 minutes" }
+          ],
+          "answer": "C",
+          "evidence": "Each booking lasts 90 minutes.",
+          "explanation": "The notice gives the exact booking length, so the correct answer is 90 minutes."
+        },
+        {
+          "id": "3",
+          "number": 3,
+          "prompt": "Why should students arrive on time?",
+          "options": [
+            { "id": "A", "text": "So they can borrow more than one room" },
+            { "id": "B", "text": "Because late arrivals may lose the booking" },
+            { "id": "C", "text": "Because the library opens only after 2:00 p.m." },
+            { "id": "D", "text": "Because food is served only at the door" }
+          ],
+          "answer": "B",
+          "evidence": "A room may be given to someone else after ten minutes of inactivity.",
+          "explanation": "If students arrive late and do not use the room quickly, the reservation can be reassigned."
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "toefl-ibt-rdl-002",
+      "examKey": "toefl-ibt",
+      "exam": "TOEFL iBT 2026",
+      "section": "reading",
+      "taskType": "read-in-daily-life",
+      "interfaceType": "daily-life-reading",
+      "difficulty": "Easy",
+      "title": "Schedule Change for a Student Team Meeting",
+      "textType": "Student email",
+      "context": "A short email about a campus schedule change",
+      "instructions": "Read the email and choose the best answer for each question.",
+      "passage": "Hi team, our Thursday data meeting has moved from Room 204 to the online meeting link because the projector in Room 204 is being repaired. We will still meet at 3:15 p.m., but the discussion will end 15 minutes early so everyone can walk to the science fair afterward. Please upload your draft slides by noon if you want them included. If you cannot attend live, send your notes to me before 4:00 p.m. and I will share them in the group folder. This change was made after the department asked us to avoid the room until repairs are complete.",
+      "questions": [
+        {
+          "id": "1",
+          "number": 1,
+          "prompt": "What is the purpose of the email?",
+          "options": [
+            { "id": "A", "text": "To cancel the science fair" },
+            { "id": "B", "text": "To announce a change to a meeting plan" },
+            { "id": "C", "text": "To ask students to join a new club" },
+            { "id": "D", "text": "To remind everyone to buy a projector" }
+          ],
+          "answer": "B",
+          "evidence": "Our Thursday data meeting has moved from Room 204 to the online meeting link.",
+          "explanation": "The email mainly informs the team about the updated meeting location and timing."
+        },
+        {
+          "id": "2",
+          "number": 2,
+          "prompt": "What time will the meeting still begin?",
+          "options": [
+            { "id": "A", "text": "2:00 p.m." },
+            { "id": "B", "text": "3:15 p.m." },
+            { "id": "C", "text": "4:00 p.m." },
+            { "id": "D", "text": "5:00 p.m." }
+          ],
+          "answer": "B",
+          "evidence": "We will still meet at 3:15 p.m.",
+          "explanation": "The start time stays the same even though the room and format change."
+        },
+        {
+          "id": "3",
+          "number": 3,
+          "prompt": "Why should absent students send their notes before 4:00 p.m.?",
+          "options": [
+            { "id": "A", "text": "So the notes can be shared in the group folder" },
+            { "id": "B", "text": "So the projector can be repaired faster" },
+            { "id": "C", "text": "So the science fair can be postponed" },
+            { "id": "D", "text": "So the meeting can start earlier" }
+          ],
+          "answer": "A",
+          "evidence": "I will share them in the group folder.",
+          "explanation": "The email makes it clear that the notes are collected so the whole team can see them later."
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "toefl-ibt-rdl-003",
+      "examKey": "toefl-ibt",
+      "exam": "TOEFL iBT 2026",
+      "section": "reading",
+      "taskType": "read-in-daily-life",
+      "interfaceType": "daily-life-reading",
+      "difficulty": "Medium",
+      "title": "Photography Club Sunset Walk",
+      "textType": "University club message",
+      "context": "A club announcement for student members",
+      "instructions": "Read the message and choose the best answer for each question.",
+      "passage": "Hello everyone, the campus photography club will host a sunset walk next Friday at River Park. Members should meet beside the north gate at 5:40 p.m., where volunteers will hand out reflective stickers and route maps. The walk is free, but participants must register in advance so the club can prepare enough mentors for beginners. After the walk, the group will return to campus for a short photo review in the art building. Students who bring a camera may join the practice challenge, while those without one can pair up with a partner. Because the event depends on daylight, it will be postponed if heavy rain starts before 4:00 p.m.",
+      "questions": [
+        {
+          "id": "1",
+          "number": 1,
+          "prompt": "What is the message mainly about?",
+          "options": [
+            { "id": "A", "text": "A new photography textbook" },
+            { "id": "B", "text": "A club event for members" },
+            { "id": "C", "text": "A change to the art building schedule" },
+            { "id": "D", "text": "A camera repair service" }
+          ],
+          "answer": "B",
+          "evidence": "The campus photography club will host a sunset walk next Friday.",
+          "explanation": "The message announces a club activity and gives the details members need to join."
+        },
+        {
+          "id": "2",
+          "number": 2,
+          "prompt": "Why must participants register in advance?",
+          "options": [
+            { "id": "A", "text": "To receive free cameras" },
+            { "id": "B", "text": "To help the club prepare enough mentors" },
+            { "id": "C", "text": "To enter the art building after dark" },
+            { "id": "D", "text": "To avoid carrying a route map" }
+          ],
+          "answer": "B",
+          "evidence": "The club can prepare enough mentors for beginners.",
+          "explanation": "Registration helps the organizers plan support for the students who join."
+        },
+        {
+          "id": "3",
+          "number": 3,
+          "prompt": "What can be inferred about the event?",
+          "options": [
+            { "id": "A", "text": "It is designed only for advanced photographers" },
+            { "id": "B", "text": "It may take place in low light later in the day" },
+            { "id": "C", "text": "It will always happen indoors" },
+            { "id": "D", "text": "It is cancelled whenever students bring cameras" }
+          ],
+          "answer": "B",
+          "evidence": "The event is a sunset walk and includes reflective stickers.",
+          "explanation": "A sunset walk happens near the end of the day, so low-light conditions are likely."
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "toefl-ibt-rdl-004",
+      "examKey": "toefl-ibt",
+      "exam": "TOEFL iBT 2026",
+      "section": "reading",
+      "taskType": "read-in-daily-life",
+      "interfaceType": "daily-life-reading",
+      "difficulty": "Medium",
+      "title": "Campus Support Desk Webpage",
+      "textType": "Campus support-service webpage",
+      "context": "A short webpage for student help",
+      "instructions": "Read the webpage and choose the best answer for each question.",
+      "passage": "Need help with your laptop or student account? The Campus Support Desk now offers walk-in help every weekday from 9 a.m. to 6 p.m. You can also book a 20-minute appointment if your issue is more complex, such as Wi-Fi access, password resets, or printing setup. Before visiting, students should check the self-service guide, because many common questions can be solved there in under five minutes. The desk can replace a broken charging cable only if you bring your student ID and complete a short form. For privacy reasons, staff will never ask for your full password. If the office is busy, urgent exam-day problems are handled first.",
+      "questions": [
+        {
+          "id": "1",
+          "number": 1,
+          "prompt": "What is the purpose of the webpage?",
+          "options": [
+            { "id": "A", "text": "To explain how students can get support" },
+            { "id": "B", "text": "To advertise a new laptop model" },
+            { "id": "C", "text": "To announce a sports event" },
+            { "id": "D", "text": "To ask students to avoid the library" }
+          ],
+          "answer": "A",
+          "evidence": "The webpage lists help hours, appointment options, and self-service advice.",
+          "explanation": "The text is a support page that tells students how to get help with common problems."
+        },
+        {
+          "id": "2",
+          "number": 2,
+          "prompt": "How long is each booked appointment?",
+          "options": [
+            { "id": "A", "text": "10 minutes" },
+            { "id": "B", "text": "20 minutes" },
+            { "id": "C", "text": "30 minutes" },
+            { "id": "D", "text": "60 minutes" }
+          ],
+          "answer": "B",
+          "evidence": "You can also book a 20-minute appointment.",
+          "explanation": "The webpage gives the exact appointment length."
+        },
+        {
+          "id": "3",
+          "number": 3,
+          "prompt": "What can be inferred about students who use the self-service guide first?",
+          "options": [
+            { "id": "A", "text": "They may solve common problems quickly" },
+            { "id": "B", "text": "They must wait until the office closes" },
+            { "id": "C", "text": "They will always need a long appointment" },
+            { "id": "D", "text": "They cannot ask about printing setup" }
+          ],
+          "answer": "A",
+          "evidence": "Many common questions can be solved there in under five minutes.",
+          "explanation": "If the guide solves common questions quickly, students may not need to visit the desk."
+        }
+      ],
+      "status": "active"
+    }
+  ]
