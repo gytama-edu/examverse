@@ -254,4 +254,1145 @@
     ],
     "status": "active"
   }
+
+  {
+    "id": "toefl-ibt-cw-004",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Easy",
+    "title": "A University Recycling Project",
+    "passage": "The university has re{1}tly launched a new recycling pro{2}t to reduce waste on campus. Students are encouraged to sep{3} their trash into designated bins located near the cafeteria and library. By participating in this pro{4}, the community can significantly decrease the amount of plastic and paper that ends up in local landfills. Environmental science professors have also orga{5} weekly workshops to teach students about sustai{6} habits. These sessions explain how everyday choices affect the planet's future. The administration hopes that the initiative will ins{7} other schools to adopt similar strategies. Early results show a massive improve{8} in waste management, with recycling rates doubling in just one month. Organizers are now planning to expand the program to all student dormi{9} next semester. If everyone cooperates, the campus could become comple{10} zero-waste within a few years, setting a wonderful example for the surrounding city.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "recently",
+        "prefix": "re",
+        "missing": "cen",
+        "suffix": "tly",
+        "answer": "cen",
+        "explanation": "The adverb 'recently' describes an action that happened not long ago, fitting the launch of the new project."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "project",
+        "prefix": "pro",
+        "missing": "jec",
+        "suffix": "t",
+        "answer": "jec",
+        "explanation": "The noun 'project' refers to the planned recycling initiative the university has started."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "separate",
+        "prefix": "sep",
+        "missing": "arate",
+        "suffix": "",
+        "answer": "arate",
+        "explanation": "The verb 'separate' is used here to describe sorting different types of trash into specific bins."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "program",
+        "prefix": "pro",
+        "missing": "gram",
+        "suffix": "",
+        "answer": "gram",
+        "explanation": "The noun 'program' refers back to the ongoing recycling initiative that the community participates in."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "organized",
+        "prefix": "orga",
+        "missing": "nized",
+        "suffix": "",
+        "answer": "nized",
+        "explanation": "The past participle 'organized' indicates that the professors have set up and arranged the weekly workshops."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "sustainable",
+        "prefix": "sustai",
+        "missing": "nable",
+        "suffix": "",
+        "answer": "nable",
+        "explanation": "The adjective 'sustainable' describes eco-friendly habits that can be maintained to protect the planet."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "inspire",
+        "prefix": "ins",
+        "missing": "pire",
+        "suffix": "",
+        "answer": "pire",
+        "explanation": "The verb 'inspire' means to encourage or motivate other schools to follow the university's example."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "improvement",
+        "prefix": "improve",
+        "missing": "ment",
+        "suffix": "",
+        "answer": "ment",
+        "explanation": "The noun 'improvement' shows that waste management has gotten significantly better due to the new rules."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "dormitories",
+        "prefix": "dormi",
+        "missing": "tories",
+        "suffix": "",
+        "answer": "tories",
+        "explanation": "The noun 'dormitories' refers to the residential buildings where students live on campus."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "completely",
+        "prefix": "comple",
+        "missing": "tely",
+        "suffix": "",
+        "answer": "tely",
+        "explanation": "The adverb 'completely' emphasizes that the campus could achieve entirely zero-waste status."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-005",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Easy",
+    "title": "How Sleep Supports Memory",
+    "passage": "While we sleep, our brains remain highly active, processing the information we gathered during the day. Scientists have proven that sleep is esse{1} for memory consolidation. When a student learns a new concept, the memory is initially fragile. However, during deep sleep stages, the brain strength{2} these connections, making the information easier to recall later. Without enough rest, people often str{3} to remember important details for their exams. Research shows that taking a short nap after a study session can significantly boo{4} retention. Furthermore, sleep helps to sim{5}fy our thoughts, clearing away unnecessary mental clutter. This cleaning process ensures that our minds are pre{6} for new learning the following morning. Many experts recom{7} getting at least eight hours of sleep each night for optimal cognitive function. In contrast, sleep deprivation can quickly neg{8} the benefits of studying. Ultimately, forming a consi{9} sleep schedule is just as crucial for academic suc{10} as reading textbooks.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "essential",
+        "prefix": "esse",
+        "missing": "ntial",
+        "suffix": "",
+        "answer": "ntial",
+        "explanation": "The adjective 'essential' means absolutely necessary, highlighting sleep's critical role in memory."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "strengthens",
+        "prefix": "strength",
+        "missing": "ens",
+        "suffix": "",
+        "answer": "ens",
+        "explanation": "The verb 'strengthens' fits the context of making fragile memory connections stronger and more stable."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "struggle",
+        "prefix": "str",
+        "missing": "uggle",
+        "suffix": "",
+        "answer": "uggle",
+        "explanation": "The verb 'struggle' indicates having a hard time or facing difficulty remembering details without rest."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "boost",
+        "prefix": "boo",
+        "missing": "st",
+        "suffix": "",
+        "answer": "st",
+        "explanation": "The verb 'boost' means to increase or improve, referring to the positive effect of napping on retention."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "simplify",
+        "prefix": "sim",
+        "missing": "pli",
+        "suffix": "fy",
+        "answer": "pli",
+        "explanation": "The verb 'simplify' describes how sleep helps organize and clarify thoughts by removing mental clutter."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "prepared",
+        "prefix": "pre",
+        "missing": "pared",
+        "suffix": "",
+        "answer": "pared",
+        "explanation": "The adjective 'prepared' indicates being ready to absorb new information the next day."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "recommend",
+        "prefix": "recom",
+        "missing": "mend",
+        "suffix": "",
+        "answer": "mend",
+        "explanation": "The verb 'recommend' is used when experts advise or suggest getting eight hours of sleep."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "negate",
+        "prefix": "neg",
+        "missing": "ate",
+        "suffix": "",
+        "answer": "ate",
+        "explanation": "The verb 'negate' means to cancel out or invalidate the positive benefits of studying due to lack of sleep."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "consistent",
+        "prefix": "consi",
+        "missing": "stent",
+        "suffix": "",
+        "answer": "stent",
+        "explanation": "The adjective 'consistent' describes a sleep schedule that is steady and reliable over time."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "success",
+        "prefix": "suc",
+        "missing": "cess",
+        "suffix": "",
+        "answer": "cess",
+        "explanation": "The noun 'success' fits the academic context, pointing to achieving good results through proper habits."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-006",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Easy",
+    "title": "A Campus Bicycle-Sharing Program",
+    "passage": "To reduce traffic congestion and promote healthy habits, the university introduced a campus bicycle-sharing program. Students can unl{1} bicycles using their smartphone app and ride them to various buildings. The bicycles are parked at convenient sta{2} outside the main libraries and dormitories. This initiative offers a cheaper alter{3} to driving or taking the bus. Furthermore, riding a bicycle provides excellent physical exer{4} for students who sit in classrooms all day. The administration main{5} the bicycles regularly to ensure they are safe and fully functional. Since its launch, the program has grown rapidly, and the demand fre{6}ly exceeds the supply during morning rush hours. To address this, the university plans to pur{7} fifty more bicycles by the end of the year. Not only does this program ben{8} student health, but it also lowers carbon emissions. It represents a pos{9} step toward creating a more eco-friendly and active aca{10} environment.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "unlock",
+        "prefix": "unl",
+        "missing": "ock",
+        "suffix": "",
+        "answer": "ock",
+        "explanation": "The verb 'unlock' is the logical action a user takes via an app to access a shared bicycle."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "stations",
+        "prefix": "sta",
+        "missing": "tions",
+        "suffix": "",
+        "answer": "tions",
+        "explanation": "The plural noun 'stations' refers to the designated parking areas for the shared bicycles."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "alternative",
+        "prefix": "alter",
+        "missing": "native",
+        "suffix": "",
+        "answer": "native",
+        "explanation": "The noun 'alternative' describes a different and cheaper option compared to driving or taking the bus."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "exercise",
+        "prefix": "exer",
+        "missing": "cise",
+        "suffix": "",
+        "answer": "cise",
+        "explanation": "The noun 'exercise' fits the context of physical activity gained by riding a bicycle."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "maintains",
+        "prefix": "main",
+        "missing": "tains",
+        "suffix": "",
+        "answer": "tains",
+        "explanation": "The verb 'maintains' explains how the administration keeps the bicycles safe and functional through regular upkeep."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "frequently",
+        "prefix": "fre",
+        "missing": "quent",
+        "suffix": "ly",
+        "answer": "quent",
+        "explanation": "The adverb 'frequently' indicates that the high demand happens often during rush hours."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "purchase",
+        "prefix": "pur",
+        "missing": "chase",
+        "suffix": "",
+        "answer": "chase",
+        "explanation": "The verb 'purchase' means to buy, which is what the university plans to do to get fifty more bicycles."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "benefit",
+        "prefix": "ben",
+        "missing": "efit",
+        "suffix": "",
+        "answer": "efit",
+        "explanation": "The verb 'benefit' means to have a good effect on, in this case, improving student health."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "positive",
+        "prefix": "pos",
+        "missing": "itive",
+        "suffix": "",
+        "answer": "itive",
+        "explanation": "The adjective 'positive' describes the favorable and constructive nature of this campus initiative."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "academic",
+        "prefix": "aca",
+        "missing": "demic",
+        "suffix": "",
+        "answer": "demic",
+        "explanation": "The adjective 'academic' describes the university environment where the students learn and live."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-007",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Medium",
+    "title": "The Preservation of Historic Buildings",
+    "passage": "The preservation of historic buildings is a complex task that balances architectural integrity with modern functionality. Conservationists must carefully eval{1} the structural stability of old landmarks before beginning any restoration work. Often, original materials like stone and wood have suffered extensive wea{2}ing from decades of weather exposure. To prevent further decay, experts apply spe{3} chemical treatments that protect the surfaces without altering their historical appearance. Upgrading these structures to meet contemporary safety codes presents a unique chal{4}. Engineers frequently install hidden steel supports to rein{5} weak foundations while keeping the building's aesthetic intact. Public funding is generally requ{6} to finance these expensive projects, as private owners may lack the necessary capital. Maintaining historical architecture is vital because these buildings rep{7} tangible links to our cultural heritage. When communities successfully restore their landmarks, they pre{8} invaluable educational resources for future generations. Ultimately, responsible preservation trans{9} decaying structures into vibrant civic spaces that honor history while rem{10} useful today.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "evaluate",
+        "prefix": "eval",
+        "missing": "uate",
+        "suffix": "",
+        "answer": "uate",
+        "explanation": "The verb 'evaluate' means to carefully assess the condition or stability of the landmarks."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "weathering",
+        "prefix": "wea",
+        "missing": "ther",
+        "suffix": "ing",
+        "answer": "ther",
+        "explanation": "The noun 'weathering' describes the physical breakdown of materials caused by exposure to the elements."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "special",
+        "prefix": "spe",
+        "missing": "cial",
+        "suffix": "",
+        "answer": "cial",
+        "explanation": "The adjective 'special' modifies the specific type of chemical treatments designed for historical surfaces."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "challenge",
+        "prefix": "chal",
+        "missing": "lenge",
+        "suffix": "",
+        "answer": "lenge",
+        "explanation": "The noun 'challenge' indicates a difficult or demanding task, referring to meeting modern safety codes."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "reinforce",
+        "prefix": "rein",
+        "missing": "force",
+        "suffix": "",
+        "answer": "force",
+        "explanation": "The verb 'reinforce' means to strengthen, which is why engineers install hidden steel supports."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "required",
+        "prefix": "requ",
+        "missing": "ired",
+        "suffix": "",
+        "answer": "ired",
+        "explanation": "The past participle 'required' shows that public funding is necessary because of the high costs."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "represent",
+        "prefix": "rep",
+        "missing": "resent",
+        "suffix": "",
+        "answer": "resent",
+        "explanation": "The verb 'represent' means to stand for or symbolize, highlighting the buildings' connection to cultural heritage."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "preserve",
+        "prefix": "pre",
+        "missing": "serve",
+        "suffix": "",
+        "answer": "serve",
+        "explanation": "The verb 'preserve' means to protect and maintain, making resources available for future generations."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "transforms",
+        "prefix": "trans",
+        "missing": "forms",
+        "suffix": "",
+        "answer": "forms",
+        "explanation": "The verb 'transforms' means to change the nature or function of something, turning decaying places into vibrant spaces."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "remaining",
+        "prefix": "rem",
+        "missing": "aining",
+        "suffix": "",
+        "answer": "aining",
+        "explanation": "The participle 'remaining' indicates that the buildings continue to stay useful in the present day."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-008",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Medium",
+    "title": "How Bees Communicate",
+    "passage": "Bees possess a highly sophisticated system of communication that relies primarily on movement and chemical signals. When a foraging bee discovers a rich nectar source, it returns to the hive to per{1} a complex sequence of movements known as the waggle dance. This remarkable display acc{2}ly conveys the distance and direction of the food relative to the sun's position. Other worker bees closely obs{3} the dancing bee, decoding the physical patterns to find the exact location of the flowers. In addition to physical movements, bees utilize pheromones to trans{4} vital information across the colony. These chemical scents can trig{5} defensive behaviors if the hive is threatened by predators. The queen bee also releases unique pheromones that reg{6} the reproduction and social structure of the entire community. Understanding these intricate communication methods helps entomologists monitor hive health and pro{7} declining bee populations. Their collaborative eff{8} ensure the successful pollination of countless plant species, which is fundam{9} to maintaining global agricultural sta{10}.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "perform",
+        "prefix": "per",
+        "missing": "form",
+        "suffix": "",
+        "answer": "form",
+        "explanation": "The verb 'perform' is used to describe executing or carrying out the sequence of movements."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "accurately",
+        "prefix": "acc",
+        "missing": "urate",
+        "suffix": "ly",
+        "answer": "urate",
+        "explanation": "The adverb 'accurately' means with precision, describing how exactly the dance conveys direction and distance."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "observe",
+        "prefix": "obs",
+        "missing": "erve",
+        "suffix": "",
+        "answer": "erve",
+        "explanation": "The verb 'observe' means to watch carefully, which the worker bees do to decode the physical patterns."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "transmit",
+        "prefix": "trans",
+        "missing": "mit",
+        "suffix": "",
+        "answer": "mit",
+        "explanation": "The verb 'transmit' means to send or pass on information, fitting how pheromones are utilized."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "trigger",
+        "prefix": "trig",
+        "missing": "ger",
+        "suffix": "",
+        "answer": "ger",
+        "explanation": "The verb 'trigger' means to cause a rapid reaction or behavior, such as a defense mechanism against predators."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "regulate",
+        "prefix": "reg",
+        "missing": "ulate",
+        "suffix": "",
+        "answer": "ulate",
+        "explanation": "The verb 'regulate' means to control or direct, explaining how the queen's pheromones manage reproduction."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "protect",
+        "prefix": "pro",
+        "missing": "tect",
+        "suffix": "",
+        "answer": "tect",
+        "explanation": "The verb 'protect' means to keep safe from harm, referring to scientists saving declining bee populations."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "efforts",
+        "prefix": "eff",
+        "missing": "orts",
+        "suffix": "",
+        "answer": "orts",
+        "explanation": "The plural noun 'efforts' refers to the hard work and collaborative actions taken by the bees."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "fundamental",
+        "prefix": "fundam",
+        "missing": "ental",
+        "suffix": "",
+        "answer": "ental",
+        "explanation": "The adjective 'fundamental' means serving as an essential core, noting how important pollination is."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "stability",
+        "prefix": "sta",
+        "missing": "bility",
+        "suffix": "",
+        "answer": "bility",
+        "explanation": "The noun 'stability' refers to the steady and dependable state of global agriculture sustained by pollination."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-009",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Medium",
+    "title": "A Student Research Conference",
+    "passage": "Every spring, the university hosts an interdisciplinary research conference to showcase undergraduate scholarship. The event provides an excellent plat{1} for students to present their original findings to peers and faculty members. Participants spend months designing experiments, analyzing data, and pro{2}ing comprehensive visual posters. During the conference, students must clear{3} explain their methodologies and defend their conclusions during interactive Q&A sessions. This direct engagement fosters a collaborative intellectual envir{4} where constructive feedback is highly valued. Many participants acknowledge that speaking in front of an audience builds essential professional confi{5} and improves their public speaking abilities. Faculty judges evaluate the presentations based on creativity, rigorous logic, and overall sig{6}nce. Winning projects often receive funding grants to enc{7} further investigation into the topic. Attending this academic gath{8}ing inspires junior students to pursue their own scientific inquiries. It highlights the institution's ongoing comm{9} to experiential learning and celebrates the diverse intellectual achieve{10} of the student body.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "platform",
+        "prefix": "plat",
+        "missing": "form",
+        "suffix": "",
+        "answer": "form",
+        "explanation": "The noun 'platform' is used metaphorically as an opportunity or stage for students to present their findings."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "producing",
+        "prefix": "pro",
+        "missing": "duc",
+        "suffix": "ing",
+        "answer": "duc",
+        "explanation": "The verb 'producing' describes the active creation of comprehensive visual posters."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "clearly",
+        "prefix": "clear",
+        "missing": "ly",
+        "suffix": "",
+        "answer": "ly",
+        "explanation": "The adverb 'clearly' modifies how the students must explain their research methods so others understand."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "environment",
+        "prefix": "envir",
+        "missing": "onment",
+        "suffix": "",
+        "answer": "onment",
+        "explanation": "The noun 'environment' refers to the intellectual and collaborative atmosphere of the conference."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "confidence",
+        "prefix": "confi",
+        "missing": "dence",
+        "suffix": "",
+        "answer": "dence",
+        "explanation": "The noun 'confidence' is the feeling of self-assurance built by speaking in front of an audience."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "significance",
+        "prefix": "sig",
+        "missing": "nifica",
+        "suffix": "nce",
+        "answer": "nifica",
+        "explanation": "The noun 'significance' refers to the importance or impact of the research being evaluated."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "encourage",
+        "prefix": "enc",
+        "missing": "ourage",
+        "suffix": "",
+        "answer": "ourage",
+        "explanation": "The verb 'encourage' means to promote or support, which is what the funding grants aim to do for further study."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "gathering",
+        "prefix": "gath",
+        "missing": "er",
+        "suffix": "ing",
+        "answer": "er",
+        "explanation": "The noun 'gathering' refers to the assembly of students and faculty members at the conference."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "commitment",
+        "prefix": "comm",
+        "missing": "itment",
+        "suffix": "",
+        "answer": "itment",
+        "explanation": "The noun 'commitment' shows the institution's dedication to providing experiential learning opportunities."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "achievements",
+        "prefix": "achieve",
+        "missing": "ments",
+        "suffix": "",
+        "answer": "ments",
+        "explanation": "The plural noun 'achievements' honors the successful accomplishments and hard work of the students."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-010",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Medium",
+    "title": "The Development of Public Transportation",
+    "passage": "The evolution of public transportation has dramatically reshaped the spatial organization of modern cities. During the nineteenth century, the intro{1}ion of horse-drawn tramways allowed citizens to commute over longer distances, sparking the initial expansion of urban suburbs. Later, the invention of electric railways and underground subway systems accel{2}d this suburban growth by providing faster and more reliable transit options. Today, city planners prioritize sustainable mobility networks to alle{3} severe traffic congestion and reduce harmful greenhouse gas emissions. Many metropolitan areas have inve{4}ed heavily in light rail infrastructure and dedicated bus lanes to improve transit effi{5}. High-speed train networks are also being constructed to conn{6} distant urban centers, bridging regional economies. Despite these advancements, securing sufficient government fund{7} remains a persistent obstacle for major infrastructure overhauls. Planners must also ensure that transit systems are equally acces{8} to low-income neighborhoods. Ultimately, robust public transportation networks promote eco{9} vitality and significantly elevate the overall standard of living for urban resi{10}.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "introduction",
+        "prefix": "intro",
+        "missing": "duct",
+        "suffix": "ion",
+        "answer": "duct",
+        "explanation": "The noun 'introduction' marks the first appearance and use of horse-drawn tramways in cities."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "accelerated",
+        "prefix": "accel",
+        "missing": "erate",
+        "suffix": "d",
+        "answer": "erate",
+        "explanation": "The past-tense verb 'accelerated' means increased in speed or rate, detailing how railways sped up suburban growth."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "alleviate",
+        "prefix": "alle",
+        "missing": "viate",
+        "suffix": "",
+        "answer": "viate",
+        "explanation": "The verb 'alleviate' means to make less severe, fitting the goal of reducing intense traffic congestion."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "invested",
+        "prefix": "inve",
+        "missing": "st",
+        "suffix": "ed",
+        "answer": "st",
+        "explanation": "The past participle 'invested' indicates that metropolitan areas have spent significant money on infrastructure."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "efficiency",
+        "prefix": "effi",
+        "missing": "ciency",
+        "suffix": "",
+        "answer": "ciency",
+        "explanation": "The noun 'efficiency' refers to achieving maximum productivity with minimal wasted effort in transit networks."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "connect",
+        "prefix": "conn",
+        "missing": "ect",
+        "suffix": "",
+        "answer": "ect",
+        "explanation": "The verb 'connect' describes how high-speed trains physically link distant urban centers together."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "funding",
+        "prefix": "fund",
+        "missing": "ing",
+        "suffix": "",
+        "answer": "ing",
+        "explanation": "The noun 'funding' refers to the money provided by the government necessary for infrastructure upgrades."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "accessible",
+        "prefix": "acces",
+        "missing": "sible",
+        "suffix": "",
+        "answer": "sible",
+        "explanation": "The adjective 'accessible' means able to be reached or used easily by everyone, including low-income areas."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "economic",
+        "prefix": "eco",
+        "missing": "nomic",
+        "suffix": "",
+        "answer": "nomic",
+        "explanation": "The adjective 'economic' relates to the creation of wealth and vitality supported by strong transportation."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "residents",
+        "prefix": "resi",
+        "missing": "dents",
+        "suffix": "",
+        "answer": "dents",
+        "explanation": "The plural noun 'residents' describes the people who live in the urban areas and benefit from these networks."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-011",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Medium-Hard",
+    "title": "How Museums Protect Ancient Objects",
+    "passage": "Protecting ancient artifacts requires a meticulous approach that mitigates the detrimental effects of environmental exposure. Museum conservators strictly mon{1} temperature and relative humidity because sudden climate fluctuations can cause delicate materials, such as parchment and wood, to warp or crack. Prolonged exposure to intense lighting is equally haz{2}, as ultraviolet radiation gradually fades vibrant pigments and weakens textile fibers. To counter this, galleries utilize specialized LED fixtures and UV-filtering display cases that min{3} photolytic damage. Furthermore, airborne pollutants and microscopic dust particles pose a continuous threat to fragile surf{4}. Curators frequently isolate rare antiquities inside airtight, inert-gas enclosures to pre{5} chemical degradation. Whenever physical restoration is deemed neces{6}, specialists employ reversible adhesives and traditional techniques to ensure the artifact's historical auth{7}ty is never compromised. Documenting an object's condition through high-resolution photography is also a comp{8}ry preliminary step in modern conservation. By implementing these rigorous protective proto{9}, cultural institutions ensure that priceless historical treasures survive intact for the edu{10}n of future generations.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "monitor",
+        "prefix": "mon",
+        "missing": "itor",
+        "suffix": "",
+        "answer": "itor",
+        "explanation": "The verb 'monitor' means to observe and check continuously, which conservators do for humidity and temperature."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "hazardous",
+        "prefix": "haz",
+        "missing": "ardous",
+        "suffix": "",
+        "answer": "ardous",
+        "explanation": "The adjective 'hazardous' means risky or dangerous, describing the negative effects of intense lighting."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "minimize",
+        "prefix": "min",
+        "missing": "imize",
+        "suffix": "",
+        "answer": "imize",
+        "explanation": "The verb 'minimize' means to reduce to the smallest possible amount, referring to limiting damage from light."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "surfaces",
+        "prefix": "surf",
+        "missing": "aces",
+        "suffix": "",
+        "answer": "aces",
+        "explanation": "The plural noun 'surfaces' refers to the outer layers of the fragile antiquities threatened by dust."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "prevent",
+        "prefix": "pre",
+        "missing": "vent",
+        "suffix": "",
+        "answer": "vent",
+        "explanation": "The verb 'prevent' means to keep something from happening, such as stopping chemical degradation."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "necessary",
+        "prefix": "neces",
+        "missing": "sary",
+        "suffix": "",
+        "answer": "sary",
+        "explanation": "The adjective 'necessary' indicates that physical restoration is only performed when it is absolutely required."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "authenticity",
+        "prefix": "auth",
+        "missing": "entici",
+        "suffix": "ty",
+        "answer": "entici",
+        "explanation": "The noun 'authenticity' refers to the genuine, historically accurate nature of the artifact."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "compulsory",
+        "prefix": "comp",
+        "missing": "ulso",
+        "suffix": "ry",
+        "answer": "ulso",
+        "explanation": "The adjective 'compulsory' means mandatory or required, describing photography as an essential preliminary step."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "protocols",
+        "prefix": "proto",
+        "missing": "cols",
+        "suffix": "",
+        "answer": "cols",
+        "explanation": "The plural noun 'protocols' refers to the strict rules and procedures implemented for conservation."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "education",
+        "prefix": "edu",
+        "missing": "catio",
+        "suffix": "n",
+        "answer": "catio",
+        "explanation": "The noun 'education' emphasizes that artifacts are preserved so that future generations can learn from them."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-012",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Medium-Hard",
+    "title": "The Benefits of Urban Green Spaces",
+    "passage": "The integration of green spaces into densely populated urban environments yields profound ecological and psychological benefits. From a meteorological standpoint, large parks and tree-lined avenues significantly mit{1} the urban heat island effect by providing extensive canopy shade and facilitating ambient cooling through transpiration. Vegetation also acts as a natural biofilter, absorbing harmful atmospheric poll{2}s and improving local air quality. Beyond these environmental advantages, public parks offer invaluable psychological restor{3}n for stressed city dwellers. Studies indicate that routine immersion in natural settings can dramatically dim{4} symptoms of anxiety and cognitive fatigue. These communal areas also foster social cohe{5} by providing neutral grounds where diverse demographic groups can interact through recreational activities. Urban planners increasingly recog{6} that equitable distribution of these spaces is crucial for public health. Unfortunately, rapid commercial devel{7} frequently threatens existing municipal parks, forcing advocates to fiercely defend them. Prioritizing green infrastructure is ultimately indis{8}le for transforming chaotic metropolitan zones into eco{9}cal and genuinely habitable land{10}s.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "mitigate",
+        "prefix": "mit",
+        "missing": "igate",
+        "suffix": "",
+        "answer": "igate",
+        "explanation": "The verb 'mitigate' means to make less severe or serious, describing the reduction of the urban heat island effect."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "pollutants",
+        "prefix": "poll",
+        "missing": "utant",
+        "suffix": "s",
+        "answer": "utant",
+        "explanation": "The plural noun 'pollutants' refers to the harmful substances in the air that vegetation helps filter out."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "restoration",
+        "prefix": "restor",
+        "missing": "atio",
+        "suffix": "n",
+        "answer": "atio",
+        "explanation": "The noun 'restoration' points to the recovering and renewing of psychological health for city dwellers."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "diminish",
+        "prefix": "dim",
+        "missing": "inish",
+        "suffix": "",
+        "answer": "inish",
+        "explanation": "The verb 'diminish' means to decrease or lessen, matching the reduction of anxiety symptoms."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "cohesion",
+        "prefix": "cohe",
+        "missing": "sion",
+        "suffix": "",
+        "answer": "sion",
+        "explanation": "The noun 'cohesion' describes the bringing together of diverse demographic groups into a unified community."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "recognize",
+        "prefix": "recog",
+        "missing": "nize",
+        "suffix": "",
+        "answer": "nize",
+        "explanation": "The verb 'recognize' means to acknowledge the truth or validity of something, as urban planners do."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "development",
+        "prefix": "devel",
+        "missing": "opment",
+        "suffix": "",
+        "answer": "opment",
+        "explanation": "The noun 'development' refers to the commercial building projects that threaten to replace natural parks."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "indispensable",
+        "prefix": "indis",
+        "missing": "pensab",
+        "suffix": "le",
+        "answer": "pensab",
+        "explanation": "The adjective 'indispensable' means absolutely necessary, stressing the importance of green infrastructure."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "ecological",
+        "prefix": "eco",
+        "missing": "logi",
+        "suffix": "cal",
+        "answer": "logi",
+        "explanation": "The adjective 'ecological' relates to healthy biological relationships and environments within the city."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "landscapes",
+        "prefix": "land",
+        "missing": "scape",
+        "suffix": "s",
+        "answer": "scape",
+        "explanation": "The plural noun 'landscapes' refers to the visible features of the urban areas being transformed."
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "toefl-ibt-cw-013",
+    "examKey": "toefl-ibt",
+    "exam": "TOEFL iBT 2026",
+    "section": "Reading",
+    "taskType": "complete-the-words",
+    "interfaceType": "complete-the-words",
+    "difficulty": "Medium-Hard",
+    "title": "How Weather Satellites Collect Information",
+    "passage": "Modern meteorological forecasting relies heavily on an intricate network of orbiting weather satellites. These highly sophisticated instruments continuously rec{1} atmospheric dynamics, providing the crucial empirical data required to construct accurate climate models. Geostationary satellites rotate in tandem with the Earth, offering uninterrupted visual surv{2}ce of specific hemispheric regions. Conversely, polar-orbiting satellites capture high-resolution imagery across the entire globe by sweeping rapidly from pole to pole. Satellites are equipped with advanced radiometers that meas{3} electromagnetic radiation emitted by clouds, oceans, and landmasses. By analyzing thermal infrared wavelengths, meteorologists can precisely determ{4} cloud-top temperatures and estimate atmospheric moisture profiles. This continuous influx of telemetric data is vit{5} for tracking the volatile trajectories of severe tropical cyclones and predicting dangerous precipitation patterns. Although deploying and maintaining these orbital devices requires sub{6}ial financial investment, their capacity to provide early warnings for catastrophic storms routinely saves thousands of lives. Ultimately, atmospheric observation technology represents a monu{7}al leap in our ability to comp{8}nd and effectively respond to unpredictable weather pheno{9} and long-term climatic fluc{10}ns.",
+    "questions": [
+      {
+        "id": "1",
+        "number": 1,
+        "completeWord": "record",
+        "prefix": "rec",
+        "missing": "ord",
+        "suffix": "",
+        "answer": "ord",
+        "explanation": "The verb 'record' fits the context of instruments capturing and storing data about atmospheric dynamics."
+      },
+      {
+        "id": "2",
+        "number": 2,
+        "completeWord": "surveillance",
+        "prefix": "surv",
+        "missing": "eillan",
+        "suffix": "ce",
+        "answer": "eillan",
+        "explanation": "The noun 'surveillance' means close observation, referring to the uninterrupted view geostationary satellites provide."
+      },
+      {
+        "id": "3",
+        "number": 3,
+        "completeWord": "measure",
+        "prefix": "meas",
+        "missing": "ure",
+        "suffix": "",
+        "answer": "ure",
+        "explanation": "The verb 'measure' means to calculate the size or amount of something, such as electromagnetic radiation."
+      },
+      {
+        "id": "4",
+        "number": 4,
+        "completeWord": "determine",
+        "prefix": "determ",
+        "missing": "ine",
+        "suffix": "",
+        "answer": "ine",
+        "explanation": "The verb 'determine' means to firmly establish or calculate, precisely identifying cloud-top temperatures."
+      },
+      {
+        "id": "5",
+        "number": 5,
+        "completeWord": "vital",
+        "prefix": "vit",
+        "missing": "al",
+        "suffix": "",
+        "answer": "al",
+        "explanation": "The adjective 'vital' means absolutely necessary, highlighting the importance of the telemetric data."
+      },
+      {
+        "id": "6",
+        "number": 6,
+        "completeWord": "substantial",
+        "prefix": "sub",
+        "missing": "stant",
+        "suffix": "ial",
+        "answer": "stant",
+        "explanation": "The adjective 'substantial' describes the large amount of financial investment needed for orbital devices."
+      },
+      {
+        "id": "7",
+        "number": 7,
+        "completeWord": "monumental",
+        "prefix": "monu",
+        "missing": "ment",
+        "suffix": "al",
+        "answer": "ment",
+        "explanation": "The adjective 'monumental' means massive or highly significant, describing the leap in technological ability."
+      },
+      {
+        "id": "8",
+        "number": 8,
+        "completeWord": "comprehend",
+        "prefix": "comp",
+        "missing": "rehe",
+        "suffix": "nd",
+        "answer": "rehe",
+        "explanation": "The verb 'comprehend' means to mentally grasp or understand complex and unpredictable weather."
+      },
+      {
+        "id": "9",
+        "number": 9,
+        "completeWord": "phenomena",
+        "prefix": "pheno",
+        "missing": "mena",
+        "suffix": "",
+        "answer": "mena",
+        "explanation": "The plural noun 'phenomena' refers to observable events or facts in nature, particularly weather patterns."
+      },
+      {
+        "id": "10",
+        "number": 10,
+        "completeWord": "fluctuations",
+        "prefix": "fluc",
+        "missing": "tuatio",
+        "suffix": "ns",
+        "answer": "tuatio",
+        "explanation": "The plural noun 'fluctuations' refers to irregular shifts or changes in the long-term climate."
+      }
+    ],
+    "status": "active"
+  }
 ]
