@@ -563,6 +563,7 @@ h1 { max-width: 720px; margin: 23px 0 20px; font-size: clamp(38px, 4vw, 46px); l
 
 .skill-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; }
 .skill-card { position: relative; display: grid; grid-template-columns: auto 1fr; gap: 15px; min-height: 150px; padding: 22px; border: 1px solid var(--line); border-radius: 16px; background: rgba(12,19,34,.66); transition: transform .2s, border-color .2s, background .2s; }
+.skill-card[href] { color: inherit; text-decoration: none; }
 .skill-card:hover { transform: translateY(-3px); border-color: rgba(155,124,255,.3); background: rgba(16,25,44,.82); }
 .skill-symbol { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid rgba(155,124,255,.32); border-radius: 10px; color: #b9a7ff; background: rgba(155,124,255,.07); font: 700 13px/1 ui-monospace, monospace; }
 .skill-card h3 { margin: 0 0 5px; font-size: 16px; }.skill-card p { margin: 0 0 24px; color: var(--muted); font-size: 13px; line-height: 1.55; }
@@ -3763,16 +3764,16 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 
 /* End of IELTS Yes / No / Not Given responsive styling. */
 
-/* IELTS hubs remain readable when reveal animation JavaScript is unavailable. */
-.ielts-ac-page main > .ibt-section,
-.ielts-ac-page main > .ibt-practice-section,
-.ielts-gen-page main > .ibt-section,
-.ielts-gen-page main > .ibt-practice-section {
+/* Keep exam hubs compact and their essential content stable without JavaScript. */
+.ibt-page main > .ibt-section,
+.ibt-page main > .ibt-practice-section {
   padding: 64px 0;
 }
 
 .ielts-ac-page .reveal,
-.ielts-gen-page .reveal {
+.ielts-gen-page .reveal,
+.ibt-page .hub-critical,
+.itp-page .hub-critical {
   opacity: 1;
   transform: none;
 }
