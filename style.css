@@ -538,9 +538,12 @@ h1 { max-width: 720px; margin: 23px 0 20px; font-size: clamp(38px, 4vw, 46px); l
 
 .section { padding: 94px 0; position: relative; }
 .section-muted { border-block: 1px solid rgba(255,255,255,.045); background: linear-gradient(180deg, rgba(13,20,36,.45), rgba(6,10,19,.45)); }
-.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 38px; }
-.section-heading h2 { margin: 9px 0 0; font-size: clamp(28px, 3vw, 36px); line-height: 1.2; letter-spacing: -.035em; }
-.section-heading > p { max-width: 480px; margin: 0; color: var(--muted); font-size: 15px; }
+.section-heading,
+.section-header { display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 38px; }
+.section-heading h2,
+.section-title { margin: 9px 0 0; font-size: clamp(28px, 3vw, 36px); line-height: 1.2; letter-spacing: -.035em; }
+.section-heading > p,
+.section-description { max-width: 480px; margin: 0; color: var(--muted); font-size: 15px; }
 
 .exam-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
 .exam-card { --accent: var(--cyan); position: relative; display: flex; flex-direction: column; min-height: 360px; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(145deg, rgba(16,25,44,.82), rgba(8,13,25,.76)); box-shadow: inset 0 1px rgba(255,255,255,.04); overflow: hidden; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
@@ -1003,6 +1006,67 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .ibt-quick-card h3 { margin: 20px 0 30px; font-size: 14px; line-height: 1.45; }
 .ibt-quick-card .soon { left: 20px; bottom: 18px; color: var(--cyan); opacity: .65; }
 
+.skill-section {
+  position: relative;
+  padding: 78px 0;
+}
+
+.skill-section + .skill-section {
+  border-top: 1px solid rgba(255, 255, 255, .045);
+  background: linear-gradient(180deg, rgba(13, 20, 36, .24), rgba(6, 10, 19, .16));
+}
+
+.skill-section .section-header {
+  margin-bottom: 30px;
+}
+
+.skill-section .section-title {
+  color: #f3f7ff;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.section-grid.featured {
+  gap: 16px;
+}
+
+.section-grid.featured .card-live {
+  min-height: 176px;
+  padding: 24px;
+  border-color: rgba(69, 230, 248, .28);
+  background: linear-gradient(145deg, rgba(13, 21, 38, .88), rgba(9, 15, 28, .82));
+  box-shadow: inset 0 1px rgba(255, 255, 255, .05), 0 0 38px rgba(69, 230, 248, .05);
+}
+
+.section-grid.featured .card-live h3 {
+  margin-top: 22px;
+  font-size: 15px;
+}
+
+.card-live {
+  border-color: rgba(69, 230, 248, .2);
+  background: linear-gradient(145deg, rgba(10, 18, 32, .84), rgba(8, 14, 26, .78));
+}
+
+.card-coming-soon {
+  border-color: rgba(255, 255, 255, .07);
+  background: rgba(8, 14, 24, .62);
+  opacity: .9;
+}
+
+.card-coming-soon .soon {
+  color: #8a97a9;
+  opacity: .7;
+}
+
+.card-live .itp-live-label {
+  color: #66ecb2;
+}
+
 .ibt-bottom { padding: 54px 0 75px; }
 .ibt-legacy-note {
   display: grid;
@@ -1032,7 +1096,7 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .ibt-task-grid.ibt-three { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .ibt-task-grid.ibt-three > article:last-child { grid-column: 1 / -1; }
   .ibt-strategy-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .ibt-quick-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .section-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 860px) {
@@ -1044,7 +1108,7 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .ibt-overview { grid-template-columns: 80px 1fr; padding: 30px; }
   .ibt-overview-number { font-size: 58px; }
   .ibt-score-layout { grid-template-columns: 1fr; }
-  .ibt-quick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .skill-section { padding: 70px 0; }
 }
 
 @media (max-width: 620px) {
@@ -1076,6 +1140,11 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .ibt-strategy-grid, .ibt-quick-grid { grid-template-columns: 1fr; }
   .ibt-strategy-card { min-height: 165px; }
   .ibt-quick-card { min-height: 135px; }
+  .section-header { display: block; }
+  .section-header > p { margin-top: 14px; }
+  .section-grid,
+  .section-grid.featured { grid-template-columns: 1fr; }
+  .section-grid.featured .card-live { min-height: 160px; }
   .ibt-legacy-note { grid-template-columns: 1fr; gap: 8px; }
 }
 
