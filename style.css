@@ -2397,19 +2397,20 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .complete-word-suffix { color: inherit; }
 .complete-word-input {
   display: inline-block;
-  min-width: 2.2ch;
-  height: 1.55em;
-  margin: 0 0.08em;
-  padding: 0 0.18em;
+  min-width: 1.8ch;
+  height: 1.45em;
+  margin: 0 0.06em;
+  padding: 0 0.12em;
   border: 0;
   border-bottom: 2px solid rgba(140, 170, 210, 0.55);
-  border-radius: 3px 3px 0 0;
+  border-radius: 0;
   color: #eef4ff;
   background: rgba(120, 155, 205, 0.12);
   font: inherit;
   line-height: 1;
   text-align: center;
   vertical-align: baseline;
+  box-sizing: content-box;
   transition: border-color .2s, background .2s, box-shadow .2s;
 }
 .complete-word-input::placeholder { color: #6f8098; }
@@ -3552,3 +3553,11 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .matching-engine-feedback { display: grid; }
   .matching-engine-review-grid { grid-template-columns: repeat(2,1fr); }
   .matching-engine-mistake-meta,
+  .matching-engine-mistake-answers {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .matching-engine-mistake-meta span:last-child { text-align: left; }
+}
+
+/* End of IELTS Yes / No / Not Given responsive styling. */
