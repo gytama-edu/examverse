@@ -2391,34 +2391,42 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .completion-actions .button:disabled { transform: none; color: #607085; border-color: rgba(255,255,255,.08); background: rgba(255,255,255,.035); box-shadow: none; cursor: not-allowed; }
 
 .complete-words-page .complete-words-instructions { margin: 10px 0 14px; color: #98a8bb; font-size: 13px; line-height: 1.7; }
-.complete-words-page .complete-words-passage { margin: 0; color: #b7c3d3; font-size: 15px; line-height: 1.95; }
+.complete-words-page .complete-words-passage { margin: 0; color: #b7c3d3; font-size: 1.08rem; line-height: 2.25; }
 .complete-word { display: inline-flex; align-items: baseline; white-space: nowrap; vertical-align: baseline; }
 .complete-word-prefix,
-.complete-word-suffix { color: #e3ebf6; }
+.complete-word-suffix { color: inherit; }
 .complete-word-input {
-  width: clamp(2.2ch, calc(var(--missing-len, 4) * .78ch + 1.35ch), 8.5ch);
+  display: inline-block;
   min-width: 2.2ch;
-  max-width: 8.5ch;
-  margin: 0 .03em;
-  padding: 2px 4px 3px;
-  border: 1px solid rgba(116,167,255,.22);
-  border-radius: 7px;
+  height: 1.55em;
+  margin: 0 0.08em;
+  padding: 0 0.18em;
+  border: 0;
+  border-bottom: 2px solid rgba(140, 170, 210, 0.55);
+  border-radius: 3px 3px 0 0;
   color: #eef4ff;
-  background: rgba(116,167,255,.05);
-  font: 650 14px/1.2 ui-monospace,monospace;
+  background: rgba(120, 155, 205, 0.12);
+  font: inherit;
+  line-height: 1;
   text-align: center;
-  letter-spacing: .02em;
-  transition: border-color .2s, box-shadow .2s, background .2s;
+  vertical-align: baseline;
+  transition: border-color .2s, background .2s, box-shadow .2s;
 }
 .complete-word-input::placeholder { color: #6f8098; }
-.complete-word-input:focus { border-color: var(--cyan); outline: 2px solid rgba(69,230,248,.14); outline-offset: 2px; box-shadow: 0 0 18px rgba(69,230,248,.08); }
+.complete-word-input:focus { border-bottom-color: var(--cyan); outline: none; background: rgba(69, 230, 248, 0.1); box-shadow: 0 0 18px rgba(69,230,248,.08); }
 .complete-word-input[readonly] { cursor: default; }
+.complete-word.correct .complete-word-prefix,
+.complete-word.correct .complete-word-suffix,
 .complete-word-correct .complete-word-prefix,
 .complete-word-correct .complete-word-suffix { color: #8ef0bd; }
-.complete-word-correct .complete-word-input { border-color: rgba(97,231,174,.5); background: rgba(97,231,174,.08); color: #ddf8ec; }
+.complete-word.correct .complete-word-input,
+.complete-word-correct .complete-word-input { border-bottom-color: #65e5b0; background: rgba(101, 229, 176, 0.1); color: #ddf8ec; }
+.complete-word.wrong .complete-word-prefix,
+.complete-word.wrong .complete-word-suffix,
 .complete-word-wrong .complete-word-prefix,
 .complete-word-wrong .complete-word-suffix { color: #ffb0c1; }
-.complete-word-wrong .complete-word-input { border-color: rgba(255,107,145,.55); background: rgba(255,107,145,.09); color: #ffdbe4; }
+.complete-word.wrong .complete-word-input,
+.complete-word-wrong .complete-word-input { border-bottom-color: #ff789b; background: rgba(255, 120, 155, 0.1); color: #ffdbe4; }
 .complete-word-review { display: grid; gap: 12px; margin-top: 18px; }
 .complete-word-review h4 { margin: 0; color: #8192a8; font: 700 9px/1 ui-monospace,monospace; letter-spacing: .11em; text-transform: uppercase; }
 .complete-word-review-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
@@ -3544,11 +3552,3 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   .matching-engine-feedback { display: grid; }
   .matching-engine-review-grid { grid-template-columns: repeat(2,1fr); }
   .matching-engine-mistake-meta,
-  .matching-engine-mistake-answers {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .matching-engine-mistake-meta span:last-child { text-align: left; }
-}
-
-/* End of IELTS Yes / No / Not Given responsive styling. */
