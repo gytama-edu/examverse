@@ -1,66 +1,123 @@
-(() => {
-  const menuButton = document.querySelector('.menu-toggle');
-  const navigation = document.querySelector('.primary-nav');
+document.addEventListener('DOMContentLoaded', () => {
+  try {
+    const menuButton = document.querySelector('.menu-toggle');
+    const navigation = document.querySelector('.primary-nav');
 
-  const closeMenu = () => {
-    if (!menuButton || !navigation) return;
-    menuButton.classList.remove('active');
-    navigation.classList.remove('open');
-    menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Open navigation');
-  };
+    const closeMenu = () => {
+      if (!menuButton || !navigation) return;
+      menuButton.classList.remove('active');
+      navigation.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation');
+    };
 
-  if (menuButton && navigation) {
-    menuButton.addEventListener('click', () => {
-      const isOpen = navigation.classList.toggle('open');
-      menuButton.classList.toggle('active', isOpen);
-      menuButton.setAttribute('aria-expanded', String(isOpen));
-      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
-    });
-
-    navigation.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
-    document.addEventListener('click', (event) => {
-      if (!navigation.contains(event.target) && !menuButton.contains(event.target)) closeMenu();
-    });
-    window.addEventListener('resize', () => { if (window.innerWidth > 860) closeMenu(); });
-  }
-
-  document.querySelectorAll('a[href^="#"]').forEach((link) => {
-    link.addEventListener('click', (event) => {
-      const target = document.querySelector(link.getAttribute('href'));
-      if (!target) return;
-      event.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
-
-  const revealItems = document.querySelectorAll('.reveal');
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
+    if (menuButton && navigation) {
+      menuButton.addEventListener('click', () => {
+        const isOpen = navigation.classList.toggle('open');
+        menuButton.classList.toggle('active', isOpen);
+        menuButton.setAttribute('aria-expanded', String(isOpen));
+        menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
       });
-    }, { threshold: 0.1, rootMargin: '0px 0px -25px' });
-    revealItems.forEach((item, index) => {
-      item.style.transitionDelay = `${Math.min(index % 4, 3) * 60}ms`;
-      observer.observe(item);
+
+      navigation.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', closeMenu);
+      });
+
+      document.addEventListener('click', (event) => {
+        if (!navigation.contains(event.target) && !menuButton.contains(event.target)) closeMenu();
+      });
+
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 860) closeMenu();
+      });
+    }
+  } catch (error) {
+    console.error('Navigation init failed:', error);
+  }
+
+  try {
+    document.querySelectorAll('a[href^="#"]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        const href = link.getAttribute('href');
+        if (!href || href === '#') return;
+
+        let target = null;
+        try {
+          target = document.querySelector(href);
+        } catch {
+          return;
+        }
+
+        if (!target) return;
+        event.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
     });
-  } else {
-    revealItems.forEach((item) => item.classList.add('visible'));
+  } catch (error) {
+    console.error('Smooth scroll init failed:', error);
   }
 
-  document.querySelectorAll('[data-year]').forEach((item) => { item.textContent = new Date().getFullYear(); });
+  try {
+    const revealElements = document.querySelectorAll('.reveal');
 
-  const ambientLights = document.querySelectorAll('.ambient');
-  if (ambientLights.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    window.addEventListener('pointermove', (event) => {
-      const x = (event.clientX / window.innerWidth - 0.5) * 18;
-      const y = (event.clientY / window.innerHeight - 0.5) * 18;
-      ambientLights[0].style.transform = `translate(${x}px, ${y}px)`;
-      ambientLights[1].style.transform = `translate(${-x}px, ${-y}px)`;
-    }, { passive: true });
+    const showAllReveals = () => {
+      revealElements.forEach((element) => {
+        element.classList.add('visible');
+      });
+    };
+
+    if (!('IntersectionObserver' in window)) {
+      showAllReveals();
+    } else {
+      const revealObserver = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.08,
+          rootMargin: '0px 0px -30px 0px',
+        }
+      );
+
+      revealElements.forEach((element) => {
+        revealObserver.observe(element);
+      });
+    }
+  } catch (error) {
+    console.error('Reveal init failed:', error);
+    document.querySelectorAll('.reveal').forEach((element) => {
+      element.classList.add('visible');
+    });
   }
-})();
+
+  try {
+    document.querySelectorAll('[data-year]').forEach((item) => {
+      item.textContent = new Date().getFullYear();
+    });
+  } catch (error) {
+    console.error('Year stamp init failed:', error);
+  }
+
+  try {
+    const ambientLights = document.querySelectorAll('.ambient');
+    if (ambientLights.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      window.addEventListener(
+        'pointermove',
+        (event) => {
+          const x = (event.clientX / window.innerWidth - 0.5) * 18;
+          const y = (event.clientY / window.innerHeight - 0.5) * 18;
+          ambientLights[0].style.transform = `translate(${x}px, ${y}px)`;
+          ambientLights[1].style.transform = `translate(${-x}px, ${-y}px)`;
+        },
+        { passive: true }
+      );
+    }
+  } catch (error) {
+    console.error('Ambient effect init failed:', error);
+  }
+});
