@@ -2656,6 +2656,10 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
   color: #7f90a6;
   background: rgba(255,255,255,.035);
 }
+
+[hidden] {
+  display: none !important;
+}
 .skill-practice-mock {
   border-color: rgba(116,167,255,.28);
   background: linear-gradient(145deg, rgba(19,35,61,.92), rgba(8,14,28,.88));
@@ -3824,11 +3828,43 @@ blockquote { max-width: 900px; margin: 8px 0 0; color: #d7e0ed; font-size: 17px;
 .mini-mock-review-chip { min-height: 40px; border: 1px solid rgba(128,169,255,.18); border-radius: 10px; color: #9eb0c6; background: rgba(255,255,255,.02); font: 700 11px/1 ui-monospace,monospace; cursor: pointer; }
 .mini-mock-review-chip.answered { border-color: rgba(97,231,174,.36); color: #89efc0; }
 .mini-mock-review-chip.unanswered { border-color: rgba(255,255,255,.08); }
-.mini-mock-confirm-panel { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 20px; background: rgba(2,6,14,.72); backdrop-filter: blur(8px); }
-.mini-mock-confirm-card { width: min(100%, 520px); padding: 24px; border: 1px solid rgba(69,230,248,.18); border-radius: 18px; background: linear-gradient(145deg, rgba(14,23,41,.98), rgba(6,11,22,.98)); box-shadow: var(--shadow); }
+.mini-mock-confirm-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  place-items: center;
+  padding: 20px;
+}
+.mini-mock-confirm-panel.is-open { display: grid; }
+.mini-mock-confirm-panel[hidden] { display: none !important; }
+.mini-mock-confirm-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border: 0;
+  padding: 0;
+  background: rgba(2,6,14,.72);
+  backdrop-filter: blur(8px);
+  cursor: default;
+}
+.mini-mock-confirm-card {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 520px);
+  padding: 24px;
+  border: 1px solid rgba(69,230,248,.18);
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(14,23,41,.98), rgba(6,11,22,.98));
+  box-shadow: var(--shadow);
+}
 .mini-mock-confirm-card h3 { margin: 10px 0 10px; font-size: 22px; }
 .mini-mock-confirm-card p { margin: 0; color: #aebaca; line-height: 1.7; }
 .mini-mock-confirm-actions { margin-top: 18px; }
+.mini-mock-confirm-card button,
+.mini-mock-confirm-card a {
+  pointer-events: auto;
+}
 .mini-mock-results { display: grid; gap: 16px; margin-top: 8px; }
 .mini-mock-results-summary { display: grid; gap: 8px; padding: 2px 0 0; }
 .mini-mock-results-summary h3 { margin: 0; font-size: 26px; }
