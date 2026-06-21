@@ -75,8 +75,9 @@
     input.spellcheck = false;
     input.autocapitalize = 'off';
     input.inputMode = 'text';
-    input.maxLength = Math.max(1, gap.missingLetters.length);
-    const widthInCh = Math.min(Math.max(gap.missingLetters.length + 0.5, 2.2), 7);
+    const charCount = Math.max(1, gap.missingLetters.length);
+    const widthInCh = Math.max(charCount, 1.8);
+    input.maxLength = charCount;
     input.style.width = `${widthInCh}ch`;
     input.value = state.answers[gap.id] || '';
     input.setAttribute('aria-label', `Missing letters for question ${index + 1}`);
